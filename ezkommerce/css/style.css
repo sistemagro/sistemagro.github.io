@@ -1,0 +1,7 @@
+.caja-scroll
+{
+width: 100%;
+overflow-y: auto;
+_overflow: auto;
+
+}

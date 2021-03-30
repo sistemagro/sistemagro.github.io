@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1688">
+	<link rel="stylesheet" type="text/css" href="style.css?6521">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/linecons.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,700&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>vendedor-seguimiento-de-entrega</title>
+
+
+    
+<!-- Analytics -->
+ 
+<!-- Analytics END -->
+    
+</head>
+<body>
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-101 -->
+<div class="bloc bgc-blue d-bloc" id="bloc-101">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col">
+				<div class="row">
+					<div class="col-lg-8 col-md-10 col-sm-10 col-12">
+						<h3 class="mg-md txt-16-white h3-margin-top">
+							<a href="vendedor-menu-transaccion.html"><span class="feather-icon icon-arrow-left flecha txt-16-white icon-md"></span></a>&nbsp; &nbsp;Seguimiento de entrega<br>
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-101 END -->
+
+<!-- bloc-103 -->
+<div class="bloc l-bloc" id="bloc-103">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col">
+				<div class="card border-0 shadow-cards padding-card-datos card-54-margin-bottom">
+					<div class="card-body">
+						<p class="txt-20 text-lg-left p-134-margin-bottom">
+							<strong>Clave de entrega</strong><br>
+						</p>
+						<p class="txt-p-azul p">
+							Confirma la entrega del producto. Ingresa la clave proporcionada por el comprador
+						</p>
+						<div class="form-group">
+							<input class="form-control" placeholder="Ingresa la clave de entrega" maxlength="6" required data-validation-required-message="Completa el campo para continuar" />
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="text-center">
+									<a href="#" class="btn btn-d btn-lg btn-primary btn-129-style" data-toggle="modal" data-target="#modal-clave-entrega">Validar clave<br></a>
+									<div>
+										<h6 class="mg-md dudas text-lg-left text-md-left text-sm-left text-left" id="alerta-20-segundos">
+											Debes esperar 20 Seg. para intentarlo nuevamente
+										</h6>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col bloc-7143-margin-bottom">
+								<div class="container-div-22900-margin-top">
+									<div class="row card-mensaje-smattcom">
+										<div class="col">
+											<div class="row">
+												<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+													<p class="txt-mensaje-smattcom p-120-margin-top">
+														Mensaje dinámico del sistema
+													</p>
+													<p class="txt-mensaje-smattcom fecha-mensajes-sistema p-121-margin-top">
+														dd/mm/aaaa
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<h6 class="mg-md txt-p-azul">
+						Para problemas con la clave de entrega contacta a soporte
+					</h6>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-103 END -->
+
+<!-- bloc-95 -->
+<div class="bloc l-bloc" id="bloc-95">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col">
+				<div id="modal-clave-entrega" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog  modal-dialog-centered" role="document">
+						<div class="padding-card-datos modal-content">
+							<a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-close close"></span></a>
+							<div class="padding-card-datos modal-body">
+								<div class="text-center w-100">
+									<div id="clave-correcta">
+										<span class="feather-icon icon-circle-check icon-md icon-caribbean-green"></span>
+										<h1 class="mg-md text-lg-center clave-correcta">
+											¡Clave correcta!
+										</h1>
+										<p class="text-lg-center txt-p-gris p p-179-margin-bottom">
+											Entrega el producto al comprador. La entrega del producto ha sido registrada
+										</p>
+									</div>
+									<div>
+										<span class="feather-icon icon-circle-cross icon-md icon-radical-red"></span>
+										<h1 class="mg-md text-lg-center clave-incorrecta">
+											¡Clave incorrecta!
+										</h1>
+										<p class="text-lg-center txt-p-gris p p-179-margin-bottom">
+											Revisa tu información e inténtalo de nuevo. El producto aún se encuentra pendiente de entrega
+										</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-lg-6">
+										<a href="vendedor-menu-transaccion.html" class="btn btn-d btn-lg btn-primary btn-173-style">Continuar</a>
+									</div>
+									<div class="col-lg-6">
+										<a href="vendedor-seguimiento-de-entrega.html" class="btn btn-d btn-lg btn-173-style btn-cancelar">Cancelar</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-95 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><span class="fa fa-chevron-up"></span></a>
+<!-- ScrollToTop Button END-->
+
+
+</div>
+<!-- Main container END -->
+    
+
+<!-- Additional JS -->
+<script src="./js/jquery-3.3.1.min.js?5508"></script>
+<script src="./js/bootstrap.bundle.min.js?5088"></script>
+<script src="./js/blocs.min.js?4990"></script>
+<script src="./js/page-scroll-progress.js?6615"></script>
+<script src="./js/page-scroll-progress.js?6344"></script>
+<!-- Additional JS END -->
+
+<script>
+// Trigger
+function triggerAccordion() {
+  var checkBoxTop = document.getElementById("contentSwitch");
+  if (checkBoxTop.checked == true){
+     $('#acordeonclabe .collapse').removeAttr("data-parent");
+     $('#acordeonclabe .collapse').collapse('show');
+  } else {
+     $('#acordeonclabe .collapse').attr("data-parent","#accordion");
+     $('#acordeonclabe .collapse').collapse('hide');
+    }
+}
+</script>
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<!-- Preloader END -->
+
+</body>
+</html>
