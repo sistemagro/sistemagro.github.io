@@ -2261,6 +2261,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	justify-content:center;
 	text-align:center;
 	align-items:center;
+	font-size:12px;
 }
 .p-19-bloc-12-margin-top{
 	margin-top:50px;
@@ -2608,7 +2609,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .back_ficha{
 	background-color:#FAFAFA;
-	height:330px;
+	height:340px;
 	text-align:left;
 	padding:0px 0px 0px 0px;
 }
@@ -2695,13 +2696,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:30px 30px 30px 30px;
 }
 .productos-list{
-	font-size:20px;
 	text-align:left;
 	text-decoration:underline!important;
 	color:#0666CE!important;
 	font-weight:normal;
 	font-style:italic;
 	text-transform:none;
+	font-size:18px;
 }
 .productos-list:hover{
 	color:#0667D0!important;
@@ -4614,6 +4615,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.envase_agromooc{
 		padding:30px 30px 30px 30px;
+	}
+	.html-widget-margin-top{
+		width:100%;
+		font-size:14px;
+	}
+	.table{
+		display:flex;
 	}
 	
 }
