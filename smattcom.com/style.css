@@ -2261,7 +2261,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	justify-content:center;
 	text-align:center;
 	align-items:center;
-	font-size:12px;
+	font-size:14px;
 }
 .p-19-bloc-12-margin-top{
 	margin-top:50px;
@@ -2457,9 +2457,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:165px;
 	margin-top:11px;
 }
-.p-buscador-margin-bottom{
-	margin-bottom:39px;
-}
 .header-descarga-update{
 	background-image:url("img/header descarga update.png");
 }
@@ -2649,6 +2646,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .text-span-modal-mensaje-style{
 	font-weight:normal;
 	font-size:16px;
+	text-align:center;
 }
 .modal_header_01{
 	background-color:#F9FAF9;
@@ -2854,6 +2852,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-ghost-white{
 	background-color:#F6F7FB;
 }
+.bgc-black{
+	background-color:#000000;
+}
 
 /* Text colour styles */
 
@@ -2871,6 +2872,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-true-blue{
 	color:#0667D0!important;
+}
+.tc-white-2{
+	color:#FFFFFF!important;
 }
 
 /* Button colour styles */
@@ -3826,6 +3830,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h1-bloc-172-margin-top{
 		margin-bottom:38px;
 	}
+	.text-right{
+	}
+	.text-left{
+	}
+	.text-center{
+	}
 	.sidebar-nav{
 		width:230px!important;
 	}
@@ -3850,6 +3860,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-azul{
 		width:250px;
+		text-align:center;
 	}
 	.img-como-funciona-style{
 		width:2300px;
@@ -4478,9 +4489,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.cuerpo{
 	}
-	.p-buscador-margin-bottom{
-		margin-top:-1px;
-	}
 	.header-descarga-update{
 		background-image:url("img/Header%20descarga%20update%20mobile.png");
 	}
@@ -4622,6 +4630,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.table{
 		display:flex;
+	}
+	.btn-descargar-app-style{
+		text-align:center;
+	}
+	.text-span-modal-mensaje-style{
+		text-align:center;
 	}
 	
 }
