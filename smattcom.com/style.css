@@ -480,6 +480,9 @@ button{
 	outline: none!important;
 }
 
+.btn-rd{
+	border-radius: 40px;
+}
 .btn-style-none,.btn-style-none:hover,.btn-style-none:active,.btn-style-none:focus{
 	background:none;
 	box-shadow: none;
@@ -713,6 +716,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-margin-top{
 	margin-top:36px;
+	width:216px;
 }
 .btn-azul:hover{
 	font-family:"Montserrat";
@@ -722,7 +726,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#00278E;
 }
 .btn-button-style{
-	width:56.67%;
+	width:100%;
 	margin-top:30px;
 	margin-right:92px;
 }
@@ -780,6 +784,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h5-margin-bottom{
 	margin-bottom:5px;
+	color:#5E5E5E!important;
+	font-size:22px;
 }
 .h1-blog-smattcom-margin-top{
 	margin-top:0px;
@@ -1911,7 +1917,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:15px;
 }
 .img-193-style{
-	width:194px;
+	width:165px;
 }
 .img-184-style{
 	width:450px;
@@ -2392,10 +2398,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:20px;
 }
 .img-bloc-277-style{
-	width:55px;
+	height:60px;
+	width:60px;
+	border-radius:0px 0px 0px 0px;
 }
 .p-bloc-277-margin-top{
 	margin-top:0px;
+	font-size:20px;
 }
 .row-bloc-277-margin-top{
 	margin-top:30px;
@@ -2655,7 +2664,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-right:0px;
 }
 .bloc-padding-left{
-	padding-left:12px;
+	padding-left:0px;
 }
 .bloc-13586-padding-right{
 	padding-right:0px;
@@ -2750,7 +2759,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:44px;
 }
 .img-bloc-358-style{
-	width:450px;
+	width:475px;
 }
 .link-0-style{
 	font-weight:bold;
@@ -2770,6 +2779,64 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	align-content:flex-end;
 	position:relative;
 	align-items:baseline;
+}
+.azul_link{
+	color:#0667D0!important;
+}
+.p-570-style{
+	width:100%;
+}
+.img-agromooc-pic--style{
+	width:683px;
+}
+.field-style{
+	width:100%;
+}
+.alerta_boton{
+	color:#797979!important;
+	background-color:#F8F8F8;
+	border-color:#797979!important;
+	font-size:16px;
+	text-align:left;
+}
+.text-span-color{
+	color:#797979;
+}
+.modal_txt{
+	margin:0px 0px 0px 0px;
+	padding:20px 20px 20px 20px;
+}
+.p-modal-comision-style{
+	font-size:18px;
+}
+.p-579-style{
+	font-size:18px;
+}
+.txt_link{
+	color:#0667D0!important;
+}
+.azul_txt-{
+	color:#0667D0!important;
+}
+.col_foto{
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.img-web-transpor-style{
+	border-radius:0px 0px 0px 0px;
+}
+.btn-aplica-ahora-style{
+	width:35.08%;
+}
+.img-548-style{
+	width:63px;
+	height:30px;
+}
+.h5-bloc-146-style{
+	font-size:19px;
+}
+.img-bloc-372-style{
+	height:601px;
 }
 
 /* = Colour
@@ -4464,6 +4531,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h5-margin-bottom{
 		margin-bottom:0px;
+		width:100%;
 	}
 	.p-bloc-277-margin-top{
 		margin-top:5px;
@@ -4636,6 +4704,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.text-span-modal-mensaje-style{
 		text-align:center;
+	}
+	.h2-bloc-126-margin-top{
+	}
+	.num_trans{
+		margin-top:10px;
+		width:38px;
+		height:38px;
+	}
+	.img-bloc-277-style{
+		width:50px;
+		height:50px;
+	}
+	.azul_txt-{
+		color:#0667D0!important;
 	}
 	
 }
