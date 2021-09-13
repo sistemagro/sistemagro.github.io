@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	pagina web smattcom_V05-1
+	pagina web smattcom_V06-1
 	About: A shiny new Blocs website.
 	Author: josue arzate garcia
 	Version: 1.0
@@ -230,6 +230,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 .navbar-dark .nav .dropdown-menu .nav-link{
 	color: rgb(64, 64, 64);
 }
+/* = Sticky Nav
+-------------------------------------------------------------- */
+
+.sticky-nav.sticky{
+	position:fixed;
+	top:0;
+	z-index:1000;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	 transition: all .2s ease-out;
+}
 /* Uneven List Menu Icon */
 .navbar-light .menu-icon-uneven-list .navbar-toggler-icon{
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='rgba(0, 0, 0, 0.5)' stroke-miterlimit='10' d='M3,8H5v2H3V8Zm0,6H5v2H3V14Zm0,6H5v2H3V20ZM7,8H21v2H7V8Zm0,6H27v2H7V14Zm0,6H21v2H7V20Z'/%3E%3C/svg%3E");
@@ -448,9 +458,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-clear{
-	margin:0;
-}
 .mg-sm{
 	margin-top:10px;
 	margin-bottom:5px;
@@ -480,10 +487,6 @@ button{
 	background:none;
 	box-shadow: none;
 	padding:0;
-}
-.btn-xl{
-	padding: 16px 40px;
-	font-size: 28px;
 }
 .a-block{
 	width:100%;
@@ -2822,8 +2825,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:35.08%;
 }
 .img-548-style{
-	width:63px;
-	height:30px;
+	width:50px;
+	height:50px;
 }
 .h5-bloc-146-style{
 	font-size:19px;
@@ -2841,20 +2844,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .txt_sangria{
 	margin-left:50px;
 }
-.logo_home{
-	width:400px;
-	margin-top:50px;
+.img-iconos-260-style{
+	height:40px;
 }
-.h3-bloc-146-style{
-	width:100%;
-}
-.h3-201-style{
-	width:100%;
-}
-.logo_home_lg{
-	width:350px;
-	padding-top:20px;
-	margin-bottom:20px;
+.btn_naranja{
+	background-color:#FF5900;
+	border-radius:10px 10px 10px 10px;
 }
 
 /* = Colour
@@ -3921,9 +3916,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.text-center{
 	}
-	.bloc_fijo{
-		padding:20px 20px 20px 20px;
-	}
 	.sidebar-nav{
 		width:230px!important;
 	}
@@ -4722,7 +4714,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-descargar-app-style{
 		text-align:center;
-		width:100%;
 	}
 	.text-span-modal-mensaje-style{
 		text-align:center;
@@ -4740,64 +4731,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.azul_txt-{
 		color:#0667D0!important;
-	}
-	.txt_negro{
-	}
-	.-txt_negro{
-	}
-	.img-bloc-358-style{
-	}
-	.txt_azul{
-		color:#0667D0!important;
-	}
-	.img-style{
-		width:100%;
-	}
-	.txt_space50{
-		margin-top:50px;
-		margin-right:0px;
-		margin-bottom:50px;
-	}
-	.txt-categoria{
-	}
-	.navbar-brand img{
-		width:180px;
-		height:30px;
-	}
-	.bloc_fijo{
-		position:fixed;
-		z-index:5;
-		height:100px;
-		padding:20px 20px 0px 20px;
-	}
-	.img-559-style{
-		width:270px;
-	}
-	.logo_home{
-		margin-top:90px;
-		width:280px;
-	}
-	.margin_top_50{
-	}
-	.row-bloc-277-margin-top{
-		margin:20px 0px 20px 0px;
-	}
-	.txt_space_80top{
-		margin-top:80px;
-		margin-bottom:0px;
-	}
-	.bonoton_regreso{
-		padding-top:20px;
-	}
-	.boton_modal{
-	}
-	.logo_home_mobil{
-		width:300px;
-		height:30px;
-	}
-	.color-nav{
-		z-index:3;
-		height:70px;
 	}
 	
 }
