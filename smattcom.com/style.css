@@ -721,11 +721,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:#FEFFFE!important;
 	background-color:#00278E;
 }
-.btn-button-style{
-	width:100%;
-	margin-top:30px;
-	margin-right:92px;
-}
 .btn-outline{
 	font-family:"Montserrat";
 	font-weight:400;
@@ -3133,10 +3128,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.btn-azul{
 		font-size:14px;
 	}
-	.btn-button-style{
-		width:83.43%;
-		margin-left:61px;
-	}
 	.btn-margin-top{
 		width:100%;
 	}
@@ -3617,10 +3608,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-22251-style{
 		width:93.42%;
-	}
-	.btn-button-style{
-		margin-left:5px;
-		width:100%;
 	}
 	.seguridad-smattcom{
 		padding-left:30px;
@@ -4624,9 +4611,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.p-bloc-13-margin-bottom{
 		margin-bottom:30px;
 	}
-	.btn-button-style{
-		width:100%;
-	}
 	.img-bloc-146-margin-top{
 		margin-top:16px;
 	}
@@ -4731,6 +4715,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.azul_txt-{
 		color:#0667D0!important;
+	}
+	.menu_mobil{
+		padding:20px 20px 20px 20px;
+	}
+	.btn_naranja{
+		font-size:14px;
 	}
 	
 }
