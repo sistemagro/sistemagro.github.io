@@ -2868,6 +2868,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .margen-10{
 	margin:10px 10px 10px 10px;
 }
+.link-bloc-146-style{
+	width:24.78%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -3604,6 +3607,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:18px;
 		text-align:center;
 		padding:10px 10px 10px 10px;
+	}
+	.p-bloc-3-style{
+		width:100%;
 	}
 	
 }
@@ -4746,6 +4752,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.container-div-bloc-3-style{
 		width:100%;
+	}
+	.flecha{
+		color:#797979!important;
+	}
+	.link-bloc-146-style{
+		width:100%;
+	}
+	.container-div-bloc-146-style{
+		height:21px;
 	}
 	
 }
