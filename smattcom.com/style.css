@@ -2416,7 +2416,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:15px;
 }
 .img-group-358-style{
-	width:316px;
+	width:442px;
 }
 .card-75-margin-bottom{
 	margin-bottom:60px;
@@ -3931,6 +3931,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.text-center{
 	}
+	.container-div-bloc-3-style{
+		width:100%;
+	}
+	.link-bloc-3-style{
+		width:52.32%;
+	}
 	.sidebar-nav{
 		width:230px!important;
 	}
@@ -4761,6 +4767,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.container-div-bloc-146-style{
 		height:21px;
+	}
+	.link-bloc-3-style{
+		width:63.6%;
 	}
 	
 }
