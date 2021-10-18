@@ -2819,13 +2819,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-aplica-ahora-style{
 	width:35.08%;
 }
-.img-548-style{
-	width:50px;
-	height:50px;
-}
-.h5-bloc-146-style{
-	font-size:19px;
-}
 .txt_negro{
 	color:#424242!important;
 }
@@ -2835,9 +2828,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .txt_sangria{
 	margin-left:50px;
-}
-.img-iconos-260-style{
-	height:40px;
 }
 .btn_naranja{
 	background-color:#FF5900;
@@ -3610,6 +3600,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.p-bloc-3-style{
 		width:100%;
+	}
+	.container-div-bloc-3-style{
+		width:100%;
+	}
+	.link-bloc-3-style{
+		width:100%;
+		padding-top:2px;
+		padding-bottom:2px;
 	}
 	
 }
