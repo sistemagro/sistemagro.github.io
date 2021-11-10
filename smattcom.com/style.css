@@ -2411,7 +2411,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:84px;
 	width:57px;
 }
-.img-359-margin-to.img-360-style{
+.img-359-margin-top{
+	width:86px;
+	margin-left:12px;
+	padding:0px 0px 0px 0px;
+}
+.img-360-style{
 	width:350px;
 	margin-bottom:50px;
 	padding-top:20px;
@@ -2936,7 +2941,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:bold;
 }
 .img-profeco-1foot-style{
-	width:239px;
+	width:214px;
 	border-radius:0px 0px 0px 0px;
 }
 .img-46-style{
