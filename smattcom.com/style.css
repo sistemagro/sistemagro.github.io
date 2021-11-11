@@ -2997,9 +2997,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 	margin-top:30px;
 }
-.link- conoce-más-style{
-	text-decoration:none;
+.link-conoce-más-style{
+	text-decoration:underline;
 	font-weight:bold;
+	color:#0168D7!important;
 }
 .link-0-bloc-317-style{
 	text-decoration:underline;
@@ -3015,7 +3016,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-46399-style{
 	font-weight:normal;
 }
-.link-0- conoce-más-style{
+.link-0-conoce-más-style{
+	text-decoration:underline;
+	font-weight:bold;
+}
+.link-bloc-63-style{
+	font-weight:bold;
+	text-decoration:underline;
+}
+.link-0-bloc-63-style{
 	text-decoration:underline;
 	font-weight:bold;
 }
