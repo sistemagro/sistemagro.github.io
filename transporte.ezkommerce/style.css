@@ -172,6 +172,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -362,6 +365,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-0-margin-top{
 	margin-top:0px;
+	width:83.68%;
 }
 .h1-4-margin-bottom{
 	margin-bottom:100px;
@@ -569,7 +573,7 @@ label{
 	width:100%;
 }
 .img-style{
-	width:149px;
+	width:185px;
 	border-radius:0px 0px 0px 0px;
 }
 .bloc-bloc-2-style{
@@ -616,6 +620,7 @@ label{
 .p-style{
 	width:100%;
 	margin-bottom:7px;
+	font-size:14px;
 }
 .txt-18{
 	font-family:"Red Hat Display";
@@ -1897,6 +1902,7 @@ label{
 }
 .p-24-style{
 	margin-top:5px;
+	font-size:14px;
 }
 .label-mes-explicó--style{
 	width:62.16%;
@@ -3743,6 +3749,12 @@ label{
 .html-widget-margin-bottom{
 	margin-bottom:40px;
 }
+.p-bloc-185-style{
+	font-size:14px;
+}
+.p-23-style{
+	font-size:14px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -3766,15 +3778,6 @@ label{
 
 .tc-alice-blue{
 	color:rgba(240,240,255,0.6)!important;
-}
-
-/* Link colour styles */
-
-.ltc-white{
-	color:rgba(255,255,255,0.6)!important;
-}
-.ltc-white:hover{
-	color:#cbcccc!important;
 }
 
 /* Icon colour styles */
