@@ -4515,6 +4515,7 @@ label{
 	.p-style{
 		margin-top:0px;
 		text-align:center;
+		width:100%;
 	}
 	.img-bandera-mexico-margin-top{
 		margin-left:1px;
@@ -4614,7 +4615,7 @@ label{
 	}
 	.img-style{
 		margin-top:0px;
-		width:205px;
+		width:133px;
 	}
 	.label-mes-explicó--style{
 		width:100%;
@@ -5305,6 +5306,7 @@ label{
 		text-align:center;
 		margin-top:0px;
 		margin-bottom:14px;
+		width:100%;
 	}
 	.img-bloc-9-style{
 		width:70px;
@@ -6081,6 +6083,14 @@ label{
 	}
 	.h1-114-margin-bottom{
 		margin-top:0px;
+	}
+	.container-div-0-margin-top{
+		width:100%;
+	}
+	
+	/* Mobile Text Margin Offsets */
+	.mg-clear-xs{
+		margin:0;
 	}
 	
 }
