@@ -14,7 +14,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 .page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
-a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
 
@@ -141,31 +141,37 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
+/* Handle Multi Level Navigation */
+.dropdown-menu .dropdown-menu{
+	border:none}
+@media (min-width:576px){
+	
+.navbar-expand-sm .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-sm .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:768px){
+	.navbar-expand-md .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-md .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:992px){
+	.navbar-expand-lg .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-lg .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}
 }
-/* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
-	color: rgb(64, 64, 64);
-}
-.btco-menu li > a {
-	padding: 10px 15px;
-	color: #000;
-}
-.btco-menu .active a:focus,.btco-menu li a:focus ,.navbar > .show > a:focus{
-	background: transparent;
-	outline: 0;
-}
-.dropdown-menu .show > .dropdown-toggle::after{
-	transform: rotate(-90deg);
-}
-
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-clear{
-	margin:0;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -560,10 +566,10 @@ label{
 	width:100%;
 }
 .card-body-style{
-	width:100%;
+	width:98.99%;
 }
 .img-style{
-	width:58px;
+	width:203px;
 	border-radius:0px 0px 0px 0px;
 }
 .bloc-bloc-2-style{
@@ -3588,6 +3594,7 @@ label{
 .p-326-margin-bottom{
 	margin-bottom:0px;
 	margin-top:20px;
+	width:100%;
 }
 .h1-96-margin-bottom{
 	margin-bottom:50px;
@@ -3756,21 +3763,6 @@ label{
 	color:rgba(240,240,255,0.6)!important;
 }
 
-/* Link colour styles */
-
-.ltc-white{
-	color:rgba(255,255,255,0.6)!important;
-}
-.ltc-white:hover{
-	color:#cbcccc!important;
-}
-.ltc-alice-blue{
-	color:rgba(240,240,255,0.6)!important;
-}
-.ltc-alice-blue:hover{
-	color:#c0c0cc!important;
-}
-
 /* Icon colour styles */
 
 .icon-caribbean-green{
@@ -3920,6 +3912,8 @@ label{
 	}
 	.link-0-style{
 		width:100%;
+		text-decoration:underline;
+		color:#0000FF!important;
 	}
 	.link-margin-top{
 		margin-left:0px;
@@ -4047,6 +4041,7 @@ label{
 	}
 	.img-style{
 		margin-top:0px;
+		width:160px;
 	}
 	.bloc-0-seccion-1-margin-top{
 		margin-top:0px;
@@ -4393,6 +4388,34 @@ label{
 	.bloc-12971-margin-bottom{
 		margin-bottom:20px;
 	}
+	.label-1-style{
+		color:#8586FF!important;
+		margin-bottom:7px;
+	}
+	.txt-p-gris{
+	}
+	.link-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-26465-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-15483-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-30615-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.p-style{
+		font-size:15px;
+	}
+	.p-31-style{
+		font-size:15px;
+	}
 	
 }
 
@@ -4596,7 +4619,7 @@ label{
 	}
 	.img-style{
 		margin-top:0px;
-		width:58px;
+		width:157px;
 	}
 	.label-mes-explicó--style{
 		width:100%;
@@ -4980,7 +5003,7 @@ label{
 	}
 	.img-style{
 		margin-left:0px;
-		width:64px;
+		width:249px;
 	}
 	.p-15-margin-top{
 		margin-top:20px;
@@ -6032,6 +6055,15 @@ label{
 	}
 	.bloc-48436-margin-bottom{
 		margin-bottom:20px;
+	}
+	.p-31-style{
+		font-size:14px;
+	}
+	.p-32-style{
+		font-size:14px;
+	}
+	.p-33-style{
+		font-size:14px;
 	}
 	
 }
