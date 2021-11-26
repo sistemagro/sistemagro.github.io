@@ -14,7 +14,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 .page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
-a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
 
@@ -141,31 +141,37 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
+/* Handle Multi Level Navigation */
+.dropdown-menu .dropdown-menu{
+	border:none}
+@media (min-width:576px){
+	
+.navbar-expand-sm .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-sm .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:768px){
+	.navbar-expand-md .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-md .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:992px){
+	.navbar-expand-lg .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-lg .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}
 }
-/* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
-	color: rgb(64, 64, 64);
-}
-.btco-menu li > a {
-	padding: 10px 15px;
-	color: #000;
-}
-.btco-menu .active a:focus,.btco-menu li a:focus ,.navbar > .show > a:focus{
-	background: transparent;
-	outline: 0;
-}
-.dropdown-menu .show > .dropdown-toggle::after{
-	transform: rotate(-90deg);
-}
-
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-clear{
-	margin:0;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -563,7 +569,7 @@ label{
 	width:100%;
 }
 .img-style{
-	width:58px;
+	width:149px;
 	border-radius:0px 0px 0px 0px;
 }
 .bloc-bloc-2-style{
@@ -4047,6 +4053,7 @@ label{
 	}
 	.img-style{
 		margin-top:0px;
+		width:160px;
 	}
 	.bloc-0-seccion-1-margin-top{
 		margin-top:0px;
@@ -4393,6 +4400,14 @@ label{
 	.bloc-12971-margin-bottom{
 		margin-bottom:20px;
 	}
+	.link-style{
+		text-decoration:underline;
+		background-color:transparent;
+		color:#0000FF!important;
+	}
+	.label-1-style{
+		color:#9899FF!important;
+	}
 	
 }
 
@@ -4596,7 +4611,7 @@ label{
 	}
 	.img-style{
 		margin-top:0px;
-		width:58px;
+		width:205px;
 	}
 	.label-mes-explicó--style{
 		width:100%;
@@ -4905,6 +4920,32 @@ label{
 	.bloc-25357-margin-top{
 		margin-top:20px;
 	}
+	.txt-24-bold{
+	}
+	.txt-p-gris{
+	}
+	.txt-p-ble{
+	}
+	.link-0-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-27167-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-41292-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-33288-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-5945-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
 	
 }
 
@@ -4942,6 +4983,7 @@ label{
 	.label-1-style{
 		text-align:center;
 		margin-top:10px;
+		color:#0371FF!important;
 	}
 	.container-div-margin-bottom{
 		margin-bottom:10px;
@@ -4980,7 +5022,8 @@ label{
 	}
 	.img-style{
 		margin-left:0px;
-		width:64px;
+		width:219px;
+		margin-top:25px;
 	}
 	.p-15-margin-top{
 		margin-top:20px;
