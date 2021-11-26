@@ -14,7 +14,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 .page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
-a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
 
@@ -141,31 +141,37 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
+/* Handle Multi Level Navigation */
+.dropdown-menu .dropdown-menu{
+	border:none}
+@media (min-width:576px){
+	
+.navbar-expand-sm .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-sm .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:768px){
+	.navbar-expand-md .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-md .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:992px){
+	.navbar-expand-lg .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-lg .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}
 }
-/* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
-	color: rgb(64, 64, 64);
-}
-.btco-menu li > a {
-	padding: 10px 15px;
-	color: #000;
-}
-.btco-menu .active a:focus,.btco-menu li a:focus ,.navbar > .show > a:focus{
-	background: transparent;
-	outline: 0;
-}
-.dropdown-menu .show > .dropdown-toggle::after{
-	transform: rotate(-90deg);
-}
-
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
-.mg-clear{
-	margin:0;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -260,6 +266,20 @@ button{
 	stroke-linecap:round;
 }
 
+/* Toggle Visibility */
+.toggled-item{
+	transition: height 350ms ease-in-out, padding 350ms ease-in-out, opacity 350ms ease-in-out;
+	overflow: hidden;
+}
+.toggled-item-hidden{
+	padding-top:0!important;
+	padding-bottom:0!important;
+	border-top:0!important;
+	border-bottom:0!important;
+	outline:0!important;
+	opacity: 0;
+}
+
 /* Hide Object */
 .object-hidden{
 	display:none;
@@ -298,6 +318,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-0-margin-top{
 	margin-top:0px;
+	width:79.92%;
 }
 .btn-d{
 	background-color:transparent;
@@ -351,6 +372,7 @@ label{
 	font-weight:400;
 	margin-top:12px;
 	margin-bottom:2px;
+	width:100%;
 }
 .txt-18{
 	font-family:"Red Hat Display";
@@ -494,6 +516,15 @@ label{
 .html-widget-margin-bottom{
 	margin-bottom:40px;
 }
+.link-style{
+	font-weight:normal;
+	text-decoration:underline;
+	color:#0000FF!important;
+}
+.link-bloc-10-style{
+	text-decoration:underline;
+	color:#0000FF!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -511,15 +542,6 @@ label{
 
 .tc-alice-blue{
 	color:rgba(240,240,255,0.6)!important;
-}
-
-/* Link colour styles */
-
-.ltc-white{
-	color:rgba(255,255,255,0.6)!important;
-}
-.ltc-white:hover{
-	color:#cbcccc!important;
 }
 
 /* Icon colour styles */
@@ -648,6 +670,38 @@ label{
 	.bloc-12971-margin-bottom{
 		margin-bottom:20px;
 	}
+	.img-style{
+		width:170px;
+		border-radius:0px 0px 0px 0px;
+	}
+	.label-1-style{
+		width:100%;
+	}
+	.link-bloc-176-style{
+		width:63.23%;
+	}
+	.txt-p-gris{
+	}
+	.link-0-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-33956-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-28210-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-39043-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-32471-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
 	
 }
 
@@ -688,6 +742,8 @@ label{
 	.label-1-style{
 		text-align:center;
 		margin-top:10px;
+		width:100%;
+		color:#0077FE!important;
 	}
 	.img-3-style{
 		margin-bottom:25px;
@@ -756,6 +812,9 @@ label{
 	}
 	.btn-bloc-172-style{
 		width:100%;
+	}
+	.img-style{
+		width:192px;
 	}
 	
 }
