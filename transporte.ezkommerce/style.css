@@ -365,7 +365,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-0-margin-top{
 	margin-top:0px;
-	width:83.68%;
+	width:100%;
 }
 .h1-4-margin-bottom{
 	margin-bottom:100px;
@@ -3755,6 +3755,9 @@ label{
 .p-23-style{
 	font-size:14px;
 }
+.link-padding{
+	color:#0086E0!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -4056,7 +4059,7 @@ label{
 	}
 	.img-style{
 		margin-top:0px;
-		width:160px;
+		width:190px;
 	}
 	.bloc-0-seccion-1-margin-top{
 		margin-top:0px;
@@ -4949,6 +4952,9 @@ label{
 	.link-5945-style{
 		text-decoration:underline;
 		color:#0000FF!important;
+	}
+	.link-padding{
+		width:92.45%;
 	}
 	
 }
