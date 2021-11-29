@@ -14,7 +14,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
 }
 .page-container{overflow: hidden;} /* Prevents unwanted scroll space when scroll FX used. */
-a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
+a,button{transition: background .3s ease-in-out;outline: none!important;} /* Prevent blue selection glow on Chrome and Safari */
 a:hover{text-decoration: none; cursor:pointer;}
 
 
@@ -141,28 +141,37 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
-.hero .hero-nav{
-	padding-left:inherit;
-	padding-right:inherit;
-}
 .navbar-dark .nav .dropdown-menu .nav-link{
 	color: rgb(64, 64, 64);
 }
-/* Handle Multi Level Navigation */.navbar-light .navbar-nav .nav-link {
-	color: rgb(64, 64, 64);
+/* Handle Multi Level Navigation */
+.dropdown-menu .dropdown-menu{
+	border:none}
+@media (min-width:576px){
+	
+.navbar-expand-sm .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-sm .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:768px){
+	.navbar-expand-md .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-md .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}}@media (min-width:992px){
+	.navbar-expand-lg .dropdown-menu .dropdown-menu{
+	border:1px solid rgba(0,0,0,.15);
+	position:absolute;
+	left:100%;
+	top:-7px}.navbar-expand-lg .dropdown-menu .submenu-left{
+	right:100%;
+	left:auto}
 }
-.btco-menu li > a {
-	padding: 10px 15px;
-	color: #000;
-}
-.btco-menu .active a:focus,.btco-menu li a:focus ,.navbar > .show > a:focus{
-	background: transparent;
-	outline: 0;
-}
-.dropdown-menu .show > .dropdown-toggle::after{
-	transform: rotate(-90deg);
-}
-
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
@@ -372,12 +381,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:30px;
 }
 .link-style{
-	width:100%;
-	font-size:28px;
+	width:0%;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:underline;
+	opacity:0.6;
+	color:#0000FF!important;
 }
 .p-style{
 	width:100%;
-	text-indent:px;
+	text-indent:0px;
 }
 .altura{
 	height:100px;
@@ -962,9 +975,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 	margin-top:20px;
 }
-.p-margin-bottom{
-	margin-bottom:50px;
-}
 .bloc-0-margin-bottom{
 	margin-bottom:100px;
 }
@@ -1001,19 +1011,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Red Hat Display";
 	font-weight:500;
 }
+.img-bloc-3-style{
+	width:527px;
+}
+.link-bloc-3-style{
+	text-decoration:underline;
+	font-weight:bold;
+	color:#0000FF!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 /* Background colour styles */
 
-.bgc-blue{
-	background-color:#0000FF;
-}
 .bgc-alice-blue{
 	background-color:rgba(240,240,255,0.6);
 }
-.bgc-blue-2{
+.bgc-blue{
 	background-color:#0000FF;
 }
 
@@ -1023,12 +1038,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:rgba(240,240,255,0.6)!important;
 }
 .ltc-alice-blue:hover{
-	color:#c0c0cc!important;
-}
-.ltc-alice-blue-2{
-	color:rgba(240,240,255,0.6)!important;
-}
-.ltc-alice-blue-2:hover{
 	color:#c0c0cc!important;
 }
 
@@ -1318,6 +1327,34 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.link-ui-ux-margin-left{
 		width:100%;
 	}
+	.p-bloc-3-margin-bottom{
+		padding-bottom:39px;
+	}
+	.txt-24-bold{
+	}
+	.link-0-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-10759-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-21475-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-27058-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.link-19577-style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.img-profe-style{
+		width:187px;
+	}
 	
 }
 
@@ -1399,6 +1436,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.link-margin-left{
 		margin-left:0px;
 		width:100%;
+	}
+	.link-bloc-3-style{
+		text-decoration:underline;
+		font-weight:bold;
+		color:#0000FF!important;
+	}
+	.img-profe-style{
+		width:159px;
+		border-radius:0px 0px 0px 0px;
 	}
 	
 }
@@ -1485,6 +1531,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.container-div-margin-bottom{
 		margin-bottom:10px;
 		margin-top:15px;
+		height:41px;
 	}
 	.txt-72-white{
 		font-size:48px;
@@ -1637,6 +1684,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.link:hover{
 		font-size:10px;
+	}
+	.img-profe-style{
+		width:179px;
 	}
 	
 }
