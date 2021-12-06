@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	pagina web smattcom_V06-1
+	pagina web smattcom_V07-1
 	About: A shiny new Blocs website.
 	Author: josue arzate garcia
 	Version: 1.0
@@ -601,7 +601,11 @@ button{
 	box-shadow:none;
 }
 
+/* Additional Aspect Ratios */
 
+.embed-responsive-4by4::before{
+	padding-top:100%}.embed-responsive-9by16::before{
+	padding-top:106.25%}
 .carousel-nav-icon{
 	fill: none;
 	stroke: #fff;
@@ -2978,12 +2982,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-451-style{
 	width:85px;
 }
-.img-452-style{
-	width:266px;
-}
-.img-modal-profe-style{
-	width:222px;
-}
 .img-icons-mod-style{
 	width:265px;
 }
@@ -3028,9 +3026,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:underline;
 	font-weight:bold;
 }
-.img-455-style{
-	width:271px;
-}
 .card-footer-style{
 	width:100%;
 	background-color:#FEFFFE;
@@ -3038,6 +3033,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-47789-style{
 	text-decoration:underline;
 	font-weight:bold;
+}
+.link-modal-mensaje-style{
+	text-decoration:underline;
 }
 
 /* = Colour
@@ -4118,6 +4116,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.link-bloc-3-style{
 		width:52.32%;
+	}
+	.azul_txt-{
+	}
+	.link-modal-mensaje-style{
+		text-decoration:underline;
+		font-weight:bold;
+	}
+	.btn_naranja:hover{
+		background-color:#0367D7;
 	}
 	.sidebar-nav{
 		width:230px!important;
