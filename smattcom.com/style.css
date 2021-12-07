@@ -601,11 +601,7 @@ button{
 	box-shadow:none;
 }
 
-/* Additional Aspect Ratios */
 
-.embed-responsive-4by4::before{
-	padding-top:100%}.embed-responsive-9by16::before{
-	padding-top:106.25%}
 .carousel-nav-icon{
 	fill: none;
 	stroke: #fff;
@@ -2693,7 +2689,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:0px;
 }
 .btn-descargar-app-style{
-	width:92.09%;
+	width:88.14%;
 	padding-top:10px;
 	padding-bottom:10px;
 	margin-bottom:0px;
@@ -2891,6 +2887,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn_naranja{
 	background-color:#FF5900;
+	margin-top:19px;
 	border-radius:10px 10px 10px 10px;
 }
 .txt_blanco{
@@ -3036,6 +3033,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-modal-mensaje-style{
 	text-decoration:underline;
+}
+.video-modal{
+	margin-top:11px;
 }
 
 /* = Colour
