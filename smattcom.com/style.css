@@ -4127,7 +4127,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.link-modal-mensaje-style{
 		text-decoration:underline;
-		font-weight:bold;
+		font-weight:normal;
+		font-size:15px;
 	}
 	.btn_naranja:hover{
 		background-color:#0367D7;
@@ -4944,6 +4945,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.azul_txt-{
 		color:#0667D0!important;
+		margin-top:16px;
 	}
 	.menu_mobil{
 		padding:20px 20px 20px 20px;
@@ -4971,6 +4973,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-450-style{
 		width:58px;
+	}
+	.link-modal-mensaje-style{
+		font-weight:normal;
+		font-size:12px;
 	}
 	
 }
