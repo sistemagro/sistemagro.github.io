@@ -2689,7 +2689,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:0px;
 }
 .btn-descargar-app-style{
-	width:90.32%;
 	padding-top:10px;
 	padding-bottom:10px;
 	margin-bottom:0px;
@@ -3124,15 +3123,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-ghost-white{
 	background-color:#F6F7FB;
 }
-.bgc-black{
-	background-color:#000000;
-}
 
 /* Text colour styles */
 
-.tc-dark-jungle-green{
-	color:#1E1F1E!important;
-}
 .tc-white{
 	color:#FFFFFF!important;
 }
@@ -3144,9 +3137,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .tc-true-blue{
 	color:#0667D0!important;
-}
-.tc-white-2{
-	color:#FFFFFF!important;
 }
 
 /* Button colour styles */
