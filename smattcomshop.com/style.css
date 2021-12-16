@@ -403,6 +403,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .nohay{
 	color:#D60000!important;
 }
+.fechaact{
+	font-family:"Roboto";
+	color:rgba(0,0,0,0.50)!important;
+}
+.tituloslegal{
+	font-family:"Open Sans";
+	color:#000000!important;
+}
+.parrafos{
+	font-family:"Open Sans";
+}
 
 /* = Colour
 -------------------------------------------------------------- */
