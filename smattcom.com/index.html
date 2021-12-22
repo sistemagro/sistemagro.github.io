@@ -8,10 +8,10 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1474">
-	<link rel="stylesheet" type="text/css" href="style.css?6274">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?1257">
-	<link rel="stylesheet" type="text/css" href="./css/tabla.css?1066">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?881">
+	<link rel="stylesheet" type="text/css" href="style.css?341">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?9958">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?9109">
 	
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
@@ -21,6 +21,72 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Home</title>
 
+<style>
+body {
+	width: 610;
+	font-family: Arial;
+}
+
+.demo-table {
+	width: 100%;
+	border-spacing: initial;
+	margin: 5px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;
+}
+
+.demo-table th {
+	background: #0667D0;
+	padding: 5px;
+	text-align: left;
+	color: #FFF;
+}
+
+.demo-table td {
+	background-color: #ffffff;
+	padding: 5px 5px 5px;
+}
+
+.demo-table td div.feed_title {
+	text-decoration: none;
+	color: #003fff;
+	font-weight: bold;
+}
+
+.demo-table ul {
+	margin: 0;
+	padding: 5px;	
+}
+
+.demo-table li {
+	cursor: pointer;
+	list-style-type: none;
+	display: inline-block;
+	color: #F0F0F0;
+	text-shadow: 0 0 1px #666666;
+	font-size: 20px;
+}
+
+.demo-table .highlight, .demo-table .selected {
+	color: #F4B30A;
+	text-shadow: 0 0 1px #F48F0A;
+}
+
+.star-rating-box {
+	border: #E4E4E4 1px solid;
+	margin: 5px 0px;
+}
+
+.star-rating-count {
+	border-top: #E4E4E4 1px solid;
+	font-size: 0.8em;
+	padding: 2px 5px;
+	background: #f9f9f9;
+	color: #828181;
+}
+</style>
 <style>
 .carousel-item:hover {cursor: pointer;}
 </style>
@@ -170,7 +236,7 @@
 			<div class="col">
 				<div id="accordion-17982">
 					<div class="card">
-						<div class="card-header btn_naranja " id="heading1">
+						<div class="card-header btn_naranja" id="heading1">
 							<div class="text-center text-lg-right container-div-bloc-3-style">
 								<span class="ion ion-chevron-down icon-white icon-sm float-none"></span><a href="#" class="a-btn txt_blanco link-bloc-3-style" data-toggle="collapse" data-target="#accordion-17982-item-1" aria-expanded="true" aria-controls="accordion-17982-item-1" target="#accordion-17982-item-1">&nbsp; ¿Qué puedes hacer en Smattcom?</a>
 							</div>
@@ -252,72 +318,12 @@
 <div class="bloc l-bloc" id="bloc-3">
 	<div class="container bloc-sm">
 		<div class="row">
-			<div class="col">
+			<div class="col d-sm-block d-none">
 				<div class="row">
-					<div class="col-lg-3 d-md-block  d-none">
-						<h4 class="mg-md azul_txt-">
+					<div class="col-lg-3">
+						<h4 class="mg-md azul_txt- d-md-block d-sm-none d-block">
 							Bienvenid@<br><br>¿Qué puedes hacer en Smattcom?<br>
-						</h4><a href="compra_venta.html" class="btn btn-lg btn-d btn-glossy btn-compra-o-vende-style">Compra o Vende</a><a href="precio-productos-agricolas.html" class="btn btn-d btn-lg btn-glossy btn-compra-o-vende-style">Consulta precios</a><a href="transaccion.html" class="btn btn-d btn-lg btn-glossy btn-compra-o-vende-style">Transacción Protegida</a><a href="transporte.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy">Transporte</a><a href="seguros.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy">Seguro de Mercancias</a><a href="https://info.smattcom.com/creditos-iban-online" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy">Créditos</a><a href="mundi-smattcom.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy">Factoraje para exportadores</a><a href="agromooc.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy">Cursos disponibles</a><a href="agromooc.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy">Promoción y vinculo empresarial</a>
-						<div class="alert animated fadeIn alerta_boton alert-info object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="compra_venta.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_compra_venta" href="compra_venta.html">Compra o Vende</a>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="precio-productos-agricolas.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_consulta_precios" href="precio-productos-agricolas.html">Consulta precios</a>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="transaccion.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_transaccion" href="transaccion.html">Transacción Protegida</a>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="transporte.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_transporte" href="transporte.html">Transporte</a>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="seguros.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_seguro" href="seguros.html">Seguro de Mercancias</a><br>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="verificadores.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_verificadores" href="verificadores.html">Verificadores de Mercancias</a><br>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="https://info.smattcom.com/creditos-iban-online"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_creditos" href="https://info.smattcom.com/creditos-iban-online" data-target="_blank" target="_blank">Créditos</a><br>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="mundi-smattcom.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_factoraje" href="mundi-smattcom.html" data-target="_blank" target="_blank">Factoraje para exportadores</a><br>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="agromooc.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_cursos" href="agromooc.html">Cursos disponibles</a><br>
-							</p>
-						</div>
-						<div class="alert animated fadeIn alert-info alerta_boton object-hidden" role="alert" data-appear-anim-style="fadeIn">
-							<a href="campoads.html"><span class="close fa fa-angle-right"></span></a>
-							<p class="mb-0">
-								<a class="menu_promocion" href="campoads.html">Promoción y vínculo empresarial</a><br>
-							</p>
-						</div>
+						</h4><a href="compra_venta.html" class="btn btn-lg btn-d btn-glossy btn-compra-o-vende-style d-md-inline-block d-sm-none d-inline-block">Compra o Vende</a><a href="precio-productos-agricolas.html" class="btn btn-d btn-lg btn-glossy btn-compra-o-vende-style d-md-inline-block d-sm-none d-inline-block">Consulta precios</a><a href="transaccion.html" class="btn btn-d btn-lg btn-glossy btn-compra-o-vende-style d-md-inline-block d-sm-none d-inline-block">Transacción Protegida</a><a href="transporte.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy d-md-inline-block d-sm-none d-inline-block">Transporte</a><a href="seguros.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy d-md-inline-block d-sm-none d-inline-block">Seguro de Mercancias</a><a href="https://info.smattcom.com/creditos-iban-online" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy d-md-inline-block d-sm-none d-inline-block">Créditos</a><a href="mundi-smattcom.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy d-md-inline-block d-sm-none d-inline-block">Factoraje para exportadores</a><a href="agromooc.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy d-md-inline-block d-sm-none d-inline-block">Cursos disponibles</a><a href="agromooc.html" class="btn btn-d btn-lg btn-compra-o-vende-style btn-glossy d-md-inline-block d-sm-none d-inline-block">Promoción y vinculo empresarial</a>
 						<div class="d-lg-none d-xl-none d-block">
 							<div class="row no-gutters">
 								<div class="offset-lg-1 col-lg-10">
@@ -328,22 +334,181 @@
 						<div class="d-lg-block   d-none">
 							<div class="row voffset">
 								<div class="offset-lg-1 col-lg-10">
-									<a href="https://smattcom.com/blog/grupo-smattcom-obtiene-distintivo-digital-profeco-comercio-electronico"><img src="img/PROFECO_1.png" class="img-fluid mx-auto img-frame-lg mg-sm img-8-style" alt="imagen compra-y-vende_2cel" /></a>
+									<a href="https://smattcom.com/blog/grupo-smattcom-obtiene-distintivo-digital-profeco-comercio-electronico"><img src="img/PROFECO_1.png" class="img-fluid img-frame-lg mg-sm img-8-style mx-auto d-block" alt="imagen compra-y-vende_2cel" /></a>
 								</div>
 							</div>
 						</div>
-						<div class="back_azul">
-							<div class="row">
+						<div class="back_azul d-md-block d-sm-none d-block">
+							<div class="row d-md-flex d-sm-none d-flex">
 								<div class="offset-lg-1 col-lg-10">
 									<img src="img/logo%20slogan%20azul%20blanco.png" class="img-fluid img-14882-style float-lg-none" alt="logo%20calado%20completo%20smattcom" />
 									<h1 class="mg-md titulo-blanco h1-189-margin-top">
 										Descarga Smattcom&nbsp;
-									</h1><img src="img/banner%20descarga%20smattcom.png" class="img-fluid mx-auto d-block" alt="imagen compra-y-vende_2cel" /><a href="#" class="btn btn-d btn-lg outline-blanco descargasmatt content_20down" data-target="_blank" target="_blank">Descarga Smattcom en tu celular</a>
+									</h1><img src="img/banner%20descarga%20smattcom.png" class="img-fluid mx-auto d-block" alt="imagen compra-y-vende_2cel" />
+									<div class="text-center">
+										<a href="#" class="btn btn-d btn-lg outline-blanco descargasmatt content_20down" data-target="_blank" target="_blank">Descarga Smattcom en tu celular</a>
+									</div>
+								</div>
+							</div>
+							<div class="row bgc-white side-com d-md-flex d-sm-none d-flex">
+								<div class="offset-lg-1 col-lg-10">
+									<div class="row">
+										<div class="col-lg-4 col-md-2 col-sm-2 col-3">
+											<img src="img/icon-comentario.png" class="img-fluid img-11-style float-lg-none" alt="icon comentario" />
+										</div>
+										<div class="col">
+											<h6 class="mg-md h6-comentarios-style">
+												Comentarios
+											</h6>
+										</div>
+									</div>
+									<div class="row row-bloc-3-style">
+										<div class="offset-lg-0 col-lg-12">
+											<a href="agregar-comentario.html" class="btn btn-d btn-20-style btn-glossy float-lg-none float-md-right float-sm-right float-right btn-sm">Agregar comentario</a>
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="row">
+										<div class="col">
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-0-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Sara Rodríguez
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Luis Martínez
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-margin-top p-22-style">
+														Rafa Villanueva
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Jorge Cacho
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Juan Manuel Mondragón
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right float-lg-right fecha-hom">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Paty Sosa
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-lg-right float-md-right float-sm-right float-right fecha-hom">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Arturo Chavez
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<p>
+												<div class="text-center">
+													<a class="link-0-bloc-3-style" href="comentarios.html">Ver más comentarios</a>
+												</div><br>
+											</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col col-lg-9">
+					<div class="col col-lg-9 ">
 						<img src="img/web_seguro.jpg" class="img-fluid mx-auto d-block" alt="web_seguro" />
 					</div>
 				</div>
@@ -405,7 +570,7 @@
 					</div>
 					<div class="col-sm-2 col-2">
 						<div class="text-center">
-							<a href="https://api.whatsapp.com/send?phone=5215570093508" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-whatsapp"></span></a>
+							<a href="https://api.whatsapp.com/send?phone=5215570515989" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-whatsapp"></span></a>
 						</div>
 					</div>
 				</div>
@@ -428,11 +593,140 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?1246"></script>
-<script src="./js/bootstrap.bundle.min.js?763"></script>
-<script src="./js/blocs.min.js?8280"></script>
-<script src="./js/tilt.jquery.js?7031"></script><!-- Additional JS END -->
+<script src="./js/jquery.min.js?4595"></script>
+<script src="./js/bootstrap.bundle.min.js?5652"></script>
+<script src="./js/blocs.min.js?5422"></script>
+<script src="./js/tilt.jquery.js?3670"></script><!-- Additional JS END -->
 
+<script>
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+
+
+  $('.btn-submit-comment').click(function(e){
+    Ejecutar(e);
+  });
+
+function Ejecutar(e)
+{
+
+ var ejecutar = true;   
+
+    if (!$("#form_valoracion")[0].checkValidity()) {       
+        ejecutar = false;        
+        $("#form_valoracion").find("#submit-hidden").click();
+      }
+
+    var Okvaloracion = valida_valoracion();
+
+      if (ejecutar && Okvaloracion)      
+    {
+
+        $.when(Procesar(e,'servicios/comentarios',$("#form_valoracion").serialize())).then(function(Resultado,e){
+            if(e=="success")
+            {             
+             if(Resultado.Result=='OK'){                
+               $( "#Comentario" ).remove();                    
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'success'
+               );
+             }
+             else
+             {
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'error'
+               );
+             }
+            }
+            else
+            {
+             Swal.fire(
+               '¡Ups!',
+               'Hay dificultades, vuelve a intentarlo, si el problema persiste, contacta a soporte',
+               'error'
+             );
+            }    
+         });       
+    }
+}
+
+
+function valida_valoracion()
+{
+    if($('#valoracion').val()=="")
+    {
+        $("#div_invalid_Valoracion").css("display", "block");
+        $("#ul_valoracion").attr("style", "border: 1px solid red;")
+        return false;
+    }
+    else
+    {
+        $("#div_invalid_Valoracion").css("display", "none");
+        $("#ul_valoracion").attr("style", "border: none;")
+        return true;
+    }
+}
+
+
+
+
+
+function highlightStar(obj,id) {
+    removeHighlight(id);		
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('highlight');
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+    });
+}
+
+function removeHighlight(id) {
+    $('.demo-table #valoracion-'+id+' li').removeClass('selected');
+    $('.demo-table #valoracion-'+id+' li').removeClass('highlight');
+}
+
+function addRating(obj,id) {
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('selected');
+        $('#valoracion-'+id+' #valoracion').val((index+1));
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+        valida_valoracion();
+    });	
+}
+
+function resetRating(id) {
+    if($('#valoracion-'+id+' #valoracion').val() != 0) {
+        $('.demo-table #valoracion-'+id+' li').each(function(index) {
+            $(this).addClass('selected');
+            if((index+1) == $('#valoracion-'+id+' #valoracion').val()) {
+                return false;	
+            }
+        });
+    }
+} 
+</script>
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
 <script>

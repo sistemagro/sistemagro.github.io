@@ -557,6 +557,11 @@ button{
 	padding:14px;
 }
 
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.threeD-t{
+	text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),0 20px 20px rgba(0,0,0,.15);
+}
 
 
 /* = Cards
@@ -731,15 +736,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .card-body-style{
 	width:100%;
-}
-.p-style{
-	font-family:Montserrat;
-	font-weight:400;
-	font-size:16px;
-	width:48.51%;
-	margin-left:0px;
-	margin-bottom:0px;
-	margin-top:30px;
 }
 .titulo-cards-productos{
 	font-family:"Montserrat";
@@ -3090,6 +3086,180 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h3-233-style{
 	width:75.41%;
+	margin-bottom:0px;
+	font-size:32px;
+}
+.comment-bien{
+	margin-top:24px;
+	margin-bottom:0px;
+}
+.form-style{
+	width:100%;
+}
+.container-div-bloc-404-style{
+	width:100%;
+}
+.btn-submit-style{
+	width:28.27%;
+}
+.label-nombre -style{
+	font-size:20px;
+	font-family:"Open Sans";
+	font-weight:800;
+	color:rgba(0,0,0,0.50)!important;
+}
+.label-36-style{
+	font-family:"Open Sans";
+	font-weight:800;
+	font-size:20px;
+	color:rgba(0,0,0,0.50)!important;
+}
+.label-comentario-style{
+	font-family:"Open Sans";
+	font-weight:800;
+	font-size:20px;
+	color:rgba(0,0,0,0.50)!important;
+}
+.container-div-0-bloc-404-style{
+	width:100%;
+}
+.coments{
+	margin-top:24px;
+}
+.estrella{
+	margin-right:8px;
+}
+.stars{
+	margin-top:38px;
+}
+.h3-bloc-405-style{
+	width:95.08%;
+	margin-top:9px;
+	color:#065FC1!important;
+	font-size:30px;
+	font-weight:bold;
+}
+.bloc-style{
+	width:94.55%;
+}
+.bloc-bloc-405-style{
+	width:59.16%;
+}
+.bloc-0-bloc-405-style{
+	width:34.45%;
+}
+.list-bloc-405-style{
+	width:100%;
+	border-style:solid;
+	border-color:#F4F5F4!important;
+	background-color:rgba(0,0,0,0.06);
+	padding:22px 22px 22px 22px;
+	border-radius:10px 10px 10px 10px;
+	border-width:1px 1px 1px 1px;
+}
+.calificacion{
+	margin-top:22px;
+}
+.container-div-bloc-405-style{
+	width:100%;
+	margin-bottom:14px;
+}
+.h6-style{
+	font-family:(null);
+	font-weight:600;
+	font-size:20px;
+	margin-bottom:0px;
+	margin-top:10px;
+	color:rgba(0,0,0,0.82)!important;
+	width:100%;
+}
+.p-ccoment{
+	font-size:20px;
+}
+.fecha-coments{
+	margin-bottom:15px;
+	margin-top:0px;
+	font-size:18px;
+}
+.h6-12---12---21-style{
+	font-size:19px;
+}
+.divvider-color{
+	color:#000000!important;
+	background-color:transparent;
+	border-style:solid;
+}
+.btn-button-style{
+	width:100%;
+	background-color:#0168D7;
+	margin-top:18px;
+}
+.vermas-tb{
+	margin-top:32px;
+}
+.h6-bloc-404-style{
+	font-family:"Open Sans";
+	font-weight:800;
+	font-size:25px;
+}
+.img-icon-comentar-style{
+	width:67px;
+}
+.link-bloc-404-style{
+	text-decoration:underline;
+	font-size:20px;
+	color:#0000FF!important;
+}
+.img-561-style{
+	width:69px;
+}
+.img-11-style{
+	width:45px;
+}
+.side-com{
+	margin-top:0px;
+	padding-top:20px;
+}
+.h6-comentarios-style{
+	font-family:"Open Sans";
+	font-weight:800;
+	font-size:18px;
+}
+.btn-20-style{
+	width:121.62%;
+	font-size:15px;
+	background-color:#0166CE;
+}
+.row-bloc-3-style{
+	margin-right:0px;
+	margin-left:0px;
+	padding:0px 0px 0px 0px;
+}
+.persona-coment{
+	margin-top:18px;
+	border-style:solid;
+	border-color:rgba(0,0,0,0.10)!important;
+	padding:3px 3px 3px 3px;
+	border-radius:5px 5px 5px 5px;
+	border-width:1px 1px 1px 1px;
+}
+.fecha-hom{
+	margin-bottom:0px;
+}
+.link---style{
+	text-decoration:underline;
+	color:#0000FF!important;
+}
+.coment-jom{
+	margin-top:12px;
+}
+.link-0-bloc-3-style{
+	text-decoration:underline;
+	color:#0000FF!important;
+}
+.p-22-style{
+	font-family:"Open Sans";
+	font-weight:800;
 }
 
 /* = Colour
@@ -3097,6 +3267,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
+.bgc-white{
+	background-color:#FFFFFF;
+}
 .bgc-true-blue{
 	background-color:#0667D0;
 }
@@ -3151,9 +3324,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-true-blue-2{
 	background-color:#0667D0;
 }
-.bgc-white{
-	background-color:#FFFFFF;
-}
 .bgc-white-2{
 	background-color:#FFFFFF;
 }
@@ -3198,6 +3368,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background:#00a000!important;
 	color:#FFFFFF!important;
 }
+.btn-true-blue{
+	background:#0667D0;
+	color:#FFFFFF!important;
+}
+.btn-true-blue:hover{
+	background:#0552a6!important;
+	color:#FFFFFF!important;
+}
 
 /* Link colour styles */
 
@@ -3219,6 +3397,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .icon-white{
 	color:#FFFFFF!important;
 	border-color:#FFFFFF!important;
+}
+.icon-amber{
+	color:#FFC000!important;
+	border-color:#FFC000!important;
 }
 .icon-true-blue{
 	color:#0667D0!important;
@@ -3439,10 +3621,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.btn-118-margin-top{
 		width:100%;
 		margin-left:-1px;
-	}
-	.p-style{
-		width:76.74%;
-		margin-left:85px;
 	}
 	.btn-button-margin-top{
 		width:69.22%;
@@ -3836,6 +4014,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-profeco-style{
 		width:712px;
 	}
+	.img-icon-comentar-style{
+		margin-top:11px;
+	}
+	.btn-20-style{
+		width:84.98%;
+	}
+	.h6-comentarios-style{
+		font-size:25px;
+	}
+	.img-11-style{
+		margin-top:11px;
+	}
+	.bloc-0-bloc-3-style{
+		width:38.96%;
+	}
+	.bloc-bloc-3-style{
+		width:40.6%;
+	}
 	
 }
 
@@ -3925,9 +4121,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-logo-blog-margin-left{
 		margin-left:66px;
-	}
-	.p-style{
-		margin-left:62px;
 	}
 	.btn-button-margin-top{
 		margin-left:13px;
@@ -4172,6 +4365,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.btn_naranja:hover{
 		background-color:#0367D7;
 	}
+	.bloc-0-bloc-405-style{
+		width:49.17%;
+	}
+	.btn-20-style{
+		width:85.21%;
+	}
+	.bloc-bloc-3-style{
+		width:58.66%;
+	}
+	.bloc-0-bloc-3-style{
+		width:58.1%;
+	}
 	.sidebar-nav{
 		width:230px!important;
 	}
@@ -4302,10 +4507,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-bloc-83-style{
 		margin-left:39px;
-	}
-	.p-style{
-		width:100%;
-		margin-left:4px;
 	}
 	.img-logo-blog-margin-left{
 		margin-left:3px;
@@ -5016,6 +5217,33 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.link-modal-mensaje-style{
 		font-weight:normal;
 		font-size:14px;
+	}
+	.h3-233-style{
+		width:88.52%;
+	}
+	.btn-submit-style{
+		width:48.46%;
+	}
+	.container-div-bloc-405-style{
+		width:100%;
+	}
+	.bloc-0-bloc-405-style{
+		width:100%;
+	}
+	.link-bloc-404-style{
+		font-size:15px;
+	}
+	.btn-20-style{
+		width:75.3%;
+	}
+	.img-11-style{
+		margin-top:9px;
+	}
+	.bloc-bloc-3-style{
+		width:100%;
+	}
+	.bloc-0-bloc-3-style{
+		width:100%;
 	}
 	
 }
