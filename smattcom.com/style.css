@@ -3081,9 +3081,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:23px;
 	background-color:#0367D7;
 }
-.img-559-style{
-	width:483px;
-}
 .h3-233-style{
 	width:75.41%;
 	margin-bottom:0px;
@@ -3260,6 +3257,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-22-style{
 	font-family:"Open Sans";
 	font-weight:800;
+}
+.h6-7-style{
+	font-family:"Open Sans";
+	font-weight:800;
+	font-size:25px;
 }
 
 /* = Colour
