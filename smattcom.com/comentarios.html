@@ -8,10 +8,10 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1088">
-	<link rel="stylesheet" type="text/css" href="style.css?302">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?5831">
-	<link rel="stylesheet" type="text/css" href="./css/tabla.css?8569">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6833">
+	<link rel="stylesheet" type="text/css" href="style.css?5514">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?5097">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?8614">
 	
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
@@ -208,37 +208,81 @@ body {
 						<h6 class="mg-md h6-7-style">
 							Agrega tu comentario
 						</h6>
-						<div class="container-div-0-bloc-404-style text-lg-left text-md-left text-sm-left text-left">
-							<span class="fa fa-star threeD-t icon-amber estrella icon-sm"></span><span class="fa fa-star threeD-t icon-amber estrella icon-sm"></span><span class="fa fa-star threeD-t icon-amber estrella icon-sm"></span><span class="fa fa-star threeD-t icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber threeD-t icon-sm"></span>
-						</div>
 					</div>
 				</div>
-				<div class="row coments ">
+				<div class="row coments">
 					<div class="offset-lg-3 col-lg-6">
+						<div id="div-invalid-valoracion" indavlid-feedback="Indica la calificación">
+							<div class="text-lg-left text-md-left text-sm-left text-left">
+								<span class="fa fa-star icon-amber none estrella float-lg-none icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star estrella icon-sm"></span>
+							</div>
+						</div>
+						<div >
+							<div id="div_invalid_Valoracion" class="invalid-feedback" style="display: none;">
+					Indica la calificación
+				  </div>
+							
+						</div>
 						<form id="form_14622" data-form-type="blocs-form" class="form-style" action="custom-action-url" method="POST">
-							<div class="container-div-bloc-404-style text-lg-left">
-								<label class="label-nombre&nbsp;-style">
-									Nombre&nbsp;
-								</label>
-								<input id="name_36100_9203_14622" class="form-control" required name="name" placeholder="Nombre" />
-							</div>
-							<div class="form-group text-lg-left">
-								<label class="label-36-style">
-									Email
-								</label>
-								<input id="email_36100_9203_14622" class="form-control field-style" type="email" data-error-validation-msg="Not a valid email address" required name="email" placeholder="Email" />
-							</div>
-							<div class="form-group text-lg-left">
-								<label class="label-comentario-style">
-									Comentario<br>
-								</label><textarea id="message_36100_9203_14622" class="form-control" rows="4" cols="50" required name="message" placeholder="Comentario"></textarea>
-							</div>
-							<div class="text-center">
-								<button class="bloc-button btn btn-lg btn-true-blue btn-submit-style btn-glossy" type="submit">
-									Comentar
-								</button>
-							</div>
-						</form>
+								<div class="container-div-bloc-404-style text-lg-left">
+									<label class="label-nombre&nbsp;-style">
+										Nombre&nbsp;
+									</label>
+									<div class=" ">
+										<div class="input-group">
+				
+				<input type="text" minlength="3" maxlength="30" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required="">
+				<div class="valid-feedback">
+					&nbsp; 
+				</div>
+				<div class="invalid-feedback">
+					Ingresa tu nombre
+				  </div>
+			  </div>
+										
+									</div>
+								</div>
+								<div class="form-group text-lg-left">
+										<label class="label-36-style">
+											Email
+										</label>
+									</div>
+								<div >
+										<div class="input-group">
+				
+				<input type="text" minlength="4" maxlength="30" class="form-control" id="email" name="email" placeholder="Nombre" required="">
+				<div class="valid-feedback">
+					&nbsp; 
+				</div>
+				<div class="invalid-feedback">
+					Ingresa tu email
+				  </div>
+			  </div>
+										
+									</div>
+								<div class="form-group text-lg-left">
+											<label class="label-comentario-style">
+												Comentario<br>
+											</label>
+											<div >
+												<div class="input-group">
+				
+				<textarea minlength="10" maxlength="500" class="form-control" id="comentario" name="comentario" placeholder="Comentario" required=""></textarea>				<div class="valid-feedback">
+					&nbsp; 
+				</div>
+				<div class="invalid-feedback">
+					Ingresa tu nombre
+				  </div>
+			  </div>
+												
+											</div>
+										</div>
+								<div class="text-center">
+												<button class="bloc-button btn btn-lg btn-true-blue btn-submit-style btn-glossy" type="submit">
+													Comentar
+												</button>
+											</div>
+							</form>
 					</div>
 				</div>
 			</div>
@@ -578,7 +622,7 @@ body {
 						<div class="offset-lg-0 col-lg-12">
 							<ul class="list-unstyled list-bloc-405-style">
 								<li class="bloc-0-bloc-405-style">
-									<div class="container-div-bloc-405-style text-lg-left text-md-left text-sm-left text-left">
+									<div class="text-lg-left text-md-left text-sm-left text-left">
 										<span class="fa fa-star icon-amber none estrella float-lg-none icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span>
 									</div>
 								</li>
@@ -600,7 +644,7 @@ body {
 							</ul>
 							<ul class="list-unstyled list-bloc-405-style">
 								<li class="bloc-0-bloc-405-style">
-									<div class="container-div-bloc-405-style text-lg-left text-md-left text-sm-left text-left">
+									<div class="text-lg-left text-md-left text-sm-left text-left">
 										<span class="fa fa-star icon-amber none estrella float-lg-none icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span>
 									</div>
 								</li>
@@ -622,7 +666,7 @@ body {
 							</ul>
 							<ul class="list-unstyled list-bloc-405-style">
 								<li class="bloc-0-bloc-405-style">
-									<div class="container-div-bloc-405-style text-lg-left text-md-left text-sm-left text-left">
+									<div class="text-lg-left text-md-left text-sm-left text-left">
 										<span class="fa fa-star icon-amber none estrella float-lg-none icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span>
 									</div>
 								</li>
@@ -787,12 +831,12 @@ body {
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?7984"></script>
-<script src="./js/bootstrap.bundle.min.js?1523"></script>
-<script src="./js/blocs.min.js?5550"></script>
+<script src="./js/jquery.min.js?8142"></script>
+<script src="./js/bootstrap.bundle.min.js?6536"></script>
+<script src="./js/blocs.min.js?2252"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?2168"></script>
-<script src="./js/tilt.jquery.js?273"></script><!-- Additional JS END -->
+<script src="./js/formHandler.js?3498"></script>
+<script src="./js/tilt.jquery.js?7906"></script><!-- Additional JS END -->
 
 <script>
 (function() {
