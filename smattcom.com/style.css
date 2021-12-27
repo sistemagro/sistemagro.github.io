@@ -557,11 +557,6 @@ button{
 	padding:14px;
 }
 
-/* = Text & Icon Styles
--------------------------------------------------------------- */
-.threeD-t{
-	text-shadow:0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),0 20px 20px rgba(0,0,0,.15);
-}
 
 
 /* = Cards
@@ -3259,6 +3254,36 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:800;
 	font-size:25px;
 }
+.link-0---style{
+	text-decoration:underline;
+	color:#0000FF!important;
+}
+.tarjeta-comentario{
+	background-color:rgba(0,0,0,0.06);
+	margin:8px 8px 8px 8px;
+	padding:14px 14px 14px 14px;
+	border-radius:5px 5px 5px 5px;
+}
+.p-style{
+	font-family:"Open Sans";
+	font-weight:800;
+	font-size:25px;
+	margin-top:10px;
+}
+.img-467-style{
+	width:104px;
+	margin-top:31px;
+}
+.btn-274-style{
+	width:23.25%;
+	background-color:#0166CE;
+	margin-top:27px;
+}
+.link-bloc-339-style{
+	text-decoration:underline;
+	margin-top:0px;
+	color:#0000FF!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -4029,6 +4054,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-bloc-3-style{
 		width:40.6%;
+	}
+	.img-467-style{
+		width:79px;
+	}
+	.coments{
+	}
+	.p-534-style{
+		width:37.22%;
+	}
+	.link-0---style{
+		text-decoration:underline;
+		color:#0000FF!important;
+	}
+	.tarjeta-comentario{
+		background-color:rgba(0,0,0,0.09);
+		margin:7px 7px 7px 7px;
+		padding:17px 17px 17px 17px;
+		border-radius:5px 5px 5px 5px;
 	}
 	
 }
@@ -5239,6 +5282,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-0-bloc-3-style{
 		width:100%;
+	}
+	.btn-274-style{
+		width:64.06%;
 	}
 	
 }
