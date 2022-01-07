@@ -8,10 +8,10 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2504">
-	<link rel="stylesheet" type="text/css" href="style.css?3330">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?35">
-	<link rel="stylesheet" type="text/css" href="./css/tabla.css?7473">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?2416">
+	<link rel="stylesheet" type="text/css" href="style.css?8602">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?2485">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?8500">
 	
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
@@ -21,6 +21,72 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Precio de Cebolla</title>
 
+<style>
+body {
+	width: 610;
+	font-family: Arial;
+}
+
+.demo-table {
+	width: 100%;
+	border-spacing: initial;
+	margin: 5px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;
+}
+
+.demo-table th {
+	background: #0667D0;
+	padding: 5px;
+	text-align: left;
+	color: #FFF;
+}
+
+.demo-table td {
+	background-color: #ffffff;
+	padding: 5px 5px 5px;
+}
+
+.demo-table td div.feed_title {
+	text-decoration: none;
+	color: #003fff;
+	font-weight: bold;
+}
+
+.demo-table ul {
+	margin: 0;
+	padding: 5px;	
+}
+
+.demo-table li {
+	cursor: pointer;
+	list-style-type: none;
+	display: inline-block;
+	color: #F0F0F0;
+	text-shadow: 0 0 1px #666666;
+	font-size: 20px;
+}
+
+.demo-table .highlight, .demo-table .selected {
+	color: #F4B30A;
+	text-shadow: 0 0 1px #F48F0A;
+}
+
+.star-rating-box {
+	border: #E4E4E4 1px solid;
+	margin: 5px 0px;
+}
+
+.star-rating-count {
+	border-top: #E4E4E4 1px solid;
+	font-size: 0.8em;
+	padding: 2px 5px;
+	background: #f9f9f9;
+	color: #828181;
+}
+</style>
 <style>
 .carousel-item:hover {cursor: pointer;}
 </style>
@@ -49,7 +115,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc color-nav sticky-nav d-bloc" id="bloc-0">
+<div class="bloc color-nav sticky-nav d-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col">
@@ -231,7 +297,7 @@
 									<div class="row row-108-margin-top">
 										<div class="col-lg-6 col-md-7 col-sm-5 col-12 bloc-bloc-12-margin-top">
 											<div class="text-center">
-												<a href="#" class="btn btn-d btn-lg smatt btn-27-style btn-azul descargasmatt" data-target="_blank" target="_blank">Descarga Smattcom en tu celular</a>
+												<a href="#" class="btn btn-d btn-lg smatt btn-27-style btn-azul descargasmatt">Descarga Smattcom en tu celular</a>
 											</div>
 										</div>
 									</div>
@@ -445,12 +511,141 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?1246"></script>
-<script src="./js/bootstrap.bundle.min.js?763"></script>
-<script src="./js/blocs.min.js?8280"></script>
-<script src="./js/tilt.jquery.js?9161"></script>
-<script src="./js/universal-parallax.min.js?1601"></script><!-- Additional JS END -->
+<script src="./js/jquery.min.js?4454"></script>
+<script src="./js/bootstrap.bundle.min.js?4045"></script>
+<script src="./js/blocs.min.js?3967"></script>
+<script src="./js/tilt.jquery.js?5594"></script>
+<script src="./js/universal-parallax.min.js?9569"></script><!-- Additional JS END -->
 
+<script>
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+
+
+  $('.btn-submit-comment').click(function(e){
+    Ejecutar(e);
+  });
+
+function Ejecutar(e)
+{
+
+ var ejecutar = true;   
+
+    if (!$("#form_valoracion")[0].checkValidity()) {       
+        ejecutar = false;        
+        $("#form_valoracion").find("#submit-hidden").click();
+      }
+
+    var Okvaloracion = valida_valoracion();
+
+      if (ejecutar && Okvaloracion)      
+    {
+
+        $.when(Procesar(e,'servicios/comentarios',$("#form_valoracion").serialize())).then(function(Resultado,e){
+            if(e=="success")
+            {             
+             if(Resultado.Result=='OK'){                
+               $( "#Comentario" ).remove();                    
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'success'
+               );
+             }
+             else
+             {
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'error'
+               );
+             }
+            }
+            else
+            {
+             Swal.fire(
+               '¡Ups!',
+               'Hay dificultades, vuelve a intentarlo, si el problema persiste, contacta a soporte',
+               'error'
+             );
+            }    
+         });       
+    }
+}
+
+
+function valida_valoracion()
+{
+    if($('#valoracion').val()=="")
+    {
+        $("#div_invalid_Valoracion").css("display", "block");
+        $("#ul_valoracion").attr("style", "border: 1px solid red;")
+        return false;
+    }
+    else
+    {
+        $("#div_invalid_Valoracion").css("display", "none");
+        $("#ul_valoracion").attr("style", "border: none;")
+        return true;
+    }
+}
+
+
+
+
+
+function highlightStar(obj,id) {
+    removeHighlight(id);		
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('highlight');
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+    });
+}
+
+function removeHighlight(id) {
+    $('.demo-table #valoracion-'+id+' li').removeClass('selected');
+    $('.demo-table #valoracion-'+id+' li').removeClass('highlight');
+}
+
+function addRating(obj,id) {
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('selected');
+        $('#valoracion-'+id+' #valoracion').val((index+1));
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+        valida_valoracion();
+    });	
+}
+
+function resetRating(id) {
+    if($('#valoracion-'+id+' #valoracion').val() != 0) {
+        $('.demo-table #valoracion-'+id+' li').each(function(index) {
+            $(this).addClass('selected');
+            if((index+1) == $('#valoracion-'+id+' #valoracion').val()) {
+                return false;	
+            }
+        });
+    }
+} 
+</script>
 
 </body>
 </html>
