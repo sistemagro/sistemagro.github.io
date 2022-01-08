@@ -2449,7 +2449,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:400px;
 }
 .img-14882-style{
-	width:243px;
+	width:247px;
 	margin-top:48px;
 }
 .padding-card-descarga{
@@ -3283,6 +3283,31 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:underline;
 	margin-top:0px;
 	color:#0000FF!important;
+}
+.btn-bloc-3-style{
+	text-decoration:none;
+}
+.h5-90-style{
+	font-size:27px;
+	margin-top:34px;
+	color:#000000!important;
+}
+.h6-17-style{
+	font-size:23px;
+	margin-top:34px;
+}
+.btn-descargas{
+	margin-top:36px;
+	color:#FEFFFE!important;
+	background-color:#045ECC;
+	margin-bottom:31px;
+}
+.link-descarga{
+	margin-top:0px;
+	padding-top:0px;
+}
+.link-25049-style{
+	text-decoration:underline;
 }
 
 /* = Colour
@@ -5285,6 +5310,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-274-style{
 		width:64.06%;
+	}
+	.h5-90-style{
+		font-size:20px;
+	}
+	.h6-17-style{
+		font-size:18px;
+	}
+	.link-25049-style{
+		text-decoration:underline;
 	}
 	
 }
