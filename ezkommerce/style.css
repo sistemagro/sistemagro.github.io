@@ -1032,10 +1032,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:69px;
 }
 .p-30844-style{
-	font-family:"Open Sans";
+	font-family:(null);
 	font-weight:800;
 	font-size:25px;
 	margin-top:13px;
+	color:#000000!important;
 }
 .titular{
 	margin-bottom:23px;
@@ -1120,6 +1121,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* = Custom Bric Data
 -------------------------------------------------------------- */
 
+.code-embed{
+	color:#000;
+}
 
 
 /* = Bloc Padding Multi Breakpoint
