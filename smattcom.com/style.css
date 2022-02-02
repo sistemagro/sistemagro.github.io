@@ -3209,9 +3209,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top:20px;
 }
 .h6-comentarios-style{
-	font-family:"Open Sans";
+	font-family:(null);
 	font-weight:800;
 	font-size:18px;
+	color:#000000!important;
 }
 .btn-20-style{
 	width:121.62%;
@@ -3265,10 +3266,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:5px 5px 5px 5px;
 }
 .p-style{
-	font-family:"Open Sans";
+	font-family:(null);
 	font-weight:800;
 	font-size:25px;
 	margin-top:10px;
+	color:#000000!important;
 }
 .img-467-style{
 	width:104px;
@@ -3308,6 +3310,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-25049-style{
 	text-decoration:underline;
+}
+.margin-funciona{
+	margin-bottom:46px;
 }
 
 /* = Colour
