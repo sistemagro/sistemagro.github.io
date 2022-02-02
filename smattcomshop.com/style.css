@@ -154,12 +154,24 @@ button{
 
 /* = Icons
 -------------------------------------------------------------- */
+.icon-sm{
+	font-size:18px!important;
+}
 .icon-md{
 	font-size:30px!important;
 }
 
 
 
+/* = Lists
+-------------------------------------------------------------- */
+.list-horizontal-layout li{
+	display:inline-block;
+	margin:0 10px;
+}
+.list-sp-md li:last-child,.list-sp-lg li:last-child,.list-sp-xl li:last-child{
+	padding-bottom:0;
+}
 
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
@@ -414,6 +426,52 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .parrafos{
 	font-family:"Open Sans";
 }
+.img-icon-comentar-style{
+	width:76px;
+	margin-top:18px;
+}
+.btn-button-style{
+	width:100%;
+	background-color:#025DCC;
+}
+.h2-style{
+	font-family:(null);
+	margin-bottom:5px;
+	font-size:28px;
+	color:#000000!important;
+}
+.btn-button-style:hover{
+	background-color:rgba(0,0,0,0.39);
+}
+.caja-coment{
+	margin-top:14px;
+	background-color:rgba(0,0,0,0.08);
+	padding:18px 18px 18px 18px;
+	border-radius:10px 10px 10px 10px;
+}
+.bloc-style{
+	width:18.92%;
+}
+.bloc-0-style{
+	width:74.09%;
+}
+.container-div-20872-style{
+	width:100%;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.fecha-comentarios{
+	margin-bottom:0px;
+	margin-top:6px;
+}
+.h6-araceli-cortés-style{
+	font-size:20px;
+	margin-bottom:0px;
+}
+.link---style{
+	text-decoration:underline;
+	color:#0000FF!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -422,6 +480,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-anti-flash-white{
 	background-color:#F0F3F7;
+}
+
+/* Icon colour styles */
+
+.icon-amber{
+	color:#FFBE00!important;
+	border-color:#FFBE00!important;
 }
 
 
