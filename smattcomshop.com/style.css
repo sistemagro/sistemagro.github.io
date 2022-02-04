@@ -378,7 +378,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:147px;
 }
 .btn-buscar-style{
-	width:21.89%;
+	width:35.11%;
 	margin-top:26px;
 	background-color:#E4E5E4;
 	color:rgba(0,0,0,0.54)!important;
@@ -397,10 +397,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-4-style:hover{
 	background-color:rgba(0,0,0,0.18);
-}
-.option-select-style{
-	width:80.67%;
-	margin-left:50px;
 }
 .p-bloc-0-style{
 	width:100%;
@@ -608,10 +604,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-left:79px;
 	}
 	.btn-buscar-style{
-		width:35.59%;
+		width:63.35%;
 	}
-	.option-select-style{
-		margin-left:31px;
+	.img-1-style{
+		width:191px;
+	}
+	.text-p{
+	}
+	.container-div-20872-style{
+		width:100%;
+	}
+	.bloc-style{
+		width:40.73%;
+	}
+	.card-hom{
 	}
 	
 }
