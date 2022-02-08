@@ -812,6 +812,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:5px;
 	color:#5E5E5E!important;
 	font-size:22px;
+	width:100%;
 }
 .h1-blog-smattcom-margin-top{
 	margin-top:0px;
@@ -1884,9 +1885,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .row-bloc-140-margin-bottom{
 	margin-bottom:50px;
 }
-.p-bloc-7-margin-top{
-	margin-top:-1px;
-}
 .p-bloc-25-style{
 	font-size:25px;
 	margin-bottom:0px;
@@ -2348,9 +2346,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-bloc-7-style{
 	width:46.4%;
-}
-.p-10-margin-bottom{
-	margin-bottom:50px;
 }
 .txt-titulo-categorias{
 	font-family:"Montserrat";
@@ -3311,6 +3306,92 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .margin-funciona{
 	margin-bottom:46px;
 }
+.img-538-style{
+	width:74px;
+}
+.img-539-style{
+	width:97px;
+}
+.h5-bloc-146-style{
+	width:90.33%;
+	margin-left:39px;
+}
+.img-540-style{
+	width:171px;
+}
+.img-carritoblan-style{
+	width:107px;
+}
+.link-smattcom-shop-style{
+	text-decoration:underline;
+}
+.img-462-style{
+	width:109px;
+}
+.img-461-style{
+	width:78px;
+}
+.img-bloc-333-style{
+	width:79px;
+}
+.button-margin{
+	margin-top:0px;
+	margin-bottom:22px;
+}
+.btn-bloc-333-style{
+	width:100%;
+}
+.parrafo-margin{
+	margin-top:45px;
+}
+.img-graficaestrel-style{
+	width:97px;
+}
+.p-553-style{
+	font-family:"Montserrat";
+	width:86.12%;
+}
+.link-0-smattcom-shop-style{
+	text-decoration:underline;
+}
+.link-app-smattcom-style{
+	text-decoration:underline;
+}
+.link-30373-style{
+	text-decoration:underline;
+}
+.tps{
+	color:#045CC7!important;
+}
+.link-comisión-style{
+	text-decoration:underline;
+}
+.link-0-bloc-146-style{
+	text-decoration:underline;
+}
+.p-bloc-146-style{
+	width:82.2%;
+	font-size:22px;
+	color:rgba(0,0,0,0.69)!important;
+}
+.link-5002-style{
+	text-decoration:underline;
+}
+.link-40686-style{
+	text-decoration:underline;
+}
+.img-icon-style{
+	width:65px;
+	margin-bottom:28px;
+	margin-top:33px;
+}
+.img-442-style{
+	width:63px;
+	margin-top:18px;
+}
+.img-441-style{
+	width:114px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -3934,9 +4015,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h1-11-margin-bottom{
 		margin-bottom:25px;
 	}
-	.p-bloc-7-margin-top{
-		margin-bottom:0px;
-	}
 	.bg-banner-precios{
 		background-image:url("img/imagen%20banner%20precios%20tablet%20sin%20boton.png");
 		background-size:100% auto;
@@ -4353,9 +4431,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.p-15-margin-bottom{
 		margin-top:50px;
-	}
-	.p-bloc-7-margin-top{
-		margin-bottom:0px;
 	}
 	.link-margin-left{
 		margin-left:20px;
@@ -4936,10 +5011,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-19746-margin-top{
 		margin-top:20px;
-	}
-	.p-bloc-7-margin-top{
-		margin-bottom:25px;
-		margin-top:0px;
 	}
 	.container-div-cards-blog-style{
 		width:100%;
