@@ -498,6 +498,12 @@ button{
 .btn-rd{
 	border-radius: 40px;
 }
+.btn-clean{
+	border:1px solid rgba(0,0,0,.08);
+	border-bottom-color:rgba(0,0,0,.1);
+	text-shadow:0 1px 0 rgba(0,0,1,.1);
+	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
+}
 .btn-glossy{
 	border:1px solid rgba(0,0,0,.09);
 	border-bottom-color:rgba(0,0,0,.2);
@@ -699,9 +705,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tabladeprecios-header{
 	font-family:"Montserrat";
 	font-weight:600;
-	font-size:20px;
-	color:#FFFFFF!important;
-	background-color:#0667D0;
+	font-size:32px;
+	color:#000000!important;
 	text-align:center;
 	text-transform:none;
 	background-size:length;
@@ -2220,6 +2225,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:50px;
 	margin-top:25px;
 	font-family:"Montserrat";
+	line-height:24px;
 }
 .btn-bloc-15-margin-top{
 	margin-top:13px;
@@ -2299,6 +2305,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-bloc-14-margin-top{
 	margin-top:50px;
+	font-size:32px;
 }
 .row-108-margin-top{
 	margin-top:257px;
@@ -3391,6 +3398,32 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-441-style{
 	width:114px;
+}
+.btn-56-style{
+	width:100%;
+	background-color:#0566CF;
+}
+.btn-57-style{
+	width:100%;
+	background-color:#0566CF;
+}
+.img-51-style{
+	width:93px;
+}
+.img-bloc-28-style{
+	width:106px;
+}
+.img-graficaascien-style{
+	width:91px;
+}
+.link-bloc-28-style{
+	text-decoration:underline;
+}
+.link-0-bloc-28-style{
+	text-decoration:underline;
+}
+.p-bloc-28-style{
+	width:95.12%;
 }
 
 /* = Colour
