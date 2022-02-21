@@ -2918,6 +2918,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-bloc-146-style{
 	width:24.78%;
+	text-decoration:underline;
 }
 .subrrayado{
 	text-decoration:underline!important;
@@ -3682,6 +3683,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-bloc-235-style{
 	font-family:"Montserrat";
+}
+.link-5427-style{
+	text-decoration:underline;
+}
+.link-3999-style{
+	text-decoration:underline;
+}
+.link-bloc-271-style{
+	text-decoration:underline;
+}
+.link-0-bloc-271-style{
+	text-decoration:underline;
+}
+.link-23397-style{
+	text-decoration:underline;
+}
+.link-11711-style{
+	text-decoration:underline;
+}
+.link-23577-style{
+	text-decoration:underline;
 }
 
 /* = Colour
@@ -5699,7 +5721,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:24px;
 	}
 	.h3-254-style{
-		font-size:24px;
+		font-size:20px;
 	}
 	.h3-bloc-389-style{
 		font-size:24px;
