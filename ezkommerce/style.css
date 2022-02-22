@@ -1121,7 +1121,643 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* = Custom Bric Data
 -------------------------------------------------------------- */
 
-.code-embed{
+/**************************************************** * Tab Anything * Made for Blocs app for Mac * Author: Whittfield Holmes, Blochead.dev, CodeMyBrand.com * Last Modified Date: December 6, 2021 8:00am CST*****************************************************/@charset "UTF-8";
+	.tab-anything.indent-hover[data-orientation=vertical][data-glyphs=Text i][data-rotate="0"i] label span{
+	transition:all .5s ease}.tab-anything.indent-hover[data-orientation=vertical][data-glyphs=Text i][data-rotate="0"i] label:hover span{
+	margin-left:10px;
+	transition:all .5s ease}.tab-anything.indent-hover.indent-selected[data-orientation=vertical][data-glyphs=Text i][data-rotate="0"i] label.selected span{
+	margin-left:10px;
+	transition:all .5s ease}.tab-anything.indent-hover[data-orientation=horizontal][data-glyphs=Text i][data-rotate="0"i] label span{
+	transition:all .5s ease}.tab-anything.indent-hover[data-orientation=horizontal][data-glyphs=Text i][data-rotate="0"i] label:hover span{
+	margin-left:10px;
+	margin-right:10px;
+	transition:all .5s ease}.tab-anything.indent-hover.indent-selected[data-orientation=horizontal][data-glyphs=Text i][data-rotate="0"i] label.selected span{
+	margin-left:10px;
+	margin-right:10px;
+	transition:all .5s ease}.next,.prev{
+	cursor:pointer}label{
+	margin:0}.tab-anything-btn input{
+	opacity:0;
+	position:absolute;
+	width:0;
+	height:0}.tab-anything[class^=col-]{
+	padding-left:0!important;
+	padding-right:0!important}.tab-anything .dropdown-menu.fullwidth,.tab-anything .dropdown-toggle.fullwidth,.tab-anything label span{
+	width:100%;
+	text-align:center;
+	white-space:nowrap}.tab-anything .btn-group-wrapper{
+	line-height:0}.tab-anything[data-font-weight=bold] .dropdown-toggle span,.tab-anything[data-font-weight=bold] label span{
+	font-weight:700}.tab-anything[data-transition="1"] label,.tab-anything[data-transition="1"] label .glyph,.tab-anything[data-transition="1"] label span{
+	transition:all .5s ease-out}.tab-anything[data-radius="Pill Shape"][data-detached=false][data-orientation=horizontal] label.btn.wider:first-of-type{
+	padding-left:1.5em!important}.tab-anything[data-radius="Pill Shape"][data-detached=false][data-orientation=horizontal] label.btn.wider:last-of-type{
+	padding-right:1.5em!important}.tab-anything a.btn.dropdown-toggle.wider{
+	padding-left:1.7em!important;
+	padding-right:1.7em!important}.tab-anything[data-width="1"] .btn-group,.tab-anything[data-width="1"] label,.tab-anything[data-width="1"] label span{
+	width:100%}.tab-anything[data-orientation=horizontal] .btn-group{
+	display:inline-flex}.tab-anything[data-orientation=horizontal][data-detached=true] label{
+	margin:0 10px}.tab-anything[data-orientation=horizontal][data-detached=true][data-gap-increase=true] label{
+	margin:0 18px}.tab-anything[data-orientation=horizontal][data-detached=true] label.btn:first-of-type{
+	margin-left:0}.tab-anything[data-orientation=horizontal][data-detached=true] label.btn:last-of-type{
+	margin-right:0}.tab-anything[data-orientation=vertical][data-detached=false] .btn-group{
+	display:inline-block}.tab-anything[data-orientation=vertical][data-detached=false] .btn-group label{
+	display:block}.tab-anything[data-orientation=vertical][data-detached=true] .btn-group{
+	display:inline-block}.tab-anything[data-orientation=vertical][data-detached=true] .btn-group label{
+	display:block}.tab-anything[data-orientation=vertical i][data-detached=true][data-rotate="0"] label.btn{
+	margin-top:5px;
+	margin-bottom:5px}.tab-anything[data-orientation=vertical i][data-detached=true][data-rotate="1"] label.btn{
+	margin-top:10px;
+	margin-bottom:10px}.tab-anything[data-orientation=vertical i][data-detached=true][data-rotate="0"][data-gap-increase=true] label.btn{
+	margin-top:10px;
+	margin-bottom:10px}.tab-anything[data-orientation=vertical i][data-detached=true][data-rotate="1"][data-gap-increase=true] label.btn{
+	margin-top:20px;
+	margin-bottom:20px}.tab-anything[data-orientation=vertical i][data-detached=true] label.btn:first-of-type,.tab-anything[data-orientation=vertical i][data-detached=true][data-gap-increase=true] label.btn:first-of-type{
+	margin-top:0}.tab-anything[data-orientation=vertical i][data-detached=true] label.btn:last-of-type,.tab-anything[data-orientation=vertical i][data-detached=true][data-gap-increase=true] label.btn:last-of-type{
+	margin-bottom:0}.tab-anything[data-glyphs=bars] label.sml{
+	height:10px!important}.tab-anything[data-glyphs=bars] label.med{
+	height:20px!important}.tab-anything[data-glyphs=bars] label.lrg{
+	height:30px!important}.tab-anything[data-glyphs=bars] label.short{
+	min-width:50px}.tab-anything[data-glyphs=bars] label.long{
+	min-width:80px}.tab-anything[data-glyphs=bars] label{
+	line-height:0!important;
+	padding:0!important}.tab-anything[data-glyphs=bars] label span{
+	font-size:0!important;
+	top:.175em!important;
+	color:transparent!important}.tab-anything[data-glyphs=bullets][data-orientation=vertical] .btn-group{
+	min-height:auto;
+	height:auto}.tab-anything[data-glyphs=bullets][data-orientation=vertical] label{
+	min-height:25px}.tab-anything[data-glyphs=bullets] label{
+	height:25px;
+	min-height:25px;
+	min-width:50px;
+	padding-top:0;
+	padding-bottom:0;
+	line-height:.5em}.tab-anything[data-glyphs=bullets] .btn-group{
+	height:25px}.tab-anything[data-glyphs=bullets] label{
+	background-color:transparent!important;
+	border-color:transparent!important}.tab-anything[data-glyphs=bullets] label .glyph{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif!important}.tab-anything[data-glyph-size=sml] label .glyph{
+	font-size:24px!important}.tab-anything[data-glyph-size=med] label .glyph{
+	font-size:34px!important}.tab-anything[data-glyph-size=lrg] label .glyph{
+	font-size:44px!important}.tab-anything[data-focus=off i] .btn-group input,.tab-anything[data-focus=off i] .dropdown-toggle:focus,.tab-anything[data-focus=off i] label{
+	outline:0;
+	box-shadow:none}.tab-anything[data-flush=left i][data-glyphs=bullets] .btn-group label{
+	padding-left:0;
+	padding-right:30px;
+	min-width:auto}.tab-anything[data-border-color=transparent i] a.btn.dropdown-toggle,.tab-anything[data-border-color=transparent i] label.btn{
+	border-color:transparent}.tab-anything[data-border-color=transparent i] .btn-group>.btn-group:not(:first-child),.tab-anything[data-border-color=transparent i] .btn-group>.btn:not(:first-child){
+	margin-left:0}.tab-anything[data-mobile-swap="0"i] .dropdown{
+	display:none}.tab-anything .dropdown-menu{
+	z-index:9999;
+	transform:translate3d(18px,-95px,0 !important);
+	-webkit-transform:translate3d(18px,-95px,0 !important)}.tab-anything .dropdown-menu a:hover{
+	background-color:transparent}.tab-anything .dropdown-menu a.active span{
+	color:#fff}.tab-anything .dropdown-menu a span{
+	color:#444}.tab-anything .dropdown-item{
+	padding:.45rem 1.5rem}.tab-anything[data-bkgrnd=transparent i] .dropdown-menu{
+	background-color:#fff!important}.tab-anything a.btn.dropdown-toggle span{
+	background-color:transparent;
+	border-color:transparent!important;
+	margin-right:3px}.tab-anything .dropdown-toggle::after{
+	position:relative;
+	top:1px;
+	border-top:.27em solid;
+	border-right:.27em solid transparent;
+	border-bottom:0;
+	border-left:.27em solid transparent}@media only screen and (max-width:767px){
+	.tab-anything[data-mobile-swap="0"i] .btn-group-wrapper{
+	display:block!important}.tab-anything[data-mobile-swap="0"i] .mobile-wrapper{
+	display:none!important}.tab-anything[data-mobile-swap="1"i] .btn-group-wrapper{
+	display:none!important}.tab-anything[data-mobile-swap="1"i] .mobile-wrapper{
+	display:block!important}}.tab-anything[data-radius=Sharp] .dropdown-toggle,.tab-anything[data-radius=Sharp] label.btn{
+	border-radius:0}.tab-anything[data-radius=Dull][data-orientation=vertical][data-detached=false] label.btn:first-of-type{
+	border-top-left-radius:3px!important;
+	border-top-right-radius:3px!important;
+	border-bottom-left-radius:0!important;
+	border-bottom-right-radius:0!important}.tab-anything[data-radius=Dull][data-orientation=vertical][data-detached=false] label.btn:last-of-type{
+	border-top-left-radius:0!important;
+	border-top-right-radius:0!important;
+	border-bottom-left-radius:3px!important;
+	border-bottom-right-radius:3px!important}.tab-anything[data-radius=Round][data-orientation=vertical][data-detached=false] label:first-of-type{
+	border-top-left-radius:6px!important;
+	border-top-right-radius:6px!important;
+	border-bottom-left-radius:0!important;
+	border-bottom-right-radius:0!important}.tab-anything[data-radius=Round][data-orientation=vertical][data-detached=false] label:last-of-type{
+	border-top-left-radius:0!important;
+	border-top-right-radius:0!important;
+	border-bottom-left-radius:6px!important;
+	border-bottom-right-radius:6px!important}.tab-anything[data-radius=Dull][data-orientation=vertical][data-detached=true] label.btn{
+	border-radius:3px}.tab-anything[data-radius=Round][data-orientation=vertical][data-detached=true] label.btn{
+	border-radius:6px}.tab-anything[data-radius="Pill Shape"][data-orientation=vertical][data-detached=false] label.btn:first-of-type{
+	border-top-left-radius:100px!important;
+	border-top-right-radius:100px!important;
+	border-bottom-left-radius:0!important;
+	border-bottom-right-radius:0!important}.tab-anything[data-radius="Pill Shape"][data-orientation=vertical][data-detached=false] label.btn:last-of-type{
+	border-top-left-radius:0!important;
+	border-top-right-radius:0!important;
+	border-bottom-left-radius:100px!important;
+	border-bottom-right-radius:100px!important}.tab-anything[data-radius="Pill Shape"][data-orientation=vertical][data-detached=false][data-glyphs=text] label.btn:first-of-type{
+	padding-top:10px}.tab-anything[data-radius="Pill Shape"][data-orientation=vertical][data-detached=false][data-glyphs=text] label.btn:last-of-type{
+	padding-bottom:10px}.tab-anything[data-radius=Dull][data-orientation=vertical] .dropdown-toggle{
+	border-radius:3px}.tab-anything[data-radius=Round][data-orientation=vertical] .dropdown-toggle{
+	border-radius:6px}.tab-anything[data-radius="Pill Shape"] .dropdown-toggle,.tab-anything[data-radius="Pill Shape"][data-orientation=vertical][data-detached=true] label.btn{
+	border-radius:100px;
+	padding-left:1.2em;
+	padding-right:1.2em}.tab-anything[data-detached=false][data-orientation=horizontal][data-radius=Dull] label.btn:first-of-type{
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px}.tab-anything[data-detached=false][data-orientation=horizontal][data-radius=Dull] label.btn:last-of-type{
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px}.tab-anything[data-detached=false][data-orientation=horizontal][data-radius=Round] label.btn:first-of-type{
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px}.tab-anything[data-detached=false][data-orientation=horizontal][data-radius=Round] label.btn:last-of-type{
+	border-top-right-radius:6px;
+	border-bottom-right-radius:6px}.tab-anything[data-detached=false][data-orientation=horizontal][data-radius="More Round"] label.btn:first-of-type{
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px}.tab-anything[data-detached=false][data-orientation=horizontal][data-radius="More Round"] label.btn:last-of-type{
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px}.tab-anything[data-detached=false][data-orientation=horizontal][data-radius="Pill Shape"] label.btn:first-of-type{
+	border-top-left-radius:100px;
+	border-bottom-left-radius:100px;
+	padding-left:1.2em}.tab-anything[data-detached=false][data-orientation=horizontal][data-radius="Pill Shape"] label.btn:last-of-type{
+	border-top-right-radius:100px;
+	border-bottom-right-radius:100px;
+	padding-right:1.2em}.tab-anything[data-detached=true][data-radius=Sharp] .btn-group label.btn,.tab-anything[data-detached=true][data-radius=Sharp] .dropdown-toggle{
+	border-radius:0}.tab-anything[data-detached=true][data-radius=Dull] .btn-group label.btn,.tab-anything[data-detached=true][data-radius=Dull] .dropdown-toggle{
+	border-radius:3px}.tab-anything[data-detached=true][data-radius=Round] .btn-group label.btn,.tab-anything[data-detached=true][data-radius=Round] .dropdown-toggle{
+	border-radius:6px}.tab-anything[data-detached=true][data-radius="More Round"] .btn-group label.btn,.tab-anything[data-detached=true][data-radius="More Round"] .dropdown-toggle{
+	border-radius:10px}.tab-anything[data-detached=true][data-radius="Pill Shape"] .btn-group label.btn,.tab-anything[data-detached=true][data-radius="Pill Shape"] .dropdown-toggle{
+	border-radius:100px;
+	padding-left:20px;
+	padding-right:20px}.tab-anything label.btn img.square{
+	border-radius:0}.tab-anything label.btn img.dull-edge{
+	border-radius:2px}.tab-anything label.btn img.slightly-round{
+	border-radius:4px}.tab-anything label.btn img.more-round{
+	border-radius:8px}.tab-anything label.btn img.circle{
+	border-radius:200px}.tab-anything[data-glyphs=Bars i] label.btn img,.tab-anything[data-glyphs=Bullets i] label.btn img,.tab-anything[data-glyphs=Text i] label.btn img{
+	display:none}.tab-anything[data-image-shape=proportional] img.sml{
+	max-width:16px;
+	height:auto}.tab-anything[data-image-shape=proportional] img.med{
+	max-width:24px;
+	height:auto}.tab-anything[data-image-shape=proportional] img.lrg{
+	max-width:32px;
+	height:auto}.tab-anything[data-image-shape=proportional] img.xl{
+	max-width:64px;
+	height:auto}.tab-anything[data-image-shape=proportional] img.xxl{
+	max-width:96px;
+	height:auto}.tab-anything[data-image-shape=proportional] label.svg img.sml{
+	max-width:16px;
+	width:16px;
+	height:auto}.tab-anything[data-image-shape=proportional] label.svg img.med{
+	max-width:24px;
+	width:24px;
+	height:auto}.tab-anything[data-image-shape=proportional] label.svg img.lrg{
+	max-width:32px;
+	width:32px;
+	height:auto}.tab-anything[data-image-shape=proportional] label.svg img.xl{
+	max-width:64px;
+	width:64px;
+	height:auto}.tab-anything[data-image-shape=proportional] label.svg img.xxl{
+	max-width:96px;
+	width:96px;
+	height:auto}.tab-anything[data-image-shape=proportional] .dropdown-item img,.tab-anything[data-image-shape=proportional] .dropdown-toggle img{
+	max-width:64px!important;
+	height:48px!important}.tab-anything[data-image-shape=proportional][data-glyphs=images i] .dropdown-toggle{
+	display:none;
+	max-width:64px!important;
+	height:48px!important}div[id^=tab].d-none{
+	display:none;
+	-webkit-transform:translate3d(0,0,0);
+	transform:translate3d(0,0,0)}.tab-anything[data-glyphs=images] label span{
+	display:none}.tab-anything[data-glyphs=images] .dropdown-item span,.tab-anything[data-glyphs=images] .dropdown-toggle span{
+	display:none!important}.tab-anything[data-glyphs=images] .dropdown-menu{
+	min-width:auto}.tab-anything .dropdown-item img{
+	display:none}.tab-anything[data-glyphs="image w label"] .btn-group-wrapper.d-none{
+	display:block!important}.tab-anything[data-glyphs="image w label"] label span{
+	display:table;
+	margin-top:10px;
+	max-width:150px;
+	text-align:center}.tab-anything[data-glyphs="image w label"][data-image-zoom=Zoom] .tab-anything-btn-group label.btn{
+	display:table;
+	align-self:center}.tab-anything[data-glyphs=images] .btn-group-wrapper.d-none{
+	display:block!important}.tab-anything[data-glyphs=images] .btn-group-wrapper.d-none{
+	display:block!important}.tab-anything[data-glyphs=images] label span{
+	display:none}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] .tab-anything-btn-group label{
+	display:table;
+	align-self:center}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label img{
+	vertical-align:middle}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label img.sml{
+	border-width:1px;
+	border-style:solid;
+	border-color:transparent;
+	background-clip:padding-box}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label img.med{
+	border-width:1px;
+	border-style:solid;
+	border-color:transparent;
+	background-clip:padding-box}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label img.lrg{
+	border-width:2px;
+	border-style:solid;
+	border-color:transparent;
+	background-clip:padding-box}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label img.xl{
+	border-width:4px;
+	border-style:solid;
+	border-color:transparent;
+	background-clip:padding-box}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label img.xxl{
+	border-width:8px;
+	border-style:solid;
+	border-color:transparent;
+	background-clip:padding-box}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label.active img,.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label.selected img{
+	border-width:0;
+	border-style:solid;
+	border-color:transparent}.tab-anything[data-glyphs^=image][data-image-opacity=Opacity] label img{
+	opacity:.5;
+	transition:opacity .4s}.tab-anything[data-glyphs^=image][data-image-opacity=Opacity] label.active img,.tab-anything[data-glyphs^=image][data-image-opacity=Opacity] label.selected img{
+	opacity:1;
+	transition:opacity .4s}.tab-anything[data-glyphs=images][data-orientation=vertical] label{
+	padding-top:.6em;
+	padding-bottom:.6em}.tab-anything[data-glyphs=images][data-orientation=vertical] label.less{
+	padding-top:.3em;
+	padding-bottom:.3em}.tab-anything[data-glyphs=images][data-orientation=vertical] label.more{
+	padding-top:1em;
+	padding-bottom:1em}.tab-anything[data-glyphs=images][data-orientation=horizontal] label.less{
+	padding-left:.4em;
+	padding-right:.4em}.tab-anything[data-glyphs=images][data-orientation=horizontal] label.more{
+	padding-left:1.2em;
+	padding-right:1.2em}@media only screen and (max-width:480px){
+	.tab-anything[data-image-shape=proportional] img.xxl{
+	max-width:64px!important}.tab-anything[data-image-shape=proportional] label.svg img.xxl{
+	max-width:64px!important;
+	width:64px!important}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label img.xxl{
+	border-width:4px!important;
+	border-style:solid;
+	border-color:transparent;
+	background-clip:padding-box}.tab-anything[data-glyphs=images][data-image-zoom=Zoom] label.active img.xxl{
+	border-width:0!important;
+	border-style:solid;
+	border-color:transparent;
+	background-clip:padding-box}}.tab-anything[data-orientation=vertical][data-rotate="0"][data-align-label=text-left] .btn-group{
+	text-align:left!important}.tab-anything[data-orientation=vertical][data-rotate="0"][data-align-label=text-center] .btn-group{
+	text-align:center!important}.tab-anything[data-orientation=vertical][data-rotate="0"][data-align-label=text-right] .btn-group{
+	text-align:right!important}.tab-anything[data-orientation=horizontal][data-rotate="1"][data-align-btns="0"] .btn-group,.tab-anything[data-orientation=vertical] .btn-group.text-left{
+	justify-content:flex-start}.tab-anything[data-orientation=horizontal][data-rotate="1"][data-align-btns="1"] .btn-group,.tab-anything[data-orientation=vertical] .btn-group.text-center{
+	justify-content:center}.tab-anything[data-orientation=horizontal][data-rotate="1"][data-align-btns="2"] .btn-group,.tab-anything[data-orientation=vertical] .btn-group.text-right{
+	justify-content:flex-end}.tab-anything[data-orientation=horizontal][data-rotate="1"][data-width="1"][data-align-btns="0"] .btn-group{
+	justify-content:flex-start!important}.tab-anything[data-orientation=horizontal][data-rotate="1"][data-width="1"][data-align-btns="1"] .btn-group{
+	justify-content:center!important}.tab-anything[data-orientation=horizontal][data-rotate="1"][data-width="1"][data-align-btns="2"] .btn-group{
+	justify-content:flex-end!important}.tab-anything[data-orientation=vertical][data-rotate="0"][data-width="1"][data-align-label=text-left] label.btn{
+	text-align:left!important}.tab-anything[data-orientation=vertical][data-rotate="0"][data-width="1"][data-align-label=text-center] label.btn{
+	text-align:center!important}.tab-anything[data-orientation=vertical][data-rotate="0"][data-width="1"][data-align-label=text-right] label.btn{
+	text-align:right!important}.tab-anything[data-orientation=horizontal][data-rotate="1"] label.wider{
+	width:46px!important}.tab-anything[data-orientation=horizontal][data-rotate="1"] label.wider span{
+	padding:0!important;
+	height:auto;
+	width:46px!important;
+	margin-left:0}.tab-anything[data-orientation=vertical][data-rotate="0"][data-width="1"] .btn-group,.tab-anything[data-orientation=vertical][data-width="1"] label{
+	width:100%}.tab-anything[data-orientation=vertical][data-width="0"] label{
+	width:fit-content}.tab-anything[data-orientation=vertical][data-rotate="1"][data-width="1"] .btn-group{
+	height:100%;
+	width:46px}.tab-anything[data-orientation=horizontal][data-rotate="1"][data-width="0"] .btn-group{
+	align-items:flex-end!important}.tab-anything[data-orientation=horizontal][data-rotate="1"][data-fit="1"] label{
+	height:100%;
+	width:100%}.tab-anything[data-rotate="1"] label{
+	padding-top:10px;
+	padding-bottom:10px;
+	line-height:0;
+	width:46px}.tab-anything[data-rotate="1"] label span{
+	position:relative;
+	top:50%;
+	white-space:nowrap;
+	writing-mode:tb-rl;
+	transform:rotate(-180deg);
+	position:relative;
+	width:25px;
+	line-height:0;
+	top:0;
+	left:50%}.tab-anything[data-orientation=vertical][data-detached=true][data-rotate="1"][data-radius="Pill Shape"] label{
+	padding:20px}.tab-anything[data-orientation=horizontal][data-detached=true][data-rotate="1"][data-radius="Pill Shape"] label{
+	padding-top:20px;
+	padding-bottom:20px;
+	width:46px}.tab-anything[data-orientation=vertical][data-detached=false][data-rotate="0"] .btn-group.tborder label.btn,.tab-anything[data-orientation=vertical][data-detached=false][data-rotate="0"] .btn-group.tborder label.btn.selected,.tab-anything[data-orientation=vertical][data-detached=false][data-rotate="0"] .btn-group.tborder label.btn:hover{
+	margin-bottom:-1px!important;
+	margin-left:0!important;
+	margin-right:0!important}.tab-anything[data-orientation=vertical][data-detached=false][data-rotate="1"] .btn-group.tborder label.btn,.tab-anything[data-orientation=vertical][data-detached=false][data-rotate="1"] .btn-group.tborder label.btn.selected,.tab-anything[data-orientation=vertical][data-detached=false][data-rotate="1"] .btn-group.tborder label.btn:hover{
+	margin-bottom:-1px!important;
+	margin-left:0!important;
+	margin-right:0!important}.tab-anything[data-orientation=horizontal][data-width="1"][data-rotate="1"] .btn-group{
+	justify-content:center}.tab-anything[data-orientation=horizontal][data-width="1"][data-rotate="1"] .btn-group label{
+	align-items:flex-end!important;
+	display:inline-flex;
+	max-width:46px}.tab-anything[data-orientation=horizontal][data-width="1"][data-rotate="1"] .btn-group label span{
+	position:relative;
+	width:100%;
+	display:block;
+	left:50%}.tab-anything[data-orientation=vertical][data-rotate="0"] .btn-group{
+	width:min-content;
+	text-align:right}.tab-anything[data-orientation=vertical][data-rotate="0"] label.btn{
+	padding-top:6px;
+	padding-bottom:6px;
+	height:fit-content;
+	display:inline-block!important}.tab-anything[data-orientation=vertical][data-rotate="0"] label.btn span{
+	position:relative!important}.tab-anything[data-orientation=vertical][data-rotate="1"] label.btn{
+	width:46px!important}.tab-anything[data-orientation=vertical][data-rotate="1"] label.btn span{
+	display:inline-block;
+	position:relative!important;
+	top:50%}.tab-anything[data-align-label=text-left i][data-flush="1"][data-orientation=vertical] label.btn{
+	padding-left:0!important}.tab-anything[data-align-label=text-right i][data-flush="1"][data-orientation=vertical] label.btn{
+	padding-right:0!important}.tab-anything.wrap[data-orientation=horizontal][data-detached=false] label:nth-child(1),.tab-anything.wrap[data-orientation=horizontal][data-detached=false] label:nth-child(2){
+	float:left}.tab-anything.wrap[data-orientation=horizontal] .tab-anything-btn-group{
+	display:block!important;
+	text-align:left!important}.tab-anything.wrap[data-detached=true] label{
+	float:left;
+	margin:5px!important}.tab-anything.wrap[data-detached=true][data-gap-increase=true] label{
+	float:left;
+	margin:10px!important}.tab-anything.wrap[data-width="1"] label{
+	margin-right:0}div[id^=tab]{
+	display:block}div[id^=tab].show .fade{
+	animation:fade 1s forwards;
+	-webkit-animation:fade 1s forwards}div[id^=tab].show .slide-in-fade-up{
+	animation:slideInFadeUp 1s forwards;
+	-webkit-animation:slideInFadeUp 1s forwards}div[id^=tab].show .slide-in-fade-down{
+	animation:slideInFadeDown 1s forwards;
+	-webkit-animation:slideInFadeDown 1s forwards}div[id^=tab].show .slide-in-fade-left{
+	animation:slideInFadeLeft 1s forwards;
+	-webkit-animation:slideInFadeLeft 1s forwards}div[id^=tab].show .slide-in-fade-right{
+	animation:slideInFadeRight 1s forwards;
+	-webkit-animation:slideInFadeRight 1s forwards}div[id^=tab].show .zoom-in{
+	animation:zoomIn 1s forwards;
+	-webkit-animation:zoomIn 1s forwards}div[id^=tab].show .zoom-in-up{
+	animation:zoomInUp 1s forwards;
+	-webkit-animation:zoomInUp 1s forwards}div[id^=tab].show .zoom-in-down{
+	animation:zoomInDown 1s forwards;
+	-webkit-animation:zoomInDown 1s forwards}div[id^=tab].show .bounce-in{
+	animation:bounceIn 1s forwards;
+	-webkit-animation:bounceIn 1s forwards}div[id^=tab].show .dramatic{
+	animation:dramatic 1s forwards;
+	-webkit-animation:dramatic 1s forwards}div[id^=tab].show .tick-tick-zoom{
+	animation:ticktickzoom 1s forwards;
+	-webkit-animation:ticktickzoom 1s forwards}@keyframes fade{
+	100%{
+	opacity:1}}@keyframes slideInFadeUp{
+	0%{
+	opacity:0;
+	transform:translate(0,40px);
+	-webkit-transform:translate(0,40px);
+	-ms-transform:translate(0,40px)}100%{
+	opacity:1;
+	transform:translate(0,0);
+	-webkit-transform:translate(0,0);
+	-ms-transform:translate(0,0)}}@keyframes slideInFadeDown{
+	0%{
+	opacity:0;
+	transform:translate(0,-40px);
+	-webkit-transform:translate(0,-40px);
+	-ms-transform:translate(0,-40px)}100%{
+	opacity:1;
+	transform:translate(0,0);
+	-webkit-transform:translate(0,0);
+	-ms-transform:translate(0,0)}}@keyframes slideInFadeLeft{
+	0%{
+	opacity:0;
+	transform:translate(40px,0);
+	transform:translate(40px,0);
+	-webkit-transform:translate(40px,0);
+	-ms-transform:translate(40px,0)}100%{
+	opacity:1;
+	transform:translate(0,0);
+	-webkit-transform:translate(0,0);
+	-ms-transform:translate(0,0)}}@keyframes slideInFadeRight{
+	0%{
+	opacity:0;
+	transform:translate(-40px,0);
+	-webkit-transform:translate(-40px,0);
+	-ms-transform:translate(-40px,0)}100%{
+	opacity:1;
+	transform:translate(0,0);
+	-webkit-transform:translate(0,0);
+	-ms-transform:translate(0,0)}}@keyframes bounceIn{
+	0%,100%,20%,40%,60%,80%{
+	transition-timing-function:cubic-bezier(.215,.61,.355,1)}0%{
+	opacity:0;
+	transform:scale3d(.3,.3,.3);
+	-webkit-transform:scale3d(.3,.3,.3);
+	-ms-transform:scale3d(.3,.3,.3)}20%{
+	transform:scale3d(1.1,1.1,1.1);
+	-webkit-transform:scale3d(1.1,1.1,1.1);
+	-ms-transform:scale3d(1.1,1.1,1.1)}40%{
+	transform:scale3d(.9,.9,.9);
+	-webkit-transform:scale3d(.9,.9,.9);
+	-ms-transform:scale3d(.9,.9,.9)}60%{
+	opacity:1;
+	transform:scale3d(1.03,1.03,1.03);
+	-webkit-transform:scale3d(1.03,1.03,1.03);
+	-ms-transform:scale3d(1.03,1.03,1.03)}80%{
+	transform:scale3d(.97,.97,.97);
+	-webkit-transform:scale3d(.97,.97,.97);
+	-ms-transform:scale3d(.97,.97,.97)}100%{
+	opacity:1;
+	transform:scale3d(1,1,1);
+	-webkit-transform:scale3d(1,1,1);
+	-ms-transform:scale3d(1,1,1)}}@keyframes zoomIn{
+	0%{
+	opacity:0;
+	transform:scale3d(.6,.6,.6);
+	-webkit-transform:scale3d(.6,.6,.6);
+	-ms-transform:scale3d(.6,.6,.6)}50%{
+	opacity:1}}@keyframes zoomInUp{
+	0%{
+	opacity:0;
+	transform:scale3d(.25,.25,.25) translate3d(0,100px,0);
+	-webkit-transform:scale3d(.25,.25,.25) translate3d(0,100px,0);
+	-ms-transform:scale3d(.25,.25,.25) translate3d(0,100px,0);
+	animation-timing-function:cubic-bezier(.55,.055,.675,.19);
+	-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);
+	-ms-animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{
+	opacity:1;
+	transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);
+	-webkit-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);
+	-ms-transform:scale3d(.475,.475,.475) translate3d(0,-60px,0);
+	animation-timing-function:cubic-bezier(.175,.885,.32,1);
+	-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);
+	-ms-animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes zoomInDown{
+	0%{
+	opacity:0;
+	transform:scale3d(.25,.25,.25) translate3d(0,-100px,0);
+	-webkit-transform:scale3d(.25,.25,.25) translate3d(0,-100px,0);
+	-ms-transform:scale3d(.25,.25,.25) translate3d(0,-100px,0);
+	animation-timing-function:cubic-bezier(.55,.055,.675,.19);
+	-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);
+	-ms-animation-timing-function:cubic-bezier(.55,.055,.675,.19)}60%{
+	opacity:1;
+	transform:scale3d(.475,.475,.475) translate3d(0,60px,0);
+	-webkit-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);
+	-ms-transform:scale3d(.475,.475,.475) translate3d(0,60px,0);
+	animation-timing-function:cubic-bezier(.175,.885,.32,1);
+	-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);
+	-ms-animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes ticktickzoom{
+	0%{
+	opacity:0;
+	transform-origin:50% 100%;
+	transform:scale(.5,.5) rotate(0)}34%{
+	opacity:1;
+	transform-origin:50% 50%;
+	transform:scale(.5,.5) rotate(0)}68%{
+	transform-origin:50% 0;
+	transform:scale(.5,.5) rotate(0)}100%{
+	transform-origin:50% 50%;
+	transform:scale(1,1) rotate(0);
+	animation-timing-function:cubic-bezier(.175,.885,.32,1);
+	-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);
+	-ms-animation-timing-function:cubic-bezier(.175,.885,.32,1)}}@keyframes dramatic{
+	0%{
+	opacity:0;
+	transform-origin:150% 50%;
+	transform:scale(.5,.5) rotate(0);
+	animation-timing-function:cubic-bezier(.55,.055,.675,.19);
+	-webkit-animation-timing-function:cubic-bezier(.55,.055,.675,.19);
+	-ms-animation-timing-function:cubic-bezier(.55,.055,.675,.19)}25%{
+	opacity:1;
+	transform-origin:150% 75%;
+	transform:scale(.5,.5) rotate(0)}50%{
+	transform-origin:0 75%;
+	transform:scale(.5,.5) rotate(0)}75%{
+	transform-origin:0 0;
+	transform:scale(.5,.5) rotate(0)}100%{
+	transform-origin:50% 50%;
+	transform:scale(1,1) rotate(0);
+	animation-timing-function:cubic-bezier(.175,.885,.32,1);
+	-webkit-animation-timing-function:cubic-bezier(.175,.885,.32,1);
+	-ms-animation-timing-function:cubic-bezier(.175,.885,.32,1)}}.tab-anything.wrap{
+	margin:auto!important}.tab-anything.wide-25 label{
+	width:25px!important}.tab-anything.wide-50 label{
+	width:50px!important}.tab-anything.wide-75 label{
+	width:75px!important}.tab-anything.wide-100 label{
+	width:100px!important}.tab-anything.wide-125 label{
+	width:125px}.tab-anything.wide-150 label{
+	width:150px}.tab-anything.wide-175 label{
+	width:175px}.tab-anything.wide-200 label{
+	width:200px}.tab-anything.wide-225 label{
+	width:225px}.tab-anything.wide-250 label{
+	width:250px}.tab-anything.wide-275 label{
+	width:275px}.tab-anything.wide-300 label{
+	width:300px}.tab-anything.wide-325 label{
+	width:325px}.tab-anything.wide-350 label{
+	width:350px}.tab-anything.wide-375 label{
+	width:375px}.tab-anything.wide-400 label{
+	width:400px}.tab-anything.wide-425 label{
+	width:425px}.tab-anything.wide-450 label{
+	width:450px}.tab-anything.wide-475 label{
+	width:475px}.tab-anything.wide-500 label{
+	width:500px}.tab-anything.wide-525 label{
+	width:525px}.tab-anything.wide-550 label{
+	width:550px}.tab-anything.wide-575 label{
+	width:575px}.tab-anything.wide-600 label{
+	width:600px}.loader{
+	display:inline-block;
+	position:relative;
+	width:40px;
+	height:40px}.loader div{
+	box-sizing:border-box;
+	display:block;
+	position:absolute;
+	width:32px;
+	height:32px;
+	margin:2px;
+	border-radius:50%;
+	animation:loader 1.2s cubic-bezier(.5,0,.5,1) infinite;
+	-webkit-font-smoothing:antialiased}.loader.light div{
+	border:4px solid #fff;
+	border-color:#fff transparent transparent transparent}.loader.dark div{
+	border:4px solid #333;
+	border-color:#333 transparent transparent transparent}.loader.gray div{
+	border:4px solid #999;
+	border-color:#999 transparent transparent transparent}.loader div:nth-child(1){
+	animation-delay:-.45s}.loader div:nth-child(2){
+	animation-delay:-.3s}.loader div:nth-child(3){
+	animation-delay:-.15s}@keyframes loader{
+	0%{
+	transform:rotate(0)}100%{
+	transform:rotate(360deg)}}.sk-fading-circle{
+	margin:100px auto;
+	width:40px;
+	height:40px;
+	position:relative}.sk-fading-circle .sk-circle{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0}.light .sk-fading-circle .sk-circle:before{
+	background-color:#fff}.dark .sk-fading-circle .sk-circle:before{
+	background-color:#333}.gray .sk-fading-circle .sk-circle:before{
+	background-color:#999}.sk-fading-circle .sk-circle:before{
+	content:'';
+	display:block;
+	margin:0 auto;
+	width:15%;
+	height:15%;
+	border-radius:100%;
+	-webkit-animation:sk-circleFadeDelay 1.2s infinite ease-in-out both;
+	animation:sk-circleFadeDelay 1.2s infinite ease-in-out both}.sk-fading-circle .sk-circle2{
+	-webkit-transform:rotate(30deg);
+	-ms-transform:rotate(30deg);
+	transform:rotate(30deg)}.sk-fading-circle .sk-circle3{
+	-webkit-transform:rotate(60deg);
+	-ms-transform:rotate(60deg);
+	transform:rotate(60deg)}.sk-fading-circle .sk-circle4{
+	-webkit-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg)}.sk-fading-circle .sk-circle5{
+	-webkit-transform:rotate(120deg);
+	-ms-transform:rotate(120deg);
+	transform:rotate(120deg)}.sk-fading-circle .sk-circle6{
+	-webkit-transform:rotate(150deg);
+	-ms-transform:rotate(150deg);
+	transform:rotate(150deg)}.sk-fading-circle .sk-circle7{
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	transform:rotate(180deg)}.sk-fading-circle .sk-circle8{
+	-webkit-transform:rotate(210deg);
+	-ms-transform:rotate(210deg);
+	transform:rotate(210deg)}.sk-fading-circle .sk-circle9{
+	-webkit-transform:rotate(240deg);
+	-ms-transform:rotate(240deg);
+	transform:rotate(240deg)}.sk-fading-circle .sk-circle10{
+	-webkit-transform:rotate(270deg);
+	-ms-transform:rotate(270deg);
+	transform:rotate(270deg)}.sk-fading-circle .sk-circle11{
+	-webkit-transform:rotate(300deg);
+	-ms-transform:rotate(300deg);
+	transform:rotate(300deg)}.sk-fading-circle .sk-circle12{
+	-webkit-transform:rotate(330deg);
+	-ms-transform:rotate(330deg);
+	transform:rotate(330deg)}.sk-fading-circle .sk-circle2:before{
+	-webkit-animation-delay:-1.1s;
+	animation-delay:-1.1s}.sk-fading-circle .sk-circle3:before{
+	-webkit-animation-delay:-1s;
+	animation-delay:-1s}.sk-fading-circle .sk-circle4:before{
+	-webkit-animation-delay:-.9s;
+	animation-delay:-.9s}.sk-fading-circle .sk-circle5:before{
+	-webkit-animation-delay:-.8s;
+	animation-delay:-.8s}.sk-fading-circle .sk-circle6:before{
+	-webkit-animation-delay:-.7s;
+	animation-delay:-.7s}.sk-fading-circle .sk-circle7:before{
+	-webkit-animation-delay:-.6s;
+	animation-delay:-.6s}.sk-fading-circle .sk-circle8:before{
+	-webkit-animation-delay:-.5s;
+	animation-delay:-.5s}.sk-fading-circle .sk-circle9:before{
+	-webkit-animation-delay:-.4s;
+	animation-delay:-.4s}.sk-fading-circle .sk-circle10:before{
+	-webkit-animation-delay:-.3s;
+	animation-delay:-.3s}.sk-fading-circle .sk-circle11:before{
+	-webkit-animation-delay:-.2s;
+	animation-delay:-.2s}.sk-fading-circle .sk-circle12:before{
+	-webkit-animation-delay:-.1s;
+	animation-delay:-.1s}@-webkit-keyframes sk-circleFadeDelay{
+	0%,100%,39%{
+	opacity:0}40%{
+	opacity:1}}@keyframes sk-circleFadeDelay{
+	0%,100%,39%{
+	opacity:0}40%{
+	opacity:1}}.tab-anything.material label{
+	border-left:0;
+	border-right:0}.tab-anything.material[data-detached="0"] label.btn{
+	margin-right:-1px}.code-embed{
 	color:#000;
 }
 
