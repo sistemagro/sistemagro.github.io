@@ -4845,14 +4845,51 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#F8F9F8;
 	color:#1867C9!important;
 }
+.img-icon-credit-style{
+	width:95px;
+}
+.img-solucred-style{
+	width:392px;
+}
+.h4-237-style{
+	font-family:"Montserrat";
+	width:66.6%;
+}
+.p-851-style{
+	width:66.03%;
+}
+.h4-239-style{
+	font-family:"Montserrat";
+}
+.h4-238-style{
+	font-family:"Montserrat";
+}
+.card-margin-top{
+	margin-top:15px;
+}
+.h4-requisitos--style{
+	font-family:"Montserrat";
+	color:#FEFFFE!important;
+}
+.p-861-style{
+	width:66.51%;
+}
+.html-widget-style{
+	width:100%;
+	text-align:left;
+}
+.p-bloc-435-style{
+	width:84.45%;
+	color:#FEFFFE!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 /* Background colour styles */
 
-.bgc-white{
-	background-color:#FFFFFF;
+.bgc-white-smoke{
+	background-color:#F4F5F4;
 }
 .bgc-deep-carmine-pink{
 	background-color:#FF282C;
@@ -4908,7 +4945,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-true-blue-2{
 	background-color:#0667D0;
 }
-.bgc-white-2{
+.bgc-white{
 	background-color:#FFFFFF;
 }
 .bgc-dark-tangerine{
@@ -4926,11 +4963,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-ghost-white{
 	background-color:#F6F7FB;
 }
+.bgc-black{
+	background-color:rgba(0,0,0,0.04);
+}
 
 /* Text colour styles */
 
-.tc-white{
-	color:#FFFFFF!important;
+.tc-white-smoke{
+	color:#F4F5F4!important;
 }
 .tc-davys-grey{
 	color:#5E5E5E!important;
@@ -4963,24 +5003,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Link colour styles */
 
+.ltc-white-smoke{
+	color:#F4F5F4!important;
+}
+.ltc-white-smoke:hover{
+	color:#c3c4c3!important;
+}
 .ltc-white{
 	color:#FFFFFF!important;
 }
 .ltc-white:hover{
 	color:#cccccc!important;
 }
-.ltc-white-2{
-	color:#FFFFFF!important;
-}
-.ltc-white-2:hover{
-	color:#cccccc!important;
-}
 
 /* Icon colour styles */
 
-.icon-white{
-	color:#FFFFFF!important;
-	border-color:#FFFFFF!important;
+.icon-white-smoke{
+	color:#F4F5F4!important;
+	border-color:#F4F5F4!important;
 }
 .icon-amber{
 	color:#FFC000!important;
@@ -5748,7 +5788,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-bottom:20px;
 	}
 	.card-margin-top{
-		margin-top:0px;
+		margin-top:13px;
 	}
 	.card-3-margin-bottom{
 		margin-bottom:1px;
@@ -6312,6 +6352,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.link-7759-style{
 		text-decoration:underline;
 	}
+	.cardsmargin-top{
+		margin-top:0px;
+	}
 	
 }
 
@@ -6653,6 +6696,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-0-bloc-3-style{
 		width:58.1%;
+	}
+	.cardsmargin-top{
+		margin-top:17px;
+	}
+	.h4-237-style{
+		width:98.32%;
+	}
+	.p-851-style{
+		width:100%;
 	}
 	.sidebar-nav{
 		width:230px!important;
@@ -8022,6 +8074,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.p-bloc-433-style{
 		width:100%;
+	}
+	.h4-237-style{
+		width:100%;
+	}
+	.p-851-style{
+		width:100%;
+	}
+	.p-861-style{
+		width:100%;
+	}
+	.cardsmargin-top{
+		margin-top:19px;
 	}
 	
 }
