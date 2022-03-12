@@ -4518,7 +4518,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:66.99%;
 }
 .img-menud-style{
-	width:568px;
+	width:411px;
 }
 .p-730-style{
 	width:66.41%;
@@ -4985,10 +4985,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h4-bloc-438-style{
 	width:100%;
 	color:#FEFFFE!important;
+	text-shadow:0px 2px 2px rgba(0,0,0,0.45);
 }
 .h4-239-bloc-438-style{
 	width:100%;
 	color:#FEFFFE!important;
+	text-shadow:0px 2px 2px rgba(0,0,0,0.42);
 }
 .img-bloc-441-style{
 	width:597px;
@@ -8288,6 +8290,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.card-costos{
 		padding-left:1px;
 		padding-right:1px;
+	}
+	.link-23227-style{
+		text-decoration:underline;
 	}
 	
 }
