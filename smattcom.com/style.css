@@ -3969,7 +3969,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:underline;
 }
 .img-675-style{
-	width:564px;
+	width:437px;
 }
 .h4-218-style{
 	font-family:(null);
@@ -3979,7 +3979,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:66.32%;
 }
 .img-campoads--style{
-	width:161px;
+	width:168px;
 }
 .link-9625-style{
 	text-decoration:underline;
@@ -4648,13 +4648,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:66.6%;
 }
 .img-favorit-style{
-	width:589px;
+	width:469px;
 }
 .p-782-style{
 	width:66.89%;
 }
 .img-favoritos-style{
-	width:563px;
+	width:490px;
 }
 .p-783-style{
 	width:66.6%;
@@ -4720,7 +4720,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:66.79%;
 }
 .p-808-style{
-	width:66.51%;
+	width:66.03%;
 }
 .p-809-style{
 	width:66.7%;
@@ -4774,7 +4774,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:66.32%;
 }
 .img-676-style{
-	width:488px;
+	width:360px;
 }
 .p-bloc-425-style{
 	width:65.93%;
@@ -5024,6 +5024,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .servicio-comercio{
 	font-family:"Montserrat";
 	font-size:23px;
+}
+.p-757-bloc-415-style{
+	width:66.32%;
 }
 
 /* = Colour
@@ -8293,6 +8296,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.link-23227-style{
 		text-decoration:underline;
+	}
+	.p-bloc-432-style{
+		width:100%;
+	}
+	.p-848-style{
+		width:100%;
+	}
+	.p-849-style{
+		width:93.95%;
+	}
+	.p-bloc-427-style{
+		width:98.93%;
+	}
+	.p-828-style{
+		width:100%;
 	}
 	
 }
