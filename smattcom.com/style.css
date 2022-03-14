@@ -112,6 +112,20 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-tl-edge{
+	background-position: top left!important;
+	background-repeat: no-repeat;
+}
+
+
 /* Background Effects */
 
 .parallax__container {
@@ -5028,6 +5042,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-757-bloc-415-style{
 	width:66.32%;
 }
+.h5-costos-style{
+	font-size:20px;
+}
+.carrusel{
+	padding:23px 0px 23px 0px;
+}
+.h4-246-style{
+	font-family:"Montserrat";
+}
+.indicators{
+	filter:contrast(46%);
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -8311,6 +8337,25 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.p-828-style{
 		width:100%;
+	}
+	.h6-comentarios-style{
+		font-family:"Montserrat";
+	}
+	.carrusel{
+		color:#000000!important;
+		margin-right:0px;
+		margin-left:0px;
+		padding-right:9px;
+		padding-left:9px;
+	}
+	.indicators{
+		color:transparent!important;
+		filter:invert(33%);
+	}
+	.btn-landing{
+	}
+	.h4-246-style{
+		font-family:"Montserrat";
 	}
 	
 }
