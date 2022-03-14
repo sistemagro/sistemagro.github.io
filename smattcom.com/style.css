@@ -1453,6 +1453,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-style:solid;
 	text-align:center;
 	font-size:20px;
+	color:#FFFFFF!important;
 	border-radius:6px 6px 6px 6px;
 	border-width:1px 1px 1px 1px;
 }
@@ -1472,6 +1473,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:20px;
 	margin-top:10px;
 	margin-bottom:0px;
+	color:#FEFFFE!important;
 }
 .btn-bloc-90-margin-top{
 	margin-top:41px;
@@ -1852,7 +1854,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:241px;
 }
 .img-pepino-solo-style{
-	width:466px;
+	width:409px;
 }
 .img-img-ajo-solo-p-style{
 	width:489px;
@@ -2321,6 +2323,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Montserrat";
 	font-weight:500;
 	font-size:45px;
+	color:#FEFFFE!important;
 }
 .html-widget-margin-top{
 	margin-top:25px;
@@ -2359,7 +2362,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:472px;
 }
 .img-77-bloc-25-style{
-	width:200px;
+	width:268px;
 }
 .table{
 	text-align:center;
@@ -2371,6 +2374,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Montserrat";
 	font-weight:700;
 	font-size:25px;
+	color:#FFFFFF!important;
 }
 .h1-11-margin-bottom{
 	margin-bottom:0px;
@@ -3850,7 +3854,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h4-181-style{
 	font-family:"Montserrat";
-	width:79.33%;
+	width:66.99%;
 }
 .link-4412-style{
 	text-decoration:underline;
@@ -8340,6 +8344,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h6-comentarios-style{
 		font-family:"Montserrat";
+		width:100%;
 	}
 	.carrusel{
 		color:#000000!important;
