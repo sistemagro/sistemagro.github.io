@@ -5055,6 +5055,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .indicators{
 	filter:contrast(46%);
 }
+.link-bloc-274-style{
+	text-decoration:underline;
+}
+.link-0-bloc-274-style{
+	text-decoration:underline;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -8377,6 +8383,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h4-181-style{
 		width:100%;
+	}
+	.margin-down{
+		padding-bottom:33px;
 	}
 	
 }
