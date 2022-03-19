@@ -223,25 +223,6 @@ button{
 	stroke-linecap:round;
 }
 
-/* Toggle Visibility */
-.toggled-item{
-	transition: height 350ms ease-in-out, padding 350ms ease-in-out, opacity 350ms ease-in-out;
-	overflow: hidden;
-}
-.toggled-item-hidden{
-	padding-top:0!important;
-	padding-bottom:0!important;
-	border-top:0!important;
-	border-bottom:0!important;
-	outline:0!important;
-	opacity: 0;
-}
-
-/* Hide Object */
-.object-hidden{
-	display:none;
-}
-
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -353,6 +334,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-style{
 	width:87.37%;
+	color:rgba(0,0,0,0.68)!important;
 }
 .btn-style:hover{
 	color:#FFFFFF!important;
@@ -618,6 +600,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:40.73%;
 	}
 	.card-hom{
+	}
+	.img-6-style{
+		width:222px;
+	}
+	.h3-style{
+		font-size:40px;
 	}
 	
 }
