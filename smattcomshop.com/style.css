@@ -278,7 +278,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:18px;
 	color:#8E8B8B!important;
 	background-color:transparent;
-	margin-top:42px;
+	margin-top:0px;
 }
 .titulo-card{
 	font-family:"Open Sans";
@@ -452,6 +452,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-bloc-2-style{
 	text-decoration:underline;
+}
+.h3-bloc-0-style{
+	width:88.14%;
+	font-family:"Open Sans";
+	color:#163667!important;
 }
 
 /* = Colour
