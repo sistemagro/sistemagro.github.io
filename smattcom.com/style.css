@@ -1004,7 +1004,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:50px;
 	background-color:transparent;
 	color:#797B7B!important;
-	font-size:30px;
+	font-size:40px;
+	font-family:"Montserrat";
 }
 .label-style{
 	font-family:Montserrat;
@@ -4294,9 +4295,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-16341-style{
 	text-decoration:underline;
 }
-.link-16622-style{
-	text-decoration:underline;
-}
 .link-45941-style{
 	text-decoration:underline;
 }
@@ -5069,15 +5067,119 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-7007-style{
 	text-decoration:underline;
 }
+.img-bloc-57-style{
+	width:560px;
+}
+.h3-bloc-57-style{
+	font-size:25px;
+	font-family:"Montserrat";
+}
+.img-icono-canda-style{
+	width:99px;
+}
+.img-722-icono-canda-style{
+	width:99px;
+}
+.titulo-funciona{
+	color:#012442!important;
+}
+.h2--pronto-pago-style{
+	font-size:25px;
+	margin-top:16px;
+	width:30%;
+}
+.h2-cómo-funciona-style{
+	width:97.96%;
+}
+.titulo-pronto{
+	font-size:25px;
+	color:#F05827!important;
+}
+.link-pronto-pago-style{
+	font-weight:normal;
+}
+.borders{
+	border-color:#F05827!important;
+	border-style:solid;
+	border-width:1px 1px 1px 1px;
+}
+.img-724-style{
+	width:94px;
+}
+.img-725-style{
+	width:94px;
+}
+.img-726-style{
+	width:94px;
+}
+.img-727-style{
+	width:94px;
+}
+.p-911-style{
+	font-family:"Montserrat";
+}
+.p-912-style{
+	font-family:"Montserrat";
+}
+.p-913-style{
+	font-family:"Montserrat";
+}
+.p-914-style{
+	font-family:"Montserrat";
+}
+.p-915-style{
+	font-family:"Montserrat";
+}
+.p-916-style{
+	font-family:"Montserrat";
+}
+.p-917-style{
+	font-family:"Montserrat";
+}
+.p-918-style{
+	font-family:"Montserrat";
+}
+.h3-256-style{
+	font-family:"Montserrat";
+}
+.margin-card{
+	background-color:#F05827;
+	color:#FEFFFE!important;
+	padding:15px 15px 15px 15px;
+	border-radius:10px 10px 10px 10px;
+}
+.margin-card2{
+	background-color:#012342;
+	color:#FEFFFE!important;
+	padding:15px 15px 15px 15px;
+	border-radius:10px 10px 10px 10px;
+}
+.p-921-style{
+	font-family:"Montserrat";
+}
+.p-920-style{
+	font-family:"Montserrat";
+}
+.p-919-style{
+	font-family:"Montserrat";
+}
+.margin-margen{
+	border-style:_popUpItemAction:;
+	box-shadow:0px 1px 16px #DC5024;
+	padding:19px 19px 19px 19px;
+	border-radius:15px 15px 15px 15px;
+}
+.margin-margen2{
+	box-shadow:0px 4px 14px #012242;
+	padding:18px 18px 18px 18px;
+	border-radius:15px 15px 15px 15px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
 
 /* Background colour styles */
 
-.bgc-white-smoke{
-	background-color:#F4F5F4;
-}
 .bgc-deep-carmine-pink{
 	background-color:#FF282C;
 }
@@ -5150,15 +5252,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bgc-anti-flash-white-2{
 	background-color:#F0F3F7;
 }
+.bgc-oxford-blue{
+	background-color:#012644;
+}
 .bgc-black{
 	background-color:rgba(0,0,0,0.04);
 }
 
 /* Text colour styles */
 
-.tc-white-smoke{
-	color:#F4F5F4!important;
-}
 .tc-davys-grey{
 	color:#5E5E5E!important;
 }
@@ -5190,12 +5292,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Link colour styles */
 
-.ltc-white-smoke{
-	color:#F4F5F4!important;
-}
-.ltc-white-smoke:hover{
-	color:#c3c4c3!important;
-}
 .ltc-white{
 	color:#FFFFFF!important;
 }
@@ -5205,10 +5301,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Icon colour styles */
 
-.icon-white-smoke{
-	color:#F4F5F4!important;
-	border-color:#F4F5F4!important;
-}
 .icon-amber{
 	color:#FFC000!important;
 	border-color:#FFC000!important;
@@ -8394,6 +8486,48 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.margin-down{
 		padding-bottom:33px;
+	}
+	.h1-canacintra-margin-top{
+		font-size:25px;
+		font-family:"Montserrat";
+	}
+	.h2-bloc-57-style{
+		width:100%;
+		font-family:"Montserrat";
+	}
+	.h3-256-style{
+		font-size:25px;
+		font-family:"Montserrat";
+	}
+	.h3-bloc-57-style{
+		font-family:"Montserrat";
+	}
+	.p-911-style{
+		font-family:"Montserrat";
+	}
+	.p-912-style{
+		font-family:"Montserrat";
+	}
+	.p-913-style{
+		font-family:"Montserrat";
+	}
+	.p-914-style{
+		font-family:"Montserrat";
+	}
+	.h2-cómo-funciona-style{
+		font-family:"Montserrat";
+	}
+	.p-915-style{
+		font-family:"Montserrat";
+	}
+	.p-916-style{
+		font-family:"Montserrat";
+	}
+	.p-917-style{
+		font-family:"Montserrat";
+	}
+	.p-918-style{
+		font-family:"Montserrat";
 	}
 	
 }
