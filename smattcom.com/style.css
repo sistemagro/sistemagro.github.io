@@ -5174,6 +5174,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:18px 18px 18px 18px;
 	border-radius:15px 15px 15px 15px;
 }
+.link-19174-style{
+	text-decoration:underline;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -8528,6 +8531,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.p-918-style{
 		font-family:"Montserrat";
+	}
+	.titulo-pronto{
+		background-color:transparent;
 	}
 	
 }
