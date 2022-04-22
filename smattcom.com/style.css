@@ -2223,10 +2223,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:68.33%;
 	margin-bottom:20px;
 }
-.btn-style{
-	margin-top:25px;
-	width:100%;
-}
 .txt-banner-withe{
 	font-family:"Montserrat";
 	font-weight:700;
@@ -5252,6 +5248,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .row-bloc-245-style{
 	width:82.09%;
 }
+.btn-bloc-13-style{
+	width:100%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -6496,10 +6495,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h1-margin-bottom{
 		margin-top:0px;
 	}
-	.btn-style{
-		width:100%;
-		margin-top:0px;
-	}
 	.h1-bloc-4-margin-top:hover{
 		text-align:center;
 	}
@@ -7026,9 +7021,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.padding-card-datos{
 		padding:10px 10px 10px 10px;
-	}
-	.btn-style{
-		width:100%;
 	}
 	.img-360-style{
 		width:305px;
@@ -7704,9 +7696,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.padding-card-datos{
 		padding:2px 20px 2px 20px;
-	}
-	.btn-style{
-		width:100%;
 	}
 	.p-446-margin-bottom{
 		margin-top:0px;
