@@ -584,6 +584,10 @@ button{
 .img-frame-lg,.img-frame-rd-lg{
 	padding:14px;
 }
+/*  Image Protection */
+.img-protected{
+	-webkit-touch-callout: none;
+}
 
 
 
@@ -7880,6 +7884,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-descargar-app-style{
 		text-align:center;
+		width:86.74%;
 	}
 	.text-span-modal-mensaje-style{
 		text-align:center;
@@ -7904,7 +7909,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-gris{
 		font-size:18px;
-		background-color:rgba(0,0,0,0.54);
+		background-color:#FF6500;
 	}
 	.container-div-bloc-3-style{
 		width:100%;
@@ -8660,6 +8665,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.row-bloc-245-style{
 		width:100%;
+	}
+	.img-458-style{
+		width:232px;
+	}
+	.img-433-logo-slogan-az-style{
+		width:219px;
+	}
+	.h4-modal-mensaje-style{
+		font-size:22px;
+	}
+	.h6-bloc-320-style{
+		font-size:18px;
+	}
+	.btn-aceptar-style{
+		width:54.84%;
 	}
 	
 }
