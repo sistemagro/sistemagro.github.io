@@ -2916,7 +2916,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:50px;
 }
 .btn-gris{
-	background-color:#FF5900;
+	background-color:rgba(0,0,0,0.51);
 	margin-top:19px;
 	border-radius:10px 10px 10px 10px;
 }
@@ -4447,7 +4447,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Montserrat";
 }
 .btn-bloc-6-style{
-	width:49.86%;
+	width:100%;
 }
 .link-34233-style{
 	text-decoration:underline;
@@ -7898,7 +7898,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-gris{
 		font-size:18px;
-		background-color:#FF6500;
+		background-color:rgba(0,0,0,0.53);
 	}
 	.container-div-bloc-3-style{
 		width:100%;
