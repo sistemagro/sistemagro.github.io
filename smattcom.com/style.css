@@ -5251,6 +5251,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-bloc-13-style{
 	width:100%;
 }
+.gracias-text{
+	color:#2A75D5!important;
+}
+.text-span-bloc-97-style{
+	font-weight:bold;
+	color:#0000FF!important;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -7087,6 +7094,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.p-851-style{
 		width:100%;
 	}
+	.btn-8-style{
+		width:100%;
+	}
 	.sidebar-nav{
 		width:230px!important;
 	}
@@ -7160,7 +7170,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-left:0px;
 	}
 	.btn-8-style{
-		;
+		width:100%;
 	}
 	.txt-sub-web{
 		font-size:18px;
