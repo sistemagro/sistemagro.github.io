@@ -3241,7 +3241,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .side-com{
 	margin-top:93px;
-	padding-top:20px;
+	padding-top:23px;
 }
 .h6-comentarios-style{
 	font-family:(null);
@@ -5257,6 +5257,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .text-span-bloc-97-style{
 	font-weight:bold;
 	color:#0000FF!important;
+}
+.img-avat-style{
+	width:149px;
+}
+.sopporte{
+	color:#1869CA!important;
 }
 
 /* = Colour
