@@ -3017,9 +3017,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:20px;
 }
 .h4-modal-mensaje-style{
-	width:73.12%;
+	width:76.09%;
 	margin-bottom:0px;
 	margin-top:37px;
+	font-size:22px;
+	color:#000000!important;
 }
 .container-div-11515-style{
 	width:100%;
@@ -5467,7 +5469,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin:0px 0px 0px 0px;
 }
 .img-qr-co-style{
-	width:408px;
+	width:377px;
+}
+.h6-5-style{
+	font-size:20px;
+	margin-top:25px;
 }
 
 /* = Colour
