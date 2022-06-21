@@ -8,17 +8,17 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6833">
-	<link rel="stylesheet" type="text/css" href="style.css?5514">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?5097">
-	<link rel="stylesheet" type="text/css" href="./css/tabla.css?8614">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?4975">
+	<link rel="stylesheet" type="text/css" href="style.css?304">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?8179">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?4425">
 	
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>comentarios</title>
 
 <style>
@@ -128,6 +128,9 @@ body {
 								<a href="index.html" class="nav-link">Inicio</a>
 							</li>
 							<li class="nav-item">
+								<a href="https://shop.smattcom.com/" class="nav-link a-btn" data-target="_blank" target="_blank">Tienda en línea</a>
+							</li>
+							<li class="nav-item">
 								<a href="como-funciona.html" class="nav-link">Cómo funciona</a>
 							</li>
 							<li class="nav-item">
@@ -158,7 +161,7 @@ body {
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc none full-width-bloc l-bloc d-md-flex  d-none" id="bloc-1">
+<div class="bloc none full-width-bloc d-md-flex  d-none l-bloc" id="bloc-1">
 	<div class="container bloc-sm bloc-sm-lg">
 		<div class="row">
 			<div class="col">
@@ -171,7 +174,7 @@ body {
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="carousel-item active" onclick="location.href='https://ezkommerce.com/'">
-							<img class="d-inline-block w-100" alt="slide 1" src="img/banner%20ezkommerce.png" />
+							<img class="d-inline-block w-100" alt="Promociones Smattcom" src="img/banner%20ezkommerce.png" />
 							<div class="carousel-caption">
 								<span class="empty-column"></span>
 							</div>
@@ -213,23 +216,40 @@ body {
 				<div class="row coments">
 					<div class="offset-lg-3 col-lg-6">
 						<div id="div-invalid-valoracion" indavlid-feedback="Indica la calificación">
-							<div class="text-lg-left text-md-left text-sm-left text-left">
-								<span class="fa fa-star icon-amber none estrella float-lg-none icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star icon-amber estrella icon-sm"></span><span class="fa fa-star estrella icon-sm"></span>
+							<div >
+								<div class="input-group">
+									<div id="valoracion-0" class="star-rating-box">
+										<div class="text-lg-left text-md-left text-sm-left text-left" onmouseout="resetRating(0);" id="ul_valoracion">
+												<span class="fa fa-star estrella icon-sm" onmouseover="highlightStar(this,0);" onmouseout="removeHighlight(0);" onclick="addRating(this,0);"></span>
+												<span class="fa fa-star estrella icon-sm" onmouseover="highlightStar(this,0);" onmouseout="removeHighlight(0);" onclick="addRating(this,0);"></span>
+												<span class="fa fa-star estrella icon-sm" onmouseover="highlightStar(this,0);" onmouseout="removeHighlight(0);" onclick="addRating(this,0);"></span>
+												<span class="fa fa-star estrella icon-sm" onmouseover="highlightStar(this,0);" onmouseout="removeHighlight(0);" onclick="addRating(this,0);"></span>
+												<span class="fa fa-star estrella icon-sm" onmouseover="highlightStar(this,0);" onmouseout="removeHighlight(0);" onclick="addRating(this,0);"></span>
+										</div>
+									</div>
+									<div class="valid-feedback">
+										&nbsp; 
+									</div>
+									<div id="div_invalid_Valoracion" class="invalid-feedback" style="display: none margin-top:0px;margin-button:1px;">
+										Indica la calificación
+									  </div>
+								  </div>
+								
 							</div>
 						</div>
 						<div >
-							<div id="div_invalid_Valoracion" class="invalid-feedback" style="display: none;">
+								<div id="div_invalid_Valoracion" class="invalid-feedback" style="display: none;">
 					Indica la calificación
 				  </div>
-							
-						</div>
+								
+							</div>
 						<form id="form_14622" data-form-type="blocs-form" class="form-style" action="custom-action-url" method="POST">
-								<div class="container-div-bloc-404-style text-lg-left">
-									<label class="label-nombre&nbsp;-style">
-										Nombre&nbsp;
-									</label>
-									<div class=" ">
-										<div class="input-group">
+									<div class="container-div-bloc-404-style text-lg-left">
+										<label class="label-nombre&nbsp;-style">
+											Nombre&nbsp;
+										</label>
+										<div >
+											<div class="input-group">
 				
 				<input type="text" minlength="3" maxlength="30" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required="">
 				<div class="valid-feedback">
@@ -239,18 +259,18 @@ body {
 					Ingresa tu nombre
 				  </div>
 			  </div>
-										
+											
+										</div>
 									</div>
-								</div>
-								<div class="form-group text-lg-left">
-										<label class="label-36-style">
-											Email
-										</label>
-									</div>
-								<div >
-										<div class="input-group">
+									<div class="form-group text-lg-left">
+											<label class="label-36-style">
+												Email
+											</label>
+										</div>
+									<div >
+											<div class="input-group">
 				
-				<input type="text" minlength="4" maxlength="30" class="form-control" id="email" name="email" placeholder="Nombre" required="">
+				<input type="mail" minlength="4" maxlength="30" class="form-control" id="email" name="email" placeholder="Nombre" required="">
 				<div class="valid-feedback">
 					&nbsp; 
 				</div>
@@ -258,31 +278,35 @@ body {
 					Ingresa tu email
 				  </div>
 			  </div>
-										
-									</div>
-								<div class="form-group text-lg-left">
-											<label class="label-comentario-style">
-												Comentario<br>
-											</label>
-											<div >
-												<div class="input-group">
+											
+										</div>
+									<div class="form-group text-lg-left">
+												<label class="label-comentario-style">
+													Comentario<br>
+												</label>
+												<div >
+													<div class="input-group">
 				
+	<input id="submit_hidden" type="submit" style="display: none" blocs-custom-data-attributes="name" name="submit_hidden">
+	<input type="hidden" name="valoracion" id="valoracion" value="">	
 				<textarea minlength="10" maxlength="500" class="form-control" id="comentario" name="comentario" placeholder="Comentario" required=""></textarea>				<div class="valid-feedback">
 					&nbsp; 
 				</div>
+
 				<div class="invalid-feedback">
 					Ingresa tu nombre
 				  </div>
+
 			  </div>
-												
+													
+												</div>
 											</div>
-										</div>
-								<div class="text-center">
-												<button class="bloc-button btn btn-lg btn-true-blue btn-submit-style btn-glossy" type="submit">
-													Comentar
-												</button>
-											</div>
-							</form>
+									<div class="text-center">
+													<button class="bloc-button btn btn-lg btn-true-blue btn-submit-style btn-glossy btn-submit-comment btn-true-blue-btn-submit-style" type="submit">
+														Comentar
+													</button>
+												</div>
+								</form>
 					</div>
 				</div>
 			</div>
@@ -292,7 +316,7 @@ body {
 <!-- bloc-404 END -->
 
 <!-- bloc-405 -->
-<div class="bloc l-bloc object-hidden" id="bloc-405">
+<div class="bloc object-hidden l-bloc" id="bloc-405">
 	<div class="container bloc-lg object-hidden">
 		<div class="row">
 			<div class="col">
@@ -714,7 +738,7 @@ body {
 			</div>
 			<div class="mt-3 col-lg-3 col-md-6 mt-md-0">
 				<div class="card back_ficha">
-					<img src="img/01_ezkommerce_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="placeholder image" />
+					<img src="img/01_ezkommerce_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="logo ezkommerce" />
 					<div class="card-body">
 						<p>
 							Servicios de Comercio Seguro: Transacción Protegida, Transporte, Seguro de mercancías y Verificador de producto.
@@ -727,7 +751,7 @@ body {
 			</div>
 			<div class="mt-3 col-lg-3 align-self-center col-md-6 mt-lg-0">
 				<div class="card back_ficha">
-					<img src="img/01_Agromooc_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="placeholder image" />
+					<img src="img/01_Agromooc_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="logo agromooc" />
 					<div class="card-body">
 						<p>
 							Capacitación en línea para el Agro. Cursos en técnicas de producción, exportación, gestión de negocios y más
@@ -740,7 +764,7 @@ body {
 			</div>
 			<div class="mt-3 col-lg-3 align-self-center col-md-6 mt-lg-0">
 				<div class="card back_ficha">
-					<img src="img/01_CampoAds_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="placeholder image" />
+					<img src="img/01_CampoAds_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="logo campoads" />
 					<div class="card-body">
 						<p>
 							Presencia digital y posicionamiento en el Sector por medio de anuncios en la comunidad Smattcom
@@ -766,7 +790,7 @@ body {
 	<div class="container bloc-lg">
 		<div class="row row-footer-style">
 			<div class="col-md-3 col-sm-6 bloc-0-margin-top col-12 offset-lg-1">
-				<img src="https://s3-us-west-1.amazonaws.com/smattcom.com/home/footer-logo.png" class="img-fluid img-209-margin-left d-block" alt="logo smattcom" /><a href="terminos-y-condiciones.html" class="a-btn a-block footer-link link-margin-top txtfooter" data-target="_blank" target="_blank">Términos y condiciones</a><a href="aviso-de-privacidad.html" class="a-btn a-block footer-link txtfooter link-0-bloc-8-margin-top" data-target="_blank" target="_blank">Aviso de privacidad</a><a href="codigo_etica.html" class="a-btn a-block footer-link txtfooter link-0-bloc-8-margin-top" data-target="_blank" target="_blank">Código de ética</a><a href="https://smattcom.com/blog" class="a-btn a-block footer-link txtfooter link-blog-margin-top" data-target="_blank" target="_blank">Blog</a>
+				<img src="https://s3-us-west-1.amazonaws.com/smattcom.com/home/footer-logo.png" class="img-fluid img-209-margin-left d-block" alt="Logo Smattcom Gris" /><a href="terminos-y-condiciones.html" class="a-btn a-block footer-link link-margin-top txtfooter" data-target="_blank" target="_blank">Términos y condiciones</a><a href="aviso-de-privacidad.html" class="a-btn a-block footer-link txtfooter link-0-bloc-8-margin-top" data-target="_blank" target="_blank">Aviso de privacidad</a><a href="codigo_etica.html" class="a-btn a-block footer-link txtfooter link-0-bloc-8-margin-top" data-target="_blank" target="_blank">Código de ética</a><a href="https://smattcom.com/blog" class="a-btn a-block footer-link txtfooter link-blog-margin-top" data-target="_blank" target="_blank">Blog</a><a href="https://info.smattcom.com/facturacion-grupo-smattcom" class="a-btn a-block footer-link txtfooter link-blog-margin-top" data-target="_blank" target="_blank">Facturación</a>
 			</div>
 			<div class="col-md-3 col-sm-6 bloc-footer-margin-top">
 				<h4 class="mg-md text-sm-left text-center txt-titulos-footer mx-auto d-block">
@@ -774,7 +798,7 @@ body {
 				</h4><a href="#" class="a-btn a-block link-bloc-8-margin-top txtfooter">info@smattcom.com</a>
 				<p class="txtfooter p-footer-margin-top mx-auto d-block">
 					( +52 ) 55 2155 5552&nbsp;<br />( +52 ) 55 2155 5553
-				</p><a href="https://distintivodigital.profeco.gob.mx/index.php"><img src="img/PROFECO_1footer.png" class="img-fluid img-profeco-1foot-style mx-auto d-block" alt="PROFECO_1footer" /></a>
+				</p><a href="https://distintivodigital.profeco.gob.mx/index.php"><img src="img/PROFECO_1footer.png" class="img-fluid img-profeco-1foot-style mx-auto d-block" alt="PROFECO distintivo digital" /></a>
 			</div>
 			<div class="col-md-4 col-sm-11">
 				<h4 class="mg-md text-sm-left text-center txt-titulos-footer h4-margin-top">
@@ -815,7 +839,18 @@ body {
 				<div class="row">
 					<div class="col">
 						<div class="text-center">
-							<a href="https://smattcom.com/descarga-smattcom" class="btn btn-d btn-8-style descargasmatt btn-lg btn-azul">Descarga SMATTCOM</a>
+							<a href="#" class="btn btn-d btn-8-style descargasmatt btn-lg btn-azul">Descarga la App Smattcom en tu celular</a>
+							<div class="row margin-sides">
+								<div class="col margin-button">
+									<a href="https://play.google.com/store/apps/details?id=sistemagro.smattcom" data-target="_blank" target="_blank"><img src="img/Googleplay.png" class="img-fluid mx-auto d-block img-protected" alt="Google play" /></a>
+								</div>
+								<div class="col margin-button">
+									<a href="https://apps.apple.com/mx/app/smattcom/id1275834490" data-target="_blank" target="_blank"><img src="img/appstore.png" class="img-fluid mx-auto d-block img-protected" alt="app store" /></a>
+								</div>
+								<div class="col margin-button">
+									<a href="https://appgallery.huawei.com/app/C104749779?locale=es_US" data-target="_blank" target="_blank"><img src="img/Huawei.png" class="img-fluid mx-auto d-block" alt="App Gallery" /></a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -831,12 +866,12 @@ body {
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?8142"></script>
-<script src="./js/bootstrap.bundle.min.js?6536"></script>
-<script src="./js/blocs.min.js?2252"></script>
+<script src="./js/jquery.min.js?2370"></script>
+<script src="./js/bootstrap.bundle.min.js?4734"></script>
+<script src="./js/blocs.min.js?5127"></script>
 <script src="./js/jqBootstrapValidation.js"></script>
-<script src="./js/formHandler.js?3498"></script>
-<script src="./js/tilt.jquery.js?7906"></script><!-- Additional JS END -->
+<script src="./js/formHandler.js?1762"></script>
+<script src="./js/tilt.jquery.js?8526"></script><!-- Additional JS END -->
 
 <script>
 (function() {

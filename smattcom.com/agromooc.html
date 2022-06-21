@@ -8,19 +8,85 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?4587">
-	<link rel="stylesheet" type="text/css" href="style.css?1846">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?5410">
-	<link rel="stylesheet" type="text/css" href="./css/tabla.css?3813">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?1723">
+	<link rel="stylesheet" type="text/css" href="style.css?5755">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?2990">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?2669">
 	
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Agromooc</title>
 
+<style>
+body {
+	width: 610;
+	font-family: Arial;
+}
+
+.demo-table {
+	width: 100%;
+	border-spacing: initial;
+	margin: 5px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;
+}
+
+.demo-table th {
+	background: #0667D0;
+	padding: 5px;
+	text-align: left;
+	color: #FFF;
+}
+
+.demo-table td {
+	background-color: #ffffff;
+	padding: 5px 5px 5px;
+}
+
+.demo-table td div.feed_title {
+	text-decoration: none;
+	color: #003fff;
+	font-weight: bold;
+}
+
+.demo-table ul {
+	margin: 0;
+	padding: 5px;	
+}
+
+.demo-table li {
+	cursor: pointer;
+	list-style-type: none;
+	display: inline-block;
+	color: #F0F0F0;
+	text-shadow: 0 0 1px #666666;
+	font-size: 20px;
+}
+
+.demo-table .highlight, .demo-table .selected {
+	color: #F4B30A;
+	text-shadow: 0 0 1px #F48F0A;
+}
+
+.star-rating-box {
+	border: #E4E4E4 1px solid;
+	margin: 5px 0px;
+}
+
+.star-rating-count {
+	border-top: #E4E4E4 1px solid;
+	font-size: 0.8em;
+	padding: 2px 5px;
+	background: #f9f9f9;
+	color: #828181;
+}
+</style>
 <style>
 .carousel-item:hover {cursor: pointer;}
 </style>
@@ -64,6 +130,9 @@
 								<a href="index.html" class="nav-link">Inicio</a>
 							</li>
 							<li class="nav-item">
+								<a href="https://shop.smattcom.com/" class="nav-link a-btn" data-target="_blank" target="_blank">Tienda en línea</a>
+							</li>
+							<li class="nav-item">
 								<a href="como-funciona.html" class="nav-link">Cómo funciona</a>
 							</li>
 							<li class="nav-item">
@@ -94,7 +163,7 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc none full-width-bloc l-bloc d-md-flex  d-none" id="bloc-1">
+<div class="bloc none full-width-bloc d-md-flex  d-none l-bloc" id="bloc-1">
 	<div class="container bloc-sm bloc-sm-lg">
 		<div class="row">
 			<div class="col">
@@ -107,7 +176,7 @@
 					</ol>
 					<div class="carousel-inner" role="listbox">
 						<div class="carousel-item active" onclick="location.href='https://ezkommerce.com/'">
-							<img class="d-inline-block w-100" alt="slide 1" src="img/banner%20ezkommerce.png" />
+							<img class="d-inline-block w-100" alt="Promociones Smattcom" src="img/banner%20ezkommerce.png" />
 							<div class="carousel-caption">
 								<span class="empty-column"></span>
 							</div>
@@ -130,7 +199,7 @@
 	<div class="container bloc-lg bloc-md-lg">
 		<div class="row">
 			<div class="col">
-				<img src="img/agromooc_logo_500.png" class="img-fluid mx-auto d-block img-bloc-358-style" alt="Ezkommerce%20horizontal%20color" />
+				<img src="img/agromooc_logo_500.png" class="img-fluid mx-auto d-block img-bloc-358-style" alt="logo agromooc" />
 			</div>
 		</div>
 	</div>
@@ -156,7 +225,7 @@
 	<div class="container bloc-lg bloc-sm-lg envase_agromooc">
 		<div class="row">
 			<div class="col-md-6 bloc-padding-right col-lg-5">
-				<img src="img/agromooc_pic_01.jpg" class="img-fluid img-408-style mx-auto d-block" alt="agromooc_pic_01" />
+				<img src="img/agromooc_pic_01.jpg" class="img-fluid img-408-style mx-auto d-block" alt="laptop con la web de agromooc abierta" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md">
@@ -176,7 +245,7 @@
 	<div class="container bloc-lg bloc-sm-lg envase_agromooc">
 		<div class="row">
 			<div class="col-md-6 bloc-padding-right col-lg-5">
-				<img src="img/agromooc_pic_02.jpg" class="img-fluid img-408-style mx-auto d-block" alt="agromooc_pic_02" />
+				<img src="img/agromooc_pic_02.jpg" class="img-fluid img-408-style mx-auto d-block" alt="buscando en en tonalidades verdes" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md">
@@ -196,7 +265,7 @@
 	<div class="container bloc-lg bloc-sm-lg envase_agromooc">
 		<div class="row">
 			<div class="col-md-6 bloc-padding-right col-lg-5">
-				<img src="img/agromooc_pic_03.jpg" class="img-fluid img-408-style mx-auto d-block" alt="agromooc_pic_03" />
+				<img src="img/agromooc_pic_03.jpg" class="img-fluid img-408-style mx-auto d-block" alt="lupa en campo" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md">
@@ -216,7 +285,7 @@
 	<div class="container bloc-lg bloc-sm-lg envase_agromooc">
 		<div class="row">
 			<div class="col-md-6 bloc-padding-right col-lg-5">
-				<img src="img/agromooc_pic_04.jpg" class="img-fluid img-408-style mx-auto d-block" alt="agromooc_pic_04" />
+				<img src="img/agromooc_pic_04.jpg" class="img-fluid img-408-style mx-auto d-block" alt="programas de agromooc" />
 			</div>
 			<div class="col-md-6 align-self-center">
 				<h2 class="mg-md">
@@ -264,7 +333,7 @@
 			</div>
 			<div class="mt-3 col-lg-3 col-md-6 mt-md-0">
 				<div class="card back_ficha">
-					<img src="img/01_ezkommerce_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="placeholder image" />
+					<img src="img/01_ezkommerce_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="logo de ezkommerce" />
 					<div class="card-body">
 						<p>
 							Servicios de Comercio Seguro: Transacción Protegida, Transporte, Seguro de mercancías y Verificador de producto.
@@ -277,7 +346,7 @@
 			</div>
 			<div class="mt-3 col-lg-3 align-self-center col-md-6 mt-lg-0">
 				<div class="card back_ficha">
-					<img src="img/01_Agromooc_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="placeholder image" />
+					<img src="img/01_Agromooc_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="logo de agromooc" />
 					<div class="card-body">
 						<p>
 							Capacitación en línea para el Agro. Cursos en técnicas de producción, exportación, gestión de negocios y más
@@ -290,7 +359,7 @@
 			</div>
 			<div class="mt-3 col-lg-3 align-self-center col-md-6 mt-lg-0">
 				<div class="card back_ficha">
-					<img src="img/01_CampoAds_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="placeholder image" />
+					<img src="img/01_CampoAds_homecolumna.jpg" class="img-fluid mx-auto d-block" alt="logo de campo ads" />
 					<div class="card-body">
 						<p>
 							Presencia digital y posicionamiento en el Sector por medio de anuncios en la comunidad Smattcom
@@ -381,11 +450,140 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?1246"></script>
-<script src="./js/bootstrap.bundle.min.js?763"></script>
-<script src="./js/blocs.min.js?8280"></script>
-<script src="./js/tilt.jquery.js?1870"></script><!-- Additional JS END -->
+<script src="./js/jquery.min.js?2370"></script>
+<script src="./js/bootstrap.bundle.min.js?4734"></script>
+<script src="./js/blocs.min.js?5127"></script>
+<script src="./js/tilt.jquery.js?833"></script><!-- Additional JS END -->
 
+<script>
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+
+
+  $('.btn-submit-comment').click(function(e){
+    Ejecutar(e);
+  });
+
+function Ejecutar(e)
+{
+
+ var ejecutar = true;   
+
+    if (!$("#form_valoracion")[0].checkValidity()) {       
+        ejecutar = false;        
+        $("#form_valoracion").find("#submit-hidden").click();
+      }
+
+    var Okvaloracion = valida_valoracion();
+
+      if (ejecutar && Okvaloracion)      
+    {
+
+        $.when(Procesar(e,'servicios/comentarios',$("#form_valoracion").serialize())).then(function(Resultado,e){
+            if(e=="success")
+            {             
+             if(Resultado.Result=='OK'){                
+               $( "#Comentario" ).remove();                    
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'success'
+               );
+             }
+             else
+             {
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'error'
+               );
+             }
+            }
+            else
+            {
+             Swal.fire(
+               '¡Ups!',
+               'Hay dificultades, vuelve a intentarlo, si el problema persiste, contacta a soporte',
+               'error'
+             );
+            }    
+         });       
+    }
+}
+
+
+function valida_valoracion()
+{
+    if($('#valoracion').val()=="")
+    {
+        $("#div_invalid_Valoracion").css("display", "block");
+        $("#ul_valoracion").attr("style", "border: 1px solid red;")
+        return false;
+    }
+    else
+    {
+        $("#div_invalid_Valoracion").css("display", "none");
+        $("#ul_valoracion").attr("style", "border: none;")
+        return true;
+    }
+}
+
+
+
+
+
+function highlightStar(obj,id) {
+    removeHighlight(id);		
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('highlight');
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+    });
+}
+
+function removeHighlight(id) {
+    $('.demo-table #valoracion-'+id+' li').removeClass('selected');
+    $('.demo-table #valoracion-'+id+' li').removeClass('highlight');
+}
+
+function addRating(obj,id) {
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('selected');
+        $('#valoracion-'+id+' #valoracion').val((index+1));
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+        valida_valoracion();
+    });	
+}
+
+function resetRating(id) {
+    if($('#valoracion-'+id+' #valoracion').val() != 0) {
+        $('.demo-table #valoracion-'+id+' li').each(function(index) {
+            $(this).addClass('selected');
+            if((index+1) == $('#valoracion-'+id+' #valoracion').val()) {
+                return false;	
+            }
+        });
+    }
+} 
+</script>
 
 </body>
 </html>

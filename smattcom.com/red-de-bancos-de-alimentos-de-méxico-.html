@@ -8,19 +8,85 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6374">
-	<link rel="stylesheet" type="text/css" href="style.css?7442">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?9555">
-	<link rel="stylesheet" type="text/css" href="./css/tabla.css?5061">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?5361">
+	<link rel="stylesheet" type="text/css" href="style.css?2420">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?8141">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?2477">
 	
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <title>Red de Bancos de Alimentos de México </title>
 
+<style>
+body {
+	width: 610;
+	font-family: Arial;
+}
+
+.demo-table {
+	width: 100%;
+	border-spacing: initial;
+	margin: 5px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;
+}
+
+.demo-table th {
+	background: #0667D0;
+	padding: 5px;
+	text-align: left;
+	color: #FFF;
+}
+
+.demo-table td {
+	background-color: #ffffff;
+	padding: 5px 5px 5px;
+}
+
+.demo-table td div.feed_title {
+	text-decoration: none;
+	color: #003fff;
+	font-weight: bold;
+}
+
+.demo-table ul {
+	margin: 0;
+	padding: 5px;	
+}
+
+.demo-table li {
+	cursor: pointer;
+	list-style-type: none;
+	display: inline-block;
+	color: #F0F0F0;
+	text-shadow: 0 0 1px #666666;
+	font-size: 20px;
+}
+
+.demo-table .highlight, .demo-table .selected {
+	color: #F4B30A;
+	text-shadow: 0 0 1px #F48F0A;
+}
+
+.star-rating-box {
+	border: #E4E4E4 1px solid;
+	margin: 5px 0px;
+}
+
+.star-rating-count {
+	border-top: #E4E4E4 1px solid;
+	font-size: 0.8em;
+	padding: 2px 5px;
+	background: #f9f9f9;
+	color: #828181;
+}
+</style>
 
     
 <!-- Analytics -->
@@ -52,7 +118,7 @@
 		<div class="row">
 			<div class="col">
 				<nav class="navbar row navbar-expand-md txt-navbar nav navbar-dark" role="navigation">
-					<a class="navbar-brand ltc-white" href="index.html"><img src="https://s3-us-west-1.amazonaws.com/smattcom.com/home/smattcom-header-logo.png" alt="logo" /></a>
+					<a class="navbar-brand l" href="index.html"><img src="https://s3-us-west-1.amazonaws.com/smattcom.com/home/smattcom-header-logo.png" alt="logo" /></a>
 					<button id="nav-toggle" type="button" class="ml-auto ui-navbar-toggler navbar-toggler border-0 p-0 menu-icon-uneven-b-list" data-toggle="collapse" data-target=".navbar-1" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -60,6 +126,9 @@
 						<ul class="site-navigation nav navbar-nav ml-auto txt-navbar">
 							<li class="nav-item">
 								<a href="index.html" class="nav-link">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://shop.smattcom.com/" class="nav-link a-btn" data-target="_blank" target="_blank">Tienda en línea</a>
 							</li>
 							<li class="nav-item">
 								<a href="como-funciona.html" class="nav-link">Cómo funciona</a>
@@ -114,10 +183,10 @@
 					</div><br>
 				</p>
 				<div class="text-center">
-					<a href="http://campoads.com/anuncios/servicios/organizaciones/banco-de-alimentos-mexico" class="btn btn-d btn-lg g btn-91-style btn-azul" data-target="_blank" target="_blank"><span class="fa fa-angle-left icon-spacer icon-true-blue-2"></span>Quiero donar</a>
+					<a href="http://campoads.com/anuncios/servicios/organizaciones/banco-de-alimentos-mexico" class="btn btn-d btn-lg g btn-91-style btn-azul" data-target="_blank" target="_blank"><span class="fa fa-angle-left icon-spacer icon-true-blue"></span>Quiero donar</a>
 				</div>
 				<div class="text-center">
-					<a href="alianzas.html" class="btn btn-d btn-lg btn-outline g btn-91-style"><span class="fa fa-angle-left icon-spacer icon-true-blue-2"></span>Regresar a Alianzas</a>
+					<a href="alianzas.html" class="btn btn-d btn-lg btn-outline g btn-91-style"><span class="fa fa-angle-left icon-spacer icon-true-blue"></span>Regresar a Alianzas</a>
 				</div>
 			</div>
 			<div class="col">
@@ -214,11 +283,140 @@
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?1246"></script>
-<script src="./js/bootstrap.bundle.min.js?763"></script>
-<script src="./js/blocs.min.js?8280"></script>
-<script src="./js/tilt.jquery.js?1199"></script><!-- Additional JS END -->
+<script src="./js/jquery.min.js?2370"></script>
+<script src="./js/bootstrap.bundle.min.js?4734"></script>
+<script src="./js/blocs.min.js?5127"></script>
+<script src="./js/tilt.jquery.js?1678"></script><!-- Additional JS END -->
 
+<script>
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+
+
+  $('.btn-submit-comment').click(function(e){
+    Ejecutar(e);
+  });
+
+function Ejecutar(e)
+{
+
+ var ejecutar = true;   
+
+    if (!$("#form_valoracion")[0].checkValidity()) {       
+        ejecutar = false;        
+        $("#form_valoracion").find("#submit-hidden").click();
+      }
+
+    var Okvaloracion = valida_valoracion();
+
+      if (ejecutar && Okvaloracion)      
+    {
+
+        $.when(Procesar(e,'servicios/comentarios',$("#form_valoracion").serialize())).then(function(Resultado,e){
+            if(e=="success")
+            {             
+             if(Resultado.Result=='OK'){                
+               $( "#Comentario" ).remove();                    
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'success'
+               );
+             }
+             else
+             {
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'error'
+               );
+             }
+            }
+            else
+            {
+             Swal.fire(
+               '¡Ups!',
+               'Hay dificultades, vuelve a intentarlo, si el problema persiste, contacta a soporte',
+               'error'
+             );
+            }    
+         });       
+    }
+}
+
+
+function valida_valoracion()
+{
+    if($('#valoracion').val()=="")
+    {
+        $("#div_invalid_Valoracion").css("display", "block");
+        $("#ul_valoracion").attr("style", "border: 1px solid red;")
+        return false;
+    }
+    else
+    {
+        $("#div_invalid_Valoracion").css("display", "none");
+        $("#ul_valoracion").attr("style", "border: none;")
+        return true;
+    }
+}
+
+
+
+
+
+function highlightStar(obj,id) {
+    removeHighlight(id);		
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('highlight');
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+    });
+}
+
+function removeHighlight(id) {
+    $('.demo-table #valoracion-'+id+' li').removeClass('selected');
+    $('.demo-table #valoracion-'+id+' li').removeClass('highlight');
+}
+
+function addRating(obj,id) {
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('selected');
+        $('#valoracion-'+id+' #valoracion').val((index+1));
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+        valida_valoracion();
+    });	
+}
+
+function resetRating(id) {
+    if($('#valoracion-'+id+' #valoracion').val() != 0) {
+        $('.demo-table #valoracion-'+id+' li').each(function(index) {
+            $(this).addClass('selected');
+            if((index+1) == $('#valoracion-'+id+' #valoracion').val()) {
+                return false;	
+            }
+        });
+    }
+} 
+</script>
 
 </body>
 </html>
