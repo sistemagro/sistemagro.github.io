@@ -5213,15 +5213,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h1-bloc-15-style{
 	font-size:35px;
 }
-.img-52-style{
-	width:149px;
-}
-.img-53-style{
-	width:151px;
-}
-.img-54-style{
-	width:151px;
-}
 .row-67-style{
 	width:100%;
 }
@@ -5236,9 +5227,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-bloc-25-style{
 	font-size:35px;
-}
-.img-91-style{
-	width:153px;
 }
 .img-92-style{
 	width:153px;
@@ -5342,15 +5330,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-bloc-75-style{
 	font-size:35px;
-}
-.img-241-style{
-	width:153px;
-}
-.img-242-style{
-	width:153px;
-}
-.img-243-style{
-	width:153px;
 }
 .h1-bloc-90-style{
 	font-size:35px;
@@ -5468,6 +5447,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-bloc-179-style{
 	width:96.46%;
+}
+.row-52-style{
+	width:81.69%;
 }
 
 /* = Colour
@@ -6958,53 +6940,38 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-44-style{
 		width:168px;
 	}
-	.img-39-style{
-		width:241px;
-	}
 	.row-bloc-10-style{
 		width:100%;
-	}
-	.img-52-style{
-		width:208px;
-	}
-	.img-53-style{
-		width:208px;
-	}
-	.img-54-style{
-		width:208px;
 	}
 	.row-99-style{
 		width:100%;
 	}
-	.img-91-style{
-		width:251px;
-	}
 	.img-92-style{
-		width:251px;
+		width:200px;
 	}
 	.img-93-style{
-		width:251px;
+		width:200px;
 	}
 	.link-bloc-25-style{
 		width:20px;
 	}
 	.img-108-style{
-		width:251px;
+		width:200px;
 	}
 	.img-109-style{
-		width:251px;
+		width:200px;
 	}
 	.img-110-style{
-		width:252px;
+		width:200px;
 	}
 	.img-139-style{
-		width:251px;
+		width:200px;
 	}
 	.img-140-style{
-		width:251px;
+		width:200px;
 	}
 	.img-141-style{
-		width:251px;
+		width:200px;
 	}
 	.img-157-style{
 		width:200px;
@@ -7055,6 +7022,276 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:200px;
 	}
 	.img-343-style{
+		width:200px;
+	}
+	.img-344-style{
+		width:200px;
+	}
+	.img-30-style{
+		width:200px;
+	}
+	.row-52-style{
+		width:100%;
+	}
+	.img-56-googlepl-style{
+		width:200px;
+	}
+	.img-57-appsto-style{
+		width:200px;
+	}
+	.img-58-style{
+		width:200px;
+	}
+	.img-72-style{
+		width:52px;
+	}
+	.img-73-icono3-negro-style{
+		width:52px;
+	}
+	.img-74-icono2neg-style{
+		width:52px;
+	}
+	.img-75-googlepl-style{
+		width:200px;
+	}
+	.img-76-appsto-style{
+		width:200px;
+	}
+	.img-77-huaw-style{
+		width:200px;
+	}
+	.img-91-icono1neg-style{
+		width:52px;
+	}
+	.img-92-icono3-negro-style{
+		width:52px;
+	}
+	.img-93-icono2neg-style{
+		width:52px;
+	}
+	.img-94-style{
+		width:200px;
+	}
+	.img-98-style{
+		width:170px;
+	}
+	.img-99-style{
+		width:170px;
+	}
+	.img-100-style{
+		width:170px;
+	}
+	.img-118-style{
+		width:200px;
+	}
+	.img-119-style{
+		width:200px;
+	}
+	.img-110-icono1neg-style{
+		width:52px;
+	}
+	.img-111-style{
+		width:52px;
+	}
+	.img-112-style{
+		width:52px;
+	}
+	.img-137-style{
+		width:200px;
+	}
+	.img-138-style{
+		width:200px;
+	}
+	.img-132-style{
+		width:200px;
+	}
+	.img-133-style{
+		width:200px;
+	}
+	.img-134-style{
+		width:200px;
+	}
+	.img-129-style{
+		width:52px;
+	}
+	.img-130-style{
+		width:52px;
+	}
+	.img-131-style{
+		width:52px;
+	}
+	.img-156-style{
+		width:200px;
+	}
+	.img-157-huaw-style{
+		width:200px;
+	}
+	.img-148-style{
+		width:52px;
+	}
+	.img-149-style{
+		width:52px;
+	}
+	.img-150-icono2neg-style{
+		width:52px;
+	}
+	.img-167-icono1neg-style{
+		width:52px;
+	}
+	.img-168-icono3-negro-style{
+		width:52px;
+	}
+	.img-169-style{
+		width:52px;
+	}
+	.img-174-style{
+		width:200px;
+	}
+	.img-175-style{
+		width:200px;
+	}
+	.img-176-huaw-style{
+		width:200px;
+	}
+	.img-186-style{
+		width:52px;
+	}
+	.img-187-style{
+		width:52px;
+	}
+	.img-188-style{
+		width:52px;
+	}
+	.img-193-googlepl-style{
+		width:200px;
+	}
+	.img-194-style{
+		width:200px;
+	}
+	.img-195-style{
+		width:200px;
+	}
+	.img-212-style{
+		width:200px;
+	}
+	.img-213-style{
+		width:200px;
+	}
+	.img-214-style{
+		width:200px;
+	}
+	.img-205-style{
+		width:52px;
+	}
+	.img-206-style{
+		width:52px;
+	}
+	.img-207-style{
+		width:52px;
+	}
+	.img-225-icono1neg-style{
+		width:52px;
+	}
+	.img-226-icono3-negro-style{
+		width:52px;
+	}
+	.img-227-icono2neg-style{
+		width:52px;
+	}
+	.img-232-style{
+		width:200px;
+	}
+	.img-233-style{
+		width:200px;
+	}
+	.img-234-style{
+		width:200px;
+	}
+	.img-244-style{
+		width:52px;
+	}
+	.img-245-style{
+		width:52px;
+	}
+	.img-246-style{
+		width:52px;
+	}
+	.img-251-style{
+		width:200px;
+	}
+	.img-252-style{
+		width:200px;
+	}
+	.img-253-huaw-style{
+		width:200px;
+	}
+	.img-262-style{
+		width:52px;
+	}
+	.img-263-style{
+		width:52px;
+	}
+	.img-264-style{
+		width:52px;
+	}
+	.img-265-style{
+		width:200px;
+	}
+	.img-266-style{
+		width:200px;
+	}
+	.img-267-style{
+		width:200px;
+	}
+	.img-269-style{
+		width:200px;
+	}
+	.img-270-style{
+		width:200px;
+	}
+	.img-271-style{
+		width:200px;
+	}
+	.img-365-style{
+		width:52px;
+	}
+	.img-366-style{
+		width:52px;
+	}
+	.img-367-style{
+		width:52px;
+	}
+	.img-372-style{
+		width:200px;
+	}
+	.img-373-style{
+		width:200px;
+	}
+	.img-374-style{
+		width:200px;
+	}
+	.img-447-style{
+		width:52px;
+	}
+	.img-448-style{
+		width:52px;
+	}
+	.img-449-style{
+		width:52px;
+	}
+	.img-422-style{
+		width:200px;
+	}
+	.img-423-style{
+		width:200px;
+	}
+	.img-424-style{
+		width:200px;
+	}
+	.img-456-style{
+		width:200px;
+	}
+	.img-455-style{
 		width:200px;
 	}
 	
@@ -7409,16 +7646,262 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:100%;
 	}
 	.img-44-style{
-		width:170px;
+		width:118px;
 	}
 	.img-422-style{
-		width:200px;
+		width:150px;
 	}
 	.img-423-style{
-		width:200px;
+		width:150px;
 	}
 	.img-424-style{
-		width:200px;
+		width:150px;
+	}
+	.img-icono1neg-style{
+		width:45px;
+	}
+	.img-icono2neg-style{
+		width:45px;
+	}
+	.img-icono3-negro-style{
+		width:45px;
+	}
+	.img-30-style{
+		width:150px;
+	}
+	.btn-bloc-15-margin-top{
+		width:100%;
+	}
+	.img-58-style{
+		width:150px;
+	}
+	.img-56-googlepl-style{
+		width:150px;
+	}
+	.img-57-appsto-style{
+		width:150px;
+	}
+	.img-52-icono1neg-style{
+		width:47px;
+	}
+	.img-60-style{
+		width:150px;
+	}
+	.img-61-style{
+		width:150px;
+	}
+	.img-62-style{
+		width:150px;
+	}
+	.img-72-style{
+		width:52px;
+	}
+	.img-98-style{
+		width:150px;
+	}
+	.img-99-style{
+		width:150px;
+	}
+	.img-100-style{
+		width:150px;
+	}
+	.img-94-style{
+		width:150px;
+	}
+	.img-92-style{
+		width:150px;
+	}
+	.img-93-style{
+		width:150px;
+	}
+	.img-118-style{
+		width:150px;
+	}
+	.img-119-style{
+		width:150px;
+	}
+	.img-108-style{
+		width:150px;
+	}
+	.img-109-style{
+		width:150px;
+	}
+	.img-110-style{
+		width:150px;
+	}
+	.img-110-icono1neg-style{
+		width:52px;
+	}
+	.img-111-style{
+		width:52px;
+	}
+	.img-112-style{
+		width:52px;
+	}
+	.img-137-style{
+		width:150px;
+	}
+	.img-138-style{
+		width:150px;
+	}
+	.img-132-style{
+		width:150px;
+	}
+	.img-133-style{
+		width:150px;
+	}
+	.img-134-style{
+		width:150px;
+	}
+	.img-156-style{
+		width:150px;
+	}
+	.img-157-huaw-style{
+		width:150px;
+	}
+	.img-139-style{
+		width:150px;
+	}
+	.img-140-style{
+		width:150px;
+	}
+	.img-141-style{
+		width:150px;
+	}
+	.img-150-icono2neg-style{
+		width:52px;
+	}
+	.img-174-style{
+		width:150px;
+	}
+	.img-175-style{
+		width:150px;
+	}
+	.img-159-style{
+		width:150px;
+	}
+	.img-158-style{
+		width:150px;
+	}
+	.img-157-style{
+		width:150px;
+	}
+	.btn-bloc-90-margin-top{
+		width:100%;
+	}
+	.img-176-huaw-style{
+		width:150px;
+	}
+	.img-195-style{
+		width:150px;
+	}
+	.img-194-style{
+		width:150px;
+	}
+	.img-193-googlepl-style{
+		width:150px;
+	}
+	.img-176-style{
+		width:150px;
+	}
+	.img-177-style{
+		width:150px;
+	}
+	.img-212-style{
+		width:150px;
+	}
+	.img-213-style{
+		width:150px;
+	}
+	.img-214-style{
+		width:150px;
+	}
+	.img-190-style{
+		width:150px;
+	}
+	.img-191-style{
+		width:150px;
+	}
+	.img-192-style{
+		width:150px;
+	}
+	.img-208-style{
+		width:150px;
+	}
+	.img-209-style{
+		width:150px;
+	}
+	.img-210-style{
+		width:150px;
+	}
+	.img-232-style{
+		width:150px;
+	}
+	.img-233-style{
+		width:150px;
+	}
+	.img-234-style{
+		width:150px;
+	}
+	.img-225-style{
+		width:150px;
+	}
+	.img-226-style{
+		width:150px;
+	}
+	.img-227-style{
+		width:150px;
+	}
+	.img-251-style{
+		width:150px;
+	}
+	.img-252-style{
+		width:150px;
+	}
+	.img-253-huaw-style{
+		width:150px;
+	}
+	.img-265-style{
+		width:150px;
+	}
+	.img-266-style{
+		width:150px;
+	}
+	.img-267-style{
+		width:150px;
+	}
+	.img-269-style{
+		width:150px;
+	}
+	.img-270-style{
+		width:150px;
+	}
+	.img-271-style{
+		width:150px;
+	}
+	.img-342-style{
+		width:150px;
+	}
+	.img-343-style{
+		width:150px;
+	}
+	.img-344-style{
+		width:150px;
+	}
+	.img-372-style{
+		width:150px;
+	}
+	.img-373-style{
+		width:150px;
+	}
+	.img-374-style{
+		width:150px;
+	}
+	.img-454-style{
+		width:150px;
+	}
+	.img-455-style{
+		width:150px;
 	}
 	.sidebar-nav{
 		width:230px!important;
@@ -8922,7 +9405,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-left:3px;
 	}
 	.img-30-style{
-		width:90px;
+		width:113px;
 	}
 	.row-bloc-10-style{
 		width:98.58%;
@@ -8985,7 +9468,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:54.84%;
 	}
 	.img-44-style{
-		width:140px;
+		width:94px;
 	}
 	
 }
