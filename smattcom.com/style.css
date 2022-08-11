@@ -1816,7 +1816,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:0px;
 }
 .img-tomate-head-style{
-	width:280px;
+	width:262px;
 }
 .img-253-style{
 	width:470px;
@@ -5447,6 +5447,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .row-52-style{
 	width:81.69%;
 }
+.bgc-saffron{
+	background-color:#0168D7;
+}
+.img-896-style{
+	width:115px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -8286,7 +8292,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		margin-left:2px;
 	}
 	.img-tomate-head-style{
-		width:155px;
+		width:101px;
 	}
 	.img-253-style{
 		width:264px;
@@ -8422,6 +8428,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.p-15-margin-bottom{
 		margin-top:30px;
+		font-size:19px;
 	}
 	.container-div-bloc-12-margin-top{
 		margin-top:20px;
@@ -9474,6 +9481,36 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-44-style{
 		width:94px;
+	}
+	.h1-bloc-10-style{
+		font-size:20px;
+	}
+	.h5-bloc-10-style{
+		font-size:18px;
+	}
+	.img-icono1neg-style{
+		width:43px;
+	}
+	.margin-top-m{
+		margin-top:21px;
+	}
+	.img-896-style{
+		width:127px;
+	}
+	.h1-126-style{
+		font-size:20px;
+		font-family:"Montserrat";
+	}
+	.h3-bloc-28-style{
+		width:90.04%;
+	}
+	.h4-406-style{
+		font-size:20px;
+		font-family:"Montserrat";
+	}
+	.h2-114-style{
+		font-size:25px;
+		font-family:"Montserrat";
 	}
 	
 }
