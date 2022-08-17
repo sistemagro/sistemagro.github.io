@@ -112,6 +112,25 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Group Styles */
+
+.bloc-group{
+	display:flex;
+}
+.bloc-tile-2{
+	width:50%;
+}
+.bloc-tile-3{
+	width:33.33333333%;
+}
+.bloc-tile-4{
+	width:25%;
+}
+.bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+	width:100%;
+}
+
+
 /* Background Styles */
 
 .bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
@@ -5452,6 +5471,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-896-style{
 	width:115px;
+}
+.img-jitomate-gran-style{
+	width:288px;
 }
 
 /* = Colour
