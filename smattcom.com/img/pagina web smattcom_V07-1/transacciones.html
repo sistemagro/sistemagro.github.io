@@ -1,0 +1,665 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="robots" content="index, follow">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?5605">
+	<link rel="stylesheet" type="text/css" href="style.css?3266">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?5899">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?6296">
+	
+	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>transacciones</title>
+
+<style>
+body {
+	width: 610;
+	font-family: Arial;
+}
+
+.demo-table {
+	width: 100%;
+	border-spacing: initial;
+	margin: 5px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;
+}
+
+.demo-table th {
+	background: #0667D0;
+	padding: 5px;
+	text-align: left;
+	color: #FFF;
+}
+
+.demo-table td {
+	background-color: #ffffff;
+	padding: 5px 5px 5px;
+}
+
+.demo-table td div.feed_title {
+	text-decoration: none;
+	color: #003fff;
+	font-weight: bold;
+}
+
+.demo-table ul {
+	margin: 0;
+	padding: 5px;	
+}
+
+.demo-table li {
+	cursor: pointer;
+	list-style-type: none;
+	display: inline-block;
+	color: #F0F0F0;
+	text-shadow: 0 0 1px #666666;
+	font-size: 20px;
+}
+
+.demo-table .highlight, .demo-table .selected {
+	color: #F4B30A;
+	text-shadow: 0 0 1px #F48F0A;
+}
+
+.star-rating-box {
+	border: #E4E4E4 1px solid;
+	margin: 5px 0px;
+}
+
+.star-rating-count {
+	border-top: #E4E4E4 1px solid;
+	font-size: 0.8em;
+	padding: 2px 5px;
+	background: #f9f9f9;
+	color: #828181;
+}
+</style>
+
+    
+<!-- Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140236123-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140236123-1');
+</script>
+<!-- Analytics END -->
+    
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<!-- Preloader END -->
+
+
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc color-nav sticky-nav bgc-5000" id="bloc-0">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col">
+				<nav class="navbar row txt-navbar nav navbar-dark navbar-expand-sm" role="navigation">
+					<a class="navbar-brand" href="index.html"><img src="https://s3-us-west-1.amazonaws.com/smattcom.com/home/smattcom-header-logo.png" alt="logo" /></a>
+					<button id="nav-toggle" type="button" class="ml-auto ui-navbar-toggler navbar-toggler border-0 p-0 menu-icon-uneven-b-list" data-toggle="collapse" data-target=".navbar-17998" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse navbar-17998  sidebar-nav">
+						<ul class="site-navigation nav navbar-nav ml-auto txt-navbar">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://shop.smattcom.com/" class="nav-link a-btn" data-target="_blank" target="_blank">Tienda en línea</a>
+							</li>
+							<li class="nav-item">
+								<a href="como-funciona.html" class="nav-link">Cómo funciona</a>
+							</li>
+							<li class="nav-item">
+								<a href="precio-productos-agricolas.html" class="nav-link a-btn">Precios de productos</a>
+							</li>
+							<li class="nav-item">
+								<a href="alianzas.html" class="nav-link">Alianzas</a>
+							</li>
+							<li class="nav-item">
+								<a href="blog-nuevo.html" class="nav-link">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a href="comentarios.html" class="nav-link a-btn">Comentarios</a>
+							</li>
+							<li class="nav-item">
+								<a href="descarga.html" class="nav-link a-btn">Descargar</a>
+							</li>
+							<li class="nav-item">
+								<a href="contacto.html" class="nav-link">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<div class="bloc none full-width-bloc l-bloc" id="bloc-1">
+	<div class="container bloc-sm bloc-sm-lg">
+		<div class="row d-md-flex  d-none">
+			<div class="col">
+				<div id="carousel-41389" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators list-style hide-indicators">
+						<li data-target="#carousel-41389" data-slide-to="0" class="active">
+						</li>
+						<li data-target="#carousel-41389" data-slide-to="1">
+						</li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active" onclick="location.href='https://ezkommerce.com/'">
+							<img class="d-inline-block w-100" alt="Promociones Smattcom" src="img/banner%20ezkommerce.png" />
+							<div class="carousel-caption">
+								<span class="empty-column"></span>
+							</div>
+						</div>
+						<div class="carousel-item" onclick="location.href='https://edu.agromooc.com/'">
+							<img alt="slide 2" class="d-inline-block w-100" src="img/banner%20campoads.png" />
+							<div class="carousel-caption">
+							</div>
+						</div>
+					</div><a class="carousel-nav-controls carousel-control-prev" href="#carousel-41389" role="button" data-slide="prev"><svg width="26" height="26" viewBox="0 0 32 32"><path class="carousel-nav-icon carousel-prev-icon" d="M22,2L9,16,22,30"></path></svg><span class="sr-only">Previous</span></a><a class="carousel-nav-controls carousel-control-next" href="#carousel-41389" role="button" data-slide="next"><svg width="26" height="26" viewBox="0 0 32 32"><path class="carousel-nav-icon carousel-next-icon" d="M10.344,2l13,14-13,14"></path></svg><span class="sr-only">Next</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+<!-- bloc-410 -->
+<div class="bloc l-bloc" id="bloc-410">
+	<div class="container bloc-lg bloc-md-lg">
+		<div class="row">
+			<div class="col-lg-2 col-4 col-md-5">
+				<img src="img/manos_ezkommerce_icon_24px.png" class="img-fluid mx-auto d-block img-bloc-410-style" alt="icono azul transaccion protegida " />
+			</div>
+			<div class="col-md-6 col-8">
+				<h3 class="titulos-centro-ayuda margin-top">
+					Transacción Protegida
+				</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<p class="margen-parrafo-centro text-justify mx-auto d-block p-bloc-410-style">
+					Utiliza una Transacción Protegida para garantizar el pago y la entrega de tus productos.<br><br>¿Cómo funciona?<br><br>1.- Cierra el trato, define las características del producto y monto de la operación.<br><br>2.- El comprador realiza el pago en custodia en Ezkommerce con un esquema de pago protegido.<br><br>3.- Los recursos son retenidos y liberados al vendedor hasta que se entrega el producto de forma satisfactoria.<br><br>Costo del servicio 1.65% sobre el monto de la Transacción, mínimo $190 MXN<br><br>Como medio de apoyo, utiliza el <a class="link-bloc-410-style azul_link" href="simulador-transaccion.html">Simulador de Transacción Protegida</a> para visualizar el costo de la inversión al utilizar una Transacción y cómo fijar correctamente la cotización y pago a realizar.<br>
+				</p>
+				<p class="text-lg-center margen-parrafo-centro text-center p-711-style mx-auto d-block">
+					Nuestro compromiso con el consumidor se respalda con el distintivo digital que <strong>Profeco ha otorgado a la App Smattcom</strong> en materia de seguridad, transparencia, confianza y certeza jurídica en servicios de comercio electrónico.<br><a class="link-0-bloc-410-style azul_link" href="https://smattcom.com/blog/grupo-smattcom-obtiene-distintivo-digital-profeco-comercio-electronico">Conoce más sobre este distintivo</a><br>
+				</p><img src="img/PROFECO_1%20blanco.png" class="img-fluid mx-auto d-block img-618-style" alt="profeco distintivo digital " />
+				<div class="row">
+					<div class="col-lg-2 col-4">
+						<img src="img/nip_seguridad_icon_24px.svg" class="img-fluid mx-auto d-block img-619-style" alt="icono azul candado" />
+					</div>
+					<div class="col-8">
+						<h3 class="mg-md titulos-centro-ayuda text-left margin-top">
+							¿Cómo te ayuda una&nbsp;Transacción Protegida?<br>
+						</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<p class="margen-parrafo-centro text-justify mx-auto d-block p-712-style">
+							Al comercializar con una Transacción Protegida, <strong>si eres vendedor</strong>, envía tu producto hasta que el comprador haya hecho el depósito en resguardo y con ello, únicamente asegúrate de entregar el producto negociado con el comprador.<br><br><strong>Si eres comprador,</strong> una transacción protegida te ayuda a garantizar la entrega de tu producto o la devolución de tu dinero.<br><br>La <strong>entrega del producto</strong> se realiza intercambiando una clave única proporcionada por el sistema.<br><br>Se procede a la inspección del producto y ambas partes <strong>liberan el pago</strong> para:<br>a) <strong>El vendedor,</strong> en caso de la entrega satisfactoria<br><br>b) <strong>Al comprador,</strong> con una devolución parcial o descuento.<br><br>c) <strong>Al comprador,</strong> con una devolución total en caso de que el producto no sea apto para su recibo en términos del acuerdo comercial.<br><br><a class="link-1611-style azul_link" href="#" data-toggle="modal" data-target="#modal-24353">Ver Video de ¿cómo funciona?</a><br>
+						</p>
+						<div class="row">
+							<div class="col-lg-2 col-4">
+								<img src="img/manos_ezkommerce_icon_24px.png" class="img-fluid mx-auto d-block img-620-style" alt="icono azul transaccion protegida " />
+							</div>
+							<div class="col">
+								<h3 class="mg-md titulos-centro-ayuda margin-top">
+									Inicia una Transacción Protegida
+								</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<p class="margen-parrafo-centro text-justify mx-auto d-block p-713-style">
+									1.- Contacta de forma directa a un usuario desde una publicación, desde el chat o solicita sus datos de contacto y llega a un acuerdo.<br><br>2.- Da clic en iniciar una transacción Protegida desde una publicación o el chat.<br>
+								</p><img src="img/transaccion-desdepublicacion.png" class="img-fluid mx-auto d-block img-621-style" alt="screenshot transaccion desdepublicacion" /><img src="img/transaccion-desdecaht.png" class="img-fluid mx-auto d-block img-622-style margin-top" alt="screenshot transaccion desdecaht" />
+								<div class="row">
+									<div class="col">
+										<h4 class="mg-md titulos-centro-ayuda h4-179-style text-center margin-top">
+											<strong>Una vez iniciada una Transacción Protegida:</strong>
+										</h4><img src="img/transaccion-empezar.png" class="img-fluid mx-auto d-block img-623-style" alt="screenshot transaccion empezar" />
+										<p class="margen-parrafo-centro text-justify mx-auto d-block p-714-style">
+											Como medio de apoyo, solicita <a class="link-49687-style azul_link" href="soporte.html">la atención de un Asesor Smattcom</a> sin costo, que te acompañe en la realización de cada uno de los pasos de la Transacción Protegida.
+										</p>
+										<h4 class="mg-md titulos-centro-ayuda h4-180-style text-center">
+											<strong>Otros Servicios de Comercio Seguro</strong>
+										</h4>
+										<div class="row row-bloc-410-style">
+											<div class="col-lg-1 col-4 offset-lg-1">
+												<img src="img/verificadores_icon_24px.svg" class="img-fluid mx-auto d-block img-624-style" alt="icono azul verificadores" />
+											</div>
+											<div class="col-lg-8 col-8">
+												<h5 class="mg-md">
+													<strong>Verificadores de mercancía</strong>
+												</h5>
+												<p>
+													Utiliza un <a class="link-11427-style azul_link" href="verificadores-mercancia.html">verificador de mercancía</a> como un acompañamiento en tus entregas para confirmar que el producto es entregado en términos del acuerdo comercial
+												</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-1 col-4 offset-lg-1">
+												<img src="img/seguro_mercancias_icon_24px.svg" class="img-fluid mx-auto d-block img-624-style" alt="icono azul seguro de mercancias " />
+											</div>
+											<div class="col-lg-8 col-8">
+												<h5 class="mg-md">
+													<strong>Seguro de mercancías</strong><br>
+												</h5>
+												<p>
+													<a class="link-11119-style azul_link" href="seguros-mercancias.html">Asegura el traslado</a> de tu producto de origen a destino y protégete contra robo o daños ocasionados durante el traslado
+												</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-1 col-4 offset-lg-1">
+												<img src="img/transporte_terrestre_icon_24px.svg" class="img-fluid mx-auto d-block img-624-style" alt="icono azul de transporte terrestre" />
+											</div>
+											<div class="col-lg-8 col-8">
+												<h5 class="mg-md">
+													<strong>Transporte</strong><br>
+												</h5>
+												<p class="p-717-style">
+													Solicita una <a class="link-16418-style azul_link" href="transporte-seguro.html">cotización de Transporte</a> para trasladar tu producto con nuestro pool de transportistas verificados
+												</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<h4 class="mg-md titulos-centro-ayuda h4-181-style text-center mx-auto d-block text-lg-left">
+													<strong>Temas Relacionados:</strong>
+												</h4>
+												<p class="mx-auto d-block p-718-style text-justify">
+													-<a class="link-4412-style azul_link" href="simulador-transaccion.html">Simulador de Transacción Protegida</a><br><br>-<a class="link-12929-style azul_link" href="compra-vende.html">Publicaciones de Compra y Venta</a> <br><br>- <a class="link-19423-style azul_link" href="contacta-usuarios.html">Contactar a un usuario</a><br><br>- <a class="link-34225-style azul_link" href="tips.html">Tips para comercializar de forma segura</a><br><br>- <a class="link-14290-style azul_link" href="soporte.html">Contacta a Soporte</a><br><br>- <a class="link-facturación-style azul_link" href="facturacion.html">Facturación</a><br><br>- <a class="link-30855-style azul_link descargasmatt" href="#">Descarga Smattcom</a>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-410 END -->
+
+<!-- bloc-411 -->
+<div class="bloc l-bloc" id="bloc-411">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col">
+				<div class="row">
+					<div class="col-lg-12">
+						<div>
+							<div class="row">
+								<div class="col-lg-10 offset-lg-3">
+									<div class="row">
+										<div class="col-md-2 col-sm-2 col-3 offset-lg--1 col-lg-1">
+											<img src="img/icon-comentario.png" class="img-fluid img-11-style float-lg-none" alt="icon comentario" />
+										</div>
+										<div class="col-9">
+											<h6 class="mg-md h6-comentarios-style float-lg-none">
+												Comentarios&nbsp;de usuarios
+											</h6>
+										</div>
+									</div>
+									<div class="row row-bloc-3-style">
+										<div class="offset-lg-0 col-lg-11 offset-4 col-12">
+											<a href="agregar-comentario.html" class="btn btn-d btn-20-style btn-glossy btn-sm float-lg-none">Agregar comentario</a>
+										</div>
+									</div>
+								</div>
+								<div class="col">
+									<div class="row">
+										<div class="offset-lg-3 col-lg-6">
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-0-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Sara Rodríguez
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Luis Martínez
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-margin-top p-22-style">
+														Rafa Villanueva
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<p>
+												<div class="text-center">
+													<a class="link-0-bloc-3-style" href="comentarios.html">Ver más comentarios</a>
+												</div><br>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-411 END -->
+
+<!-- bloc-412 -->
+<div class="bloc l-bloc" id="bloc-412">
+	<div class="container bloc-lg">
+		<div class="row">
+			<div class="col">
+				<div id="modal-24353" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog  modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-times close"></span></a>
+							<div class="modal-body">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/J7P58tnLkig" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+									</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-412 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- bloc-342 -->
+<div class="bloc footer color-footer l-bloc" id="bloc-342">
+	<div class="container bloc-lg">
+		<div class="row row-footer-style">
+			<div class="col-md-3 col-sm-6 bloc-0-margin-top col-12 offset-lg-1">
+				<img src="https://s3-us-west-1.amazonaws.com/smattcom.com/home/footer-logo.png" class="img-fluid img-209-margin-left d-block" alt="Logo Smattcom Gris" /><a href="terminos-y-condiciones.html" class="a-btn a-block footer-link link-margin-top txtfooter" data-target="_blank" target="_blank">Términos y condiciones</a><a href="aviso-de-privacidad.html" class="a-btn a-block footer-link txtfooter link-0-bloc-8-margin-top" data-target="_blank" target="_blank">Aviso de privacidad</a><a href="codigo_etica.html" class="a-btn a-block footer-link txtfooter link-0-bloc-8-margin-top" data-target="_blank" target="_blank">Código de ética</a><a href="https://smattcom.com/blog" class="a-btn a-block footer-link txtfooter link-blog-margin-top" data-target="_blank" target="_blank">Blog</a><a href="https://info.smattcom.com/facturacion-grupo-smattcom" class="a-btn a-block footer-link txtfooter link-blog-margin-top" data-target="_blank" target="_blank">Facturación</a>
+			</div>
+			<div class="col-md-3 col-sm-6 bloc-footer-margin-top">
+				<h4 class="mg-md text-sm-left text-center txt-titulos-footer mx-auto d-block">
+					Contacto
+				</h4><a href="#" class="a-btn a-block link-bloc-8-margin-top txtfooter">info@smattcom.com</a>
+				<p class="txtfooter p-footer-margin-top mx-auto d-block">
+					( +52 ) 55 2155 5552&nbsp;<br />( +52 ) 55 2155 5553
+				</p><a href="https://distintivodigital.profeco.gob.mx/index.php"><img src="img/PROFECO_1footer@x1.png" class="img-fluid img-profeco-1foot-style mx-auto d-block" alt="PROFECO distintivo digital" srcset="img/PROFECO_1footer@x2.png 2x, img/PROFECO_1footer@x3.png 3x" /></a>
+			</div>
+			<div class="col-md-4 col-sm-11">
+				<h4 class="mg-md text-sm-left text-center txt-titulos-footer h4-margin-top">
+					Síguenos
+				</h4>
+				<div class="row">
+					<div class="col-sm-2 offset-sm-0 col-2">
+						<div class="text-center container-div-style">
+							<a href="https://www.facebook.com/smattcom/" data-target="_blank" target="_blank"><span class="icon-light-slate-gray icon-md fab fa-facebook"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 offset--1 col-2">
+						<div class="text-center container-div-footer-style">
+							<a href="https://twitter.com/smattcom_es" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray icon-margin-left fab fa-twitter"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-2 offset-0">
+						<div class="text-center">
+							<a href="https://www.instagram.com/smattcom.mx/" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-instagram"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-2 offset--1">
+						<div class="text-center container-div-0-style">
+							<a href="https://www.linkedin.com/company/smattcom/" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-linkedin"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-2 offset--1">
+						<div class="text-center">
+							<a href="https://www.youtube.com/channel/UCi2BpIOSJafguuioGol8uEw" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-youtube"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-2">
+						<div class="text-center">
+							<a href="https://api.whatsapp.com/send?phone=5215570515989" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-whatsapp"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="text-center">
+							<a href="#" class="btn btn-d btn-8-style descargasmatt btn-lg btn-azul">Descarga la App Smattcom en tu celular</a>
+							<div class="row margin-sides">
+								<div class="col margin-button">
+									<a href="https://play.google.com/store/apps/details?id=sistemagro.smattcom" data-target="_blank" target="_blank"><img src="img/Googleplay@x1.png" class="img-fluid mx-auto d-block img-protected" alt="Google play" srcset="img/Googleplay@x2.png 2x, img/Googleplay@x3.png 3x" /></a>
+								</div>
+								<div class="col margin-button">
+									<a href="https://apps.apple.com/mx/app/smattcom/id1275834490" data-target="_blank" target="_blank"><img src="img/appstore@x1.png" class="img-fluid mx-auto d-block img-protected" alt="app store" srcset="img/appstore@x2.png 2x, img/appstore@x3.png 3x" /></a>
+								</div>
+								<div class="col margin-button">
+									<a href="https://appgallery.huawei.com/app/C104749779?locale=es_US" data-target="_blank" target="_blank"><img src="img/Huawei@x1.png" class="img-fluid mx-auto d-block" alt="App Gallery" srcset="img/Huawei@x2.png 2x, img/Huawei@x3.png 3x" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-342 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Additional JS -->
+<script src="./js/jquery.min.js?5380"></script>
+<script src="./js/bootstrap.bundle.min.js?3282"></script>
+<script src="./js/blocs.min.js?2304"></script>
+<script src="./js/tilt.jquery.js?5509"></script><!-- Additional JS END -->
+
+<script>
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+
+
+  $('.btn-submit-comment').click(function(e){
+    Ejecutar(e);
+  });
+
+function Ejecutar(e)
+{
+
+ var ejecutar = true;   
+
+    if (!$("#form_valoracion")[0].checkValidity()) {       
+        ejecutar = false;        
+        $("#form_valoracion").find("#submit-hidden").click();
+      }
+
+    var Okvaloracion = valida_valoracion();
+
+      if (ejecutar && Okvaloracion)      
+    {
+
+        $.when(Procesar(e,'servicios/comentarios',$("#form_valoracion").serialize())).then(function(Resultado,e){
+            if(e=="success")
+            {             
+             if(Resultado.Result=='OK'){                
+               $( "#Comentario" ).remove();                    
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'success'
+               );
+             }
+             else
+             {
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'error'
+               );
+             }
+            }
+            else
+            {
+             Swal.fire(
+               '¡Ups!',
+               'Hay dificultades, vuelve a intentarlo, si el problema persiste, contacta a soporte',
+               'error'
+             );
+            }    
+         });       
+    }
+}
+
+
+function valida_valoracion()
+{
+    if($('#valoracion').val()=="")
+    {
+        $("#div_invalid_Valoracion").css("display", "block");
+        $("#ul_valoracion").attr("style", "border: 1px solid red;")
+        return false;
+    }
+    else
+    {
+        $("#div_invalid_Valoracion").css("display", "none");
+        $("#ul_valoracion").attr("style", "border: none;")
+        return true;
+    }
+}
+
+
+
+
+
+function highlightStar(obj,id) {
+    removeHighlight(id);		
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('highlight');
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+    });
+}
+
+function removeHighlight(id) {
+    $('.demo-table #valoracion-'+id+' li').removeClass('selected');
+    $('.demo-table #valoracion-'+id+' li').removeClass('highlight');
+}
+
+function addRating(obj,id) {
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('selected');
+        $('#valoracion-'+id+' #valoracion').val((index+1));
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+        valida_valoracion();
+    });	
+}
+
+function resetRating(id) {
+    if($('#valoracion-'+id+' #valoracion').val() != 0) {
+        $('.demo-table #valoracion-'+id+' li').each(function(index) {
+            $(this).addClass('selected');
+            if((index+1) == $('#valoracion-'+id+' #valoracion').val()) {
+                return false;	
+            }
+        });
+    }
+} 
+</script>
+
+</body>
+</html>

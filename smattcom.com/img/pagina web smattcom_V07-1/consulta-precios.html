@@ -1,0 +1,583 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="robots" content="index, follow">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6249">
+	<link rel="stylesheet" type="text/css" href="style.css?2074">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?9554">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?9282">
+	
+	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/feather.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800,300&display=swap&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>consulta-precios</title>
+
+<style>
+body {
+	width: 610;
+	font-family: Arial;
+}
+
+.demo-table {
+	width: 100%;
+	border-spacing: initial;
+	margin: 5px 0px;
+	word-break: break-word;
+	table-layout: auto;
+	line-height: 1.8em;
+	color: #333;
+}
+
+.demo-table th {
+	background: #0667D0;
+	padding: 5px;
+	text-align: left;
+	color: #FFF;
+}
+
+.demo-table td {
+	background-color: #ffffff;
+	padding: 5px 5px 5px;
+}
+
+.demo-table td div.feed_title {
+	text-decoration: none;
+	color: #003fff;
+	font-weight: bold;
+}
+
+.demo-table ul {
+	margin: 0;
+	padding: 5px;	
+}
+
+.demo-table li {
+	cursor: pointer;
+	list-style-type: none;
+	display: inline-block;
+	color: #F0F0F0;
+	text-shadow: 0 0 1px #666666;
+	font-size: 20px;
+}
+
+.demo-table .highlight, .demo-table .selected {
+	color: #F4B30A;
+	text-shadow: 0 0 1px #F48F0A;
+}
+
+.star-rating-box {
+	border: #E4E4E4 1px solid;
+	margin: 5px 0px;
+}
+
+.star-rating-count {
+	border-top: #E4E4E4 1px solid;
+	font-size: 0.8em;
+	padding: 2px 5px;
+	background: #f9f9f9;
+	color: #828181;
+}
+</style>
+
+    
+<!-- Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-140236123-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140236123-1');
+</script>
+<!-- Analytics END -->
+    
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<!-- Preloader END -->
+
+
+<!-- Main container -->
+<div class="page-container">
+    
+<!-- bloc-0 -->
+<div class="bloc color-nav sticky-nav bgc-5000" id="bloc-0">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col">
+				<nav class="navbar row txt-navbar nav navbar-dark navbar-expand-sm" role="navigation">
+					<a class="navbar-brand" href="index.html"><img src="https://s3-us-west-1.amazonaws.com/smattcom.com/home/smattcom-header-logo.png" alt="logo" /></a>
+					<button id="nav-toggle" type="button" class="ml-auto ui-navbar-toggler navbar-toggler border-0 p-0 menu-icon-uneven-b-list" data-toggle="collapse" data-target=".navbar-17998" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse navbar-17998  sidebar-nav">
+						<ul class="site-navigation nav navbar-nav ml-auto txt-navbar">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a href="https://shop.smattcom.com/" class="nav-link a-btn" data-target="_blank" target="_blank">Tienda en línea</a>
+							</li>
+							<li class="nav-item">
+								<a href="como-funciona.html" class="nav-link">Cómo funciona</a>
+							</li>
+							<li class="nav-item">
+								<a href="precio-productos-agricolas.html" class="nav-link a-btn">Precios de productos</a>
+							</li>
+							<li class="nav-item">
+								<a href="alianzas.html" class="nav-link">Alianzas</a>
+							</li>
+							<li class="nav-item">
+								<a href="blog-nuevo.html" class="nav-link">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a href="comentarios.html" class="nav-link a-btn">Comentarios</a>
+							</li>
+							<li class="nav-item">
+								<a href="descarga.html" class="nav-link a-btn">Descargar</a>
+							</li>
+							<li class="nav-item">
+								<a href="contacto.html" class="nav-link">Contacto</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-0 END -->
+
+<!-- bloc-1 -->
+<div class="bloc none full-width-bloc l-bloc" id="bloc-1">
+	<div class="container bloc-sm bloc-sm-lg">
+		<div class="row d-md-flex  d-none">
+			<div class="col">
+				<div id="carousel-41389" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators list-style hide-indicators">
+						<li data-target="#carousel-41389" data-slide-to="0" class="active">
+						</li>
+						<li data-target="#carousel-41389" data-slide-to="1">
+						</li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active" onclick="location.href='https://ezkommerce.com/'">
+							<img class="d-inline-block w-100" alt="Promociones Smattcom" src="img/banner%20ezkommerce.png" />
+							<div class="carousel-caption">
+								<span class="empty-column"></span>
+							</div>
+						</div>
+						<div class="carousel-item" onclick="location.href='https://edu.agromooc.com/'">
+							<img alt="slide 2" class="d-inline-block w-100" src="img/banner%20campoads.png" />
+							<div class="carousel-caption">
+							</div>
+						</div>
+					</div><a class="carousel-nav-controls carousel-control-prev" href="#carousel-41389" role="button" data-slide="prev"><svg width="26" height="26" viewBox="0 0 32 32"><path class="carousel-nav-icon carousel-prev-icon" d="M22,2L9,16,22,30"></path></svg><span class="sr-only">Previous</span></a><a class="carousel-nav-controls carousel-control-next" href="#carousel-41389" role="button" data-slide="next"><svg width="26" height="26" viewBox="0 0 32 32"><path class="carousel-nav-icon carousel-next-icon" d="M10.344,2l13,14-13,14"></path></svg><span class="sr-only">Next</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-1 END -->
+
+<!-- bloc-404 -->
+<div class="bloc l-bloc" id="bloc-404">
+	<div class="container bloc-md">
+		<div class="row">
+			<div class="col-lg-2 col-4 col-md-3">
+				<img src="img/consulta-precios.png" class="img-fluid mx-auto d-block img-consulta-preci-style" alt="icono azul consulta precios" />
+			</div>
+			<div class="col-md-6 col-lg-9 offset-lg-0 col-7">
+				<h3 class="mg-md titulos-centro-ayuda">
+					Consultar precios
+				</h3>
+			</div>
+			<div class="col">
+				<div class="row">
+					<div class="col">
+						<div class="row">
+							<div class="col-lg-2">
+								<p>
+									<br>
+								</p>
+							</div>
+							<div class="col-lg-10 margin">
+								<p class="text-justify p-657-style">
+									La sección de precios contiene la información de las cotizaciones de productores y mayoristas en diferentes mercados y zonas productivas de México y otros Países.<br><br>Esta herramienta te permite comparar cotizaciones para comercializar productos directamente con los productores y mayoristas de Smattcom a precios justos.<br>
+								</p>
+							</div>
+						</div>
+						<h4 class="mg-md titulos-centro-ayuda h4-168-style text-center margin">
+							<strong>Para consultar Precios:</strong>
+						</h4>
+						<p class="text-justify p-bloc-404-style mx-auto d-block">
+							1.- <a class="link-0-bloc-404-style azul_link" href="favoritos.html">Agrega a tus favoritos</a> el producto que deseas consultar<br><br>2.- Consulta de forma <strong>ilimitada</strong> el comportamiento del producto de tu interés<br><br>3.- Puedes agregar más productos y observar la información disponible<br>
+						</p><img src="img/consultar-producto-precios.png" class="img-fluid mx-auto d-block img-bloc-404-style" alt="screenshot smattcom agregar producto" />
+						<p class="margen-parrafo-centro text-justify p-659-style mx-auto d-block margin">
+							Selecciona el producto y consulta la gráfica sobre el comportamiento nacional del día, semanal, mensual y anual; además de los precios mínimos y máximos por Estado y mercado específico en dicho periodo.<br><br>Con esta información, compara los precios en diferentes Estados y toma mejores decisiones en la comercialización.<br>
+						</p><img src="img/consulta-precios_02.jpg" class="img-fluid mx-auto d-block img-601-style" alt="screenshot selecciona periodo" />
+						<p class="text-lg-center text-center">
+							También puedes observar el detalle de lo que ocurre en ese lugar:
+						</p>
+						<h4 class="mg-md text-lg-center text-center titulos-centro-ayuda h4-bloc-404-style margin">
+							<strong>Precios. Nivel de Detalle</strong>
+						</h4>
+						<p class="text-justify p-661-style mx-auto d-block margin">
+							Una vez seleccionado un producto a consultar, la información se encuentra disponible en 3 niveles:<br><br>1.- <strong>Información Nacional.</strong> Muestra el promedio nacional y el mínimo y máximo por estado.<br>2.- <strong>Información Estatal.</strong> Muestra el promedio estatal y el minimo y máximo por mercado o zona productiva del estado seleccionado.<br>3.- <strong>Información por mercado.</strong> Muestra el promedio del producto en ese mercado o zona productiva y el mínimo y el máximo según las distintas calidades y tamaños reportados.<br>
+						</p><img src="img/consultaprecios-reporte.png" class="img-fluid mx-auto d-block img-602-style" alt="nivel de detalle precios" />
+						<h4 class="mg-md text-center h4-170-style margin">
+							<strong>Precios Internacionales:</strong><br>
+						</h4>
+						<p class="text-justify mx-auto d-block p-662-style">
+							Para consultar precios de productos en diferentes países, <a class="link-31452-style azul_link" href="favoritos.html">agrega a tus favoritos</a> algún mercado o zona productiva del país de interés y con ello, puedes agregar los productos del país que deseas consultar:<br><br>- Así por ejemplo: Si elegiste mercados de diferentes países como: México y USA, y has agregado Aguacate como producto favorito, puedes consultar los precios de MX-Aguacate en mercados de México y precios de US-Avocado en mercados de USA.<br><br><strong>Utiliza la información de precios para comercializar.</strong><br><br>Consulta los precios, y <a class="link-12431-style azul_link" href="compra-vende.html">en la sección de publicaciones</a> compara las cotizaciones de productores y mayoristas para comercializar a precios justos.<br><br>Utiliza el servicio de Transacción protegida para garantizar el pago y la entrega del producto al comercializar directamente con los usuarios. Como medio de apoyo, utiliza el <a class="link-34233-style azul_link" href="simulador-transaccion.html">Simulador de Transacción Protegida</a> para visualizar el costo de la inversión al utilizar una Transacción y cómo fijar correctamente la cotización y pago a realizar.<br>
+						</p>
+						<h4 class="mg-md text-center h4-171-style text-lg-left margin float-lg-right">
+							<strong>Temas Relacionados:</strong>
+						</h4>
+						<p class="p-663-style mx-auto d-block">
+							-<a class="link-23800-style azul_link" href="contacta-usuarios.html">Contactar directamente a un usuario</a><br><br>-<a class="link-10981-style azul_link" href="compra-menudeo.html">Compra al menudeo</a><br><br>-<a class="link-17524-style azul_link" href="soporte.html">Contactar a soporte</a><br><br>- <a class="link-7759-style azul_link descargasmatt" href="#">Descarga Smattcom</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-404 END -->
+
+<!-- bloc-405 -->
+<div class="bloc l-bloc" id="bloc-405">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col">
+				<div class="row">
+					<div class="col-lg-12">
+						<div>
+							<div class="row">
+								<div class="col-lg-9 offset-lg-3">
+									<div class="row">
+										<div class="col-md-2 col-sm-2 col-3 offset-lg-0 col-lg-2">
+											<img src="img/icon-comentario.png" class="img-fluid img-11-style float-lg-none" alt="icon comentario" />
+										</div>
+										<div class="offset-lg-0 col-9">
+											<h6 class="mg-md h6-comentarios-style float-lg-none">
+												Comentarios&nbsp;de usuarios
+											</h6>
+										</div>
+									</div>
+									<div class="row row-bloc-3-style">
+										<div class="offset-lg-0 col-lg-11 col-12 offset-7">
+											<a href="agregar-comentario.html" class="btn btn-d btn-20-style btn-glossy margin float-lg-right float-right btn-sm">Agregar comentario</a>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-11 offset-lg-1">
+									<div class="row row-bloc-405-style">
+										<div class="col-lg-6 offset-lg-2">
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-0-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Sara Rodríguez
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-style">
+														Luis Martínez
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<ul class="list-unstyled persona-coment">
+												<li class="bloc-bloc-3-style">
+													<span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span><span class="fa fa-star icon-sm float-lg-none icon-amber"></span>
+													<p class="float-md-right float-sm-right float-right fecha-hom float-lg-right">
+														10-12-2021
+													</p>
+												</li>
+												<li>
+													<p class="p-22-margin-top p-22-style">
+														Rafa Villanueva
+													</p>
+												</li>
+												<li>
+													<p class="coment-jom">
+														Lorem ipsum dolor sit amet, consectetuer adipiscing elit <a class="link---style" href="micomentario.html">...</a>
+													</p>
+												</li>
+											</ul>
+											<p>
+												<div class="text-center">
+													<a class="link-0-bloc-3-style" href="comentarios.html">Ver más comentarios</a>
+												</div><br>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-405 END -->
+
+<!-- ScrollToTop Button -->
+<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
+<!-- ScrollToTop Button END-->
+
+
+<!-- bloc-342 -->
+<div class="bloc footer color-footer l-bloc" id="bloc-342">
+	<div class="container bloc-lg">
+		<div class="row row-footer-style">
+			<div class="col-md-3 col-sm-6 bloc-0-margin-top col-12 offset-lg-1">
+				<img src="https://s3-us-west-1.amazonaws.com/smattcom.com/home/footer-logo.png" class="img-fluid img-209-margin-left d-block" alt="Logo Smattcom Gris" /><a href="terminos-y-condiciones.html" class="a-btn a-block footer-link link-margin-top txtfooter" data-target="_blank" target="_blank">Términos y condiciones</a><a href="aviso-de-privacidad.html" class="a-btn a-block footer-link txtfooter link-0-bloc-8-margin-top" data-target="_blank" target="_blank">Aviso de privacidad</a><a href="codigo_etica.html" class="a-btn a-block footer-link txtfooter link-0-bloc-8-margin-top" data-target="_blank" target="_blank">Código de ética</a><a href="https://smattcom.com/blog" class="a-btn a-block footer-link txtfooter link-blog-margin-top" data-target="_blank" target="_blank">Blog</a><a href="https://info.smattcom.com/facturacion-grupo-smattcom" class="a-btn a-block footer-link txtfooter link-blog-margin-top" data-target="_blank" target="_blank">Facturación</a>
+			</div>
+			<div class="col-md-3 col-sm-6 bloc-footer-margin-top">
+				<h4 class="mg-md text-sm-left text-center txt-titulos-footer mx-auto d-block">
+					Contacto
+				</h4><a href="#" class="a-btn a-block link-bloc-8-margin-top txtfooter">info@smattcom.com</a>
+				<p class="txtfooter p-footer-margin-top mx-auto d-block">
+					( +52 ) 55 2155 5552&nbsp;<br />( +52 ) 55 2155 5553
+				</p><a href="https://distintivodigital.profeco.gob.mx/index.php"><img src="img/PROFECO_1footer@x1.png" class="img-fluid img-profeco-1foot-style mx-auto d-block" alt="PROFECO distintivo digital" srcset="img/PROFECO_1footer@x2.png 2x, img/PROFECO_1footer@x3.png 3x" /></a>
+			</div>
+			<div class="col-md-4 col-sm-11">
+				<h4 class="mg-md text-sm-left text-center txt-titulos-footer h4-margin-top">
+					Síguenos
+				</h4>
+				<div class="row">
+					<div class="col-sm-2 offset-sm-0 col-2">
+						<div class="text-center container-div-style">
+							<a href="https://www.facebook.com/smattcom/" data-target="_blank" target="_blank"><span class="icon-light-slate-gray icon-md fab fa-facebook"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 offset--1 col-2">
+						<div class="text-center container-div-footer-style">
+							<a href="https://twitter.com/smattcom_es" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray icon-margin-left fab fa-twitter"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-2 offset-0">
+						<div class="text-center">
+							<a href="https://www.instagram.com/smattcom.mx/" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-instagram"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-2 offset--1">
+						<div class="text-center container-div-0-style">
+							<a href="https://www.linkedin.com/company/smattcom/" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-linkedin"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-2 offset--1">
+						<div class="text-center">
+							<a href="https://www.youtube.com/channel/UCi2BpIOSJafguuioGol8uEw" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-youtube"></span></a>
+						</div>
+					</div>
+					<div class="col-sm-2 col-2">
+						<div class="text-center">
+							<a href="https://api.whatsapp.com/send?phone=5215570515989" data-target="_blank" target="_blank"><span class="icon-md icon-light-slate-gray fab fa-whatsapp"></span></a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="text-center">
+							<a href="#" class="btn btn-d btn-8-style descargasmatt btn-lg btn-azul">Descarga la App Smattcom en tu celular</a>
+							<div class="row margin-sides">
+								<div class="col margin-button">
+									<a href="https://play.google.com/store/apps/details?id=sistemagro.smattcom" data-target="_blank" target="_blank"><img src="img/Googleplay@x1.png" class="img-fluid mx-auto d-block img-protected" alt="Google play" srcset="img/Googleplay@x2.png 2x, img/Googleplay@x3.png 3x" /></a>
+								</div>
+								<div class="col margin-button">
+									<a href="https://apps.apple.com/mx/app/smattcom/id1275834490" data-target="_blank" target="_blank"><img src="img/appstore@x1.png" class="img-fluid mx-auto d-block img-protected" alt="app store" srcset="img/appstore@x2.png 2x, img/appstore@x3.png 3x" /></a>
+								</div>
+								<div class="col margin-button">
+									<a href="https://appgallery.huawei.com/app/C104749779?locale=es_US" data-target="_blank" target="_blank"><img src="img/Huawei@x1.png" class="img-fluid mx-auto d-block" alt="App Gallery" srcset="img/Huawei@x2.png 2x, img/Huawei@x3.png 3x" /></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-342 END -->
+
+</div>
+<!-- Main container END -->
+    
+
+
+<!-- Additional JS -->
+<script src="./js/jquery.min.js?5380"></script>
+<script src="./js/bootstrap.bundle.min.js?3282"></script>
+<script src="./js/blocs.min.js?2304"></script>
+<script src="./js/tilt.jquery.js?6353"></script><!-- Additional JS END -->
+
+<script>
+(function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+
+
+  $('.btn-submit-comment').click(function(e){
+    Ejecutar(e);
+  });
+
+function Ejecutar(e)
+{
+
+ var ejecutar = true;   
+
+    if (!$("#form_valoracion")[0].checkValidity()) {       
+        ejecutar = false;        
+        $("#form_valoracion").find("#submit-hidden").click();
+      }
+
+    var Okvaloracion = valida_valoracion();
+
+      if (ejecutar && Okvaloracion)      
+    {
+
+        $.when(Procesar(e,'servicios/comentarios',$("#form_valoracion").serialize())).then(function(Resultado,e){
+            if(e=="success")
+            {             
+             if(Resultado.Result=='OK'){                
+               $( "#Comentario" ).remove();                    
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'success'
+               );
+             }
+             else
+             {
+               Swal.fire(
+                Resultado.Mensaje_Titulo,
+                 Resultado.Mensaje,
+                 'error'
+               );
+             }
+            }
+            else
+            {
+             Swal.fire(
+               '¡Ups!',
+               'Hay dificultades, vuelve a intentarlo, si el problema persiste, contacta a soporte',
+               'error'
+             );
+            }    
+         });       
+    }
+}
+
+
+function valida_valoracion()
+{
+    if($('#valoracion').val()=="")
+    {
+        $("#div_invalid_Valoracion").css("display", "block");
+        $("#ul_valoracion").attr("style", "border: 1px solid red;")
+        return false;
+    }
+    else
+    {
+        $("#div_invalid_Valoracion").css("display", "none");
+        $("#ul_valoracion").attr("style", "border: none;")
+        return true;
+    }
+}
+
+
+
+
+
+function highlightStar(obj,id) {
+    removeHighlight(id);		
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('highlight');
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+    });
+}
+
+function removeHighlight(id) {
+    $('.demo-table #valoracion-'+id+' li').removeClass('selected');
+    $('.demo-table #valoracion-'+id+' li').removeClass('highlight');
+}
+
+function addRating(obj,id) {
+    $('.demo-table #valoracion-'+id+' li').each(function(index) {
+        $(this).addClass('selected');
+        $('#valoracion-'+id+' #valoracion').val((index+1));
+        if(index == $('.demo-table #valoracion-'+id+' li').index(obj)) {
+            return false;	
+        }
+        valida_valoracion();
+    });	
+}
+
+function resetRating(id) {
+    if($('#valoracion-'+id+' #valoracion').val() != 0) {
+        $('.demo-table #valoracion-'+id+' li').each(function(index) {
+            $(this).addClass('selected');
+            if((index+1) == $('#valoracion-'+id+' #valoracion').val()) {
+                return false;	
+            }
+        });
+    }
+} 
+</script>
+
+</body>
+</html>
