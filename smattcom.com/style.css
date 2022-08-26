@@ -2661,7 +2661,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:49px;
 }
 .img-modal-mensaje-style{
-	width:285px;
+	width:328px;
 	margin-top:0px;
 }
 .btn-descargar-app-style{
@@ -5474,6 +5474,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-jitomate-gran-style{
 	width:288px;
+}
+.img-normex--style{
+	width:181px;
+}
+.img-isscat--style{
+	width:180px;
 }
 
 /* = Colour
