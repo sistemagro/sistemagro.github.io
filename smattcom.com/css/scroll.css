@@ -1,0 +1,6 @@
+.contenedor-scroll {
+    width: 30em;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin:auto;
+}

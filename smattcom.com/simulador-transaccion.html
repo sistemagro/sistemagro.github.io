@@ -8,10 +8,11 @@
 	<meta name="robots" content="index, follow">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?6083">
-	<link rel="stylesheet" type="text/css" href="style.css?5584">
-	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?7976">
-	<link rel="stylesheet" type="text/css" href="./css/tabla.css?2181">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css?7363">
+	<link rel="stylesheet" type="text/css" href="style.css?806">
+	<link rel="stylesheet" type="text/css" href="./css/animate.min.css?8420">
+	<link rel="stylesheet" type="text/css" href="./css/tabla.css?9487">
+	<link rel="stylesheet" type="text/css" href="./css/scroll.css?5350">
 	
 	<link rel="stylesheet" type="text/css" href="./css/ionicons.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/all.min.css">
@@ -113,7 +114,7 @@ body {
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc color-nav sticky-nav d-bloc" id="bloc-0">
+<div class="bloc color-nav sticky-nav bgc-5000" id="bloc-0">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col">
@@ -161,9 +162,9 @@ body {
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc none full-width-bloc d-md-flex  d-none l-bloc" id="bloc-1">
+<div class="bloc none full-width-bloc l-bloc" id="bloc-1">
 	<div class="container bloc-sm bloc-sm-lg">
-		<div class="row">
+		<div class="row d-md-flex  d-none">
 			<div class="col">
 				<div id="carousel-41389" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators list-style hide-indicators">
@@ -213,7 +214,7 @@ body {
 				<div class="row">
 					<div class="col-lg-11 offset-lg-1">
 						<h5 class="mg-md text-lg-center">
-							<strong>Comisión pagada por:</strong>
+							<strong>¿Eres Vendedor o Comprador?</strong><br>
 						</h5>
 						<div><div class="tab-anything btn-group-bric two-btn wide-125"   data-active-bg="#0168D7" data-label-text="rgba(1,0,0,0.55)" data-active-text="#FFFFFF" data-bkgrnd="#EBEBEB" data-radius="Pill Shape" data-label-size="16" data-border-color="transparent" data-align-btns="text-center" data-mobile-swap="0" data-orientation="horizontal" data-font-weight="normal" data-detached="false" data-eq-height="" data-focus="off" data-index="2" data-show-index="1" data-btn-count="1" data-width="0" data-min-width="" data-glyphs="text" data-glyph-size="0" data-flush="0" data-transition="0" data-target-transition="none" data-autoplay="0" data-speed="3000" data-image-shape="proportional" data-rotate="0" data-preload-color="dark" data-option-all="0" data-eq-width="125" data-gap-increase="false" data-video-stop="1" data-preload="0" data-hover-color="#EBEBEB" data-hover-text="transparent" data-material="0" style="margin-top:0px; margin-bottom:20px;">
     <div class="row">
@@ -241,24 +242,6 @@ body {
     </div>
 </div>
 						</div>
-						<div class="row">
-								<div class="offset-lg-3 col-lg-3 col-6">
-									<div class="form-check radio-bloc-430-style">
-										<input class="form-check-input" type="radio" name="radioSetOne" value="option1" />
-										<label class="form-check-label">
-											Precio por kilo o unidad
-										</label>
-									</div>
-								</div>
-								<div class="offset-lg--1 col-lg-4 col-6">
-									<div class="form-check radio-style">
-										<input class="form-check-input" type="radio" name="radioSetOne" value="option1" />
-										<label class="form-check-label">
-											Importe total de la operación
-										</label>
-									</div>
-								</div>
-							</div>
 					</div>
 				</div>
 				<div class="row">
@@ -267,15 +250,45 @@ body {
 								<h4 class="mg-md text-lg-center titulos-centro-ayuda margin-top">
 									<strong>¿En cuánto vas a comprar y cuánto debes depositar en Smattcom?</strong>
 								</h4>
+								<p class="text-lg-center">
+									Calcula la comisión por unidad, o por el total de la&nbsp;Transacción<br>
+								</p>
+								<div class="row">
+									<div class="col">
+										<div class="form-check radio-bloc-430-style">
+											<input class="form-check-input" type="radio" name="radioSetOne" value="option1" />
+											<label class="form-check-label">
+												Precio por kilo o unidad
+											</label>
+										</div>
+									</div>
+									<div class="col">
+										<div class="form-check radio-style">
+											<input class="form-check-input" type="radio" name="radioSetOne" value="option1" />
+											<label class="form-check-label">
+												Importe total de la operación
+											</label>
+										</div>
+									</div>
+								</div>
 								<div class="row">
 									<div class="col">
 										<h5 class="mg-md">
-											<strong>Importe neto de venta cotizado</strong><br>
+											<strong>Precio o Importe cotizado&nbsp;x el vendedor</strong><br>
 										</h5>
 									</div>
 									<div class="col">
 										<div class="form-group">
-											<input class="form-control inside-calculadora" placeholder="$" type="number" />
+											<div class="row">
+												<div class="col-lg-10">
+													<input class="form-control inside-calculadora" placeholder="$" type="number" />
+												</div>
+												<div class="col">
+													<div class="text-center">
+														<span class="icon-md fa fa-trash-alt"></span>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -309,21 +322,62 @@ body {
 										</div>
 									</div>
 								</div>
+								<div class="row">
+									<div class="col">
+										<div class="card fondo-gris card-style">
+											<div class="card-body">
+												<p class="text-lg-center mx-auto d-block p-bloc-430-style">
+													Este cálculo sólo es una referencia del importe&nbsp;de comisión por el servicio de Transacción Protegida.<br><br>El comprador y el vendedor deben cerrar el trato negociando&nbsp;el precio final y el monto total de la Transacción.<br>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 							<div id="tab2-2">
 								<h3 class="mg-md text-lg-center titulos-centro-ayuda margin-top">
 									<strong>¿En cuánto debes vender y cuánto vas a recibir?</strong><br>
 								</h3>
+								<p class="text-lg-center">
+									Calcula la comisión por unidad, o por el total de la&nbsp;Transacción<br>
+								</p>
+								<div class="row">
+									<div class="col">
+										<div class="form-check radio-bloc-430-style">
+											<input class="form-check-input" type="radio" name="radioSetOne" value="option1" />
+											<label class="form-check-label">
+												Precio por kilo o unidad
+											</label>
+										</div>
+									</div>
+									<div class="col">
+										<div class="form-check radio-style">
+											<input class="form-check-input" type="radio" name="radioSetOne" value="option1" />
+											<label class="form-check-label">
+												Importe total de la operación
+											</label>
+										</div>
+									</div>
+								</div>
 								<div class="row">
 									<div class="col-6">
 										<h5 class="mg-md h5-bloc-430-style">
-											<strong>Pago inicial comprador&nbsp;según cotización</strong><br>
+											<strong>Precio o Importe cotizado&nbsp;inicial</strong><br>
 										</h5>
 									</div>
 									<div class="col">
 										<div class="form-group">
 											<div class="form-group">
-												<input class="form-control inside-calculadora" type="number" placeholder="$" />
+												<div class="row">
+													<div class="col-lg-10">
+														<input class="form-control inside-calculadora" type="number" placeholder="$" />
+													</div>
+													<div class="col">
+														<div class="text-center">
+															<span class="icon-md fa fa-trash-alt"></span>
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -358,6 +412,17 @@ body {
 										</div>
 									</div>
 								</div>
+								<div class="row">
+									<div class="col">
+										<div class="card fondo-gris">
+											<div class="card-body">
+												<p class="text-lg-center p-826-bloc-430-style mx-auto d-block">
+													Este cálculo sólo es una referencia del importe&nbsp;de comisión por el servicio de Transacción Protegida.<br><br>El comprador y el vendedor deben cerrar el trato negociando&nbsp;el precio final y el monto total de la Transacción.<br>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -367,74 +432,35 @@ body {
 </div>
 <!-- bloc-430 END -->
 
+<!-- bloc-441 -->
+<div class="bloc l-bloc" id="bloc-441">
+	<div class="container bloc-lg bloc-sm-lg">
+		<div class="row">
+			<div class="offset-lg-2 col-lg-10">
+				<p class="text-justify">
+					<strong>3.2 Proceso de</strong> <a class="link-9165-style azul_link" href="index.html">Transacción Protegida</a><br>
+				</p>
+				<div class="contenedor-scroll">
+					<a href="#" data-toggle="modal" data-target="#modal-20261"><img src="img/paso1.png" class="img-fluid img-747-style float-lg-none" alt="paso1" /></a><a href="#" data-toggle="modal" data-target="#modal-34546"><img src="img/paso2.png" class="img-fluid img-747-style float-lg-none" alt="paso2" /></a><a href="#" data-toggle="modal" data-target="#modal-49997"><img src="img/paso3.png" class="img-fluid img-747-style float-lg-none" alt="paso3" /></a><a href="#" data-toggle="modal" data-target="#modal-23475"><img src="img/paso4.png" class="img-fluid img-747-style float-lg-none" alt="paso4" /></a><a href="#" data-toggle="modal" data-target="#modal-21621"><img src="img/paso5.png" class="img-fluid img-747-style float-lg-none" alt="paso5" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-441 END -->
+
 <!-- bloc-431 -->
 <div class="bloc l-bloc" id="bloc-431">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col">
-				<h4 class="mg-md text-lg-center titulos-centro-ayuda text-center">
-					<strong>Al utilizar una transacción protegida, garantiza el pago y la entrega del producto</strong>
-				</h4>
-				<div class="row">
-					<div class="col-lg-2 offset-lg-1 col-5">
-						<img src="img/paso1.svg" class="img-fluid mx-auto d-block" alt="paso1" />
-					</div>
-					<div class="col">
-						<p>
-							Cierra el trato y fija el total de la operación.
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-2 offset-lg-1 col-5">
-						<img src="img/paso2.svg" class="img-fluid mx-auto d-block" alt="paso2" />
-					</div>
-					<div class="col">
-						<p>
-							El comprador realiza el pago con la ficha emitida en la Transacción por el monto total de la operación.
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-2 offset-lg-1 col-5">
-						<img src="img/paso3.svg" class="img-fluid mx-auto d-block" alt="paso3" />
-					</div>
-					<div class="col">
-						<p>
-							Una vez confirmado el pago, el vendedor inicia con la entrega del producto.
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-2 offset-lg-1 col-5">
-						<img src="img/paso4.svg" class="img-fluid mx-auto d-block" alt="paso4" />
-					</div>
-					<div class="col">
-						<p>
-							Se confirma la entrega del producto con la Clave proporcionada en el sistema.
-						</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-2 offset-lg-1 col-5">
-						<img src="img/paso5.svg" class="img-fluid mx-auto d-block" alt="paso5" />
-					</div>
-					<div class="col-lg-8 col-7">
-						<p class="p-844-style">
-							Se realiza el pago al vendedor o se devuelve el importe pagado al comprador según la entrega del producto *.
-						</p>
-					</div>
-				</div>
 				<div class="row">
 					<div class="col">
-						<p class="p-960-style mx-auto d-block margin-top">
-							* Comprador y Vendedor confirman al momento de la entrega:<br><br>1) La entrega satisfactoria del producto.<br>2) Algún posible descuento al momento de la entrega o devolución parcial.<br>3) En su caso, la devolución total del producto.<br>
-						</p>
 						<h4 class="mg-md titulos-centro-ayuda h4-231-style mx-auto d-block text-lg-left margin-top text-left">
 							<strong>Temas Relacionados:</strong>
 						</h4>
 						<p class="mx-auto d-block p-bloc-431-style text-lg-left">
-							-<a class="link-20841-style azul_link" href="transacciones.html">Iniciar una Transacción Protegida</a><br><br>-<a class="link-31740-style azul_link" href="seguros-mercancias.html">Seguro de mercancías</a><br><br>-<a class="link-44058-style azul_link" href="verificadores-mercancia.html">Verificador de mercancías</a><br><br>-<a class="link-20314-style azul_link" href="soporte.html">Contacta a soporte</a><br><br>-<a class="link-bloc-431-style azul_link descargasmatt" href="#">Descarga Smattcom</a>
+							-<a class="link-20841-style azul_link" href="transacciones.html">Iniciar una Transacción Protegida</a><br><br>-<a class="link-0-bloc-431-style azul_link" href="tips.html">Tips de seguridad</a><br><br>-<a class="link-8155-style azul_link" href="cerrar-trato.html">¿Cómo cerrar un trato?</a><br><br>-<a class="link-20314-style azul_link" href="soporte.html">Contacta a soporte</a><br>
 						</p>
 					</div>
 				</div>
@@ -443,6 +469,119 @@ body {
 	</div>
 </div>
 <!-- bloc-431 END -->
+
+<!-- bloc-443 -->
+<div class="bloc l-bloc" id="bloc-443">
+	<div class="container bloc-lg bloc-no-padding-lg">
+		<div class="row">
+			<div class="offset-lg-2 col-lg-8">
+				<div id="modal-20261" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog  modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-times close"></span></a>
+							<div class="modal-pasos modal-body">
+								<h3 class="text-lg-center">
+									<strong>Cierra el Trato</strong>
+								</h3>
+								<p class="text-justify">
+									Define las características del producto, lugar y forma de entrega.<br><br>Fija el precio adecuado según convenga al vendedor y comprador considerando el costo de 1.65% de comisión sobre el total de la Transacción.<br>
+								</p>
+								<p class="text-lg-center">
+									<a class="link-42745-style azul_link" href="simulador-transaccion.html">Apóyate de la calculadora de Transacción</a><br>
+								</p><img src="img/modal-pasos.jpg" class="img-fluid mx-auto d-block img-754-style" alt="modal pasos" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="modal-34546" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog  modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-times close"></span></a>
+							<div class="modal-pasos modal-body">
+								<h3 class="mg-md text-lg-center">
+									<strong>Pago en custodia</strong>
+								</h3>
+								<div class="card fondo-gris">
+									<div class="card-body-bloc-408-style modal-body">
+										<p class="mg-md p-631-style text-justify">
+											<span class="fa fa-exclamation-circle icon-md"></span>&nbsp; &nbsp;&nbsp;Por ningún motivo se debe realizar el pago a alguna cuenta proporcionada por el vendedor, únicamente mediante la ficha generada en la Transacción Protegida<br>
+										</p>
+									</div>
+								</div>
+								<p class="text-justify">
+									Al iniciar la Transacción Protegida vendedor y comprador confirman el monto total, y ahí mismo el comprador genera su ficha de pago con la Transacción Protegida.<br><br>Una vez realizado el pago, se puede iniciar con el proceso de entrega.<br>
+								</p><img src="img/modal-pasos.jpg" class="img-fluid mx-auto d-block img-modal-pas-style" alt="modal pasos" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="modal-49997" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog  modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-times close"></span></a>
+							<div class="modal-pasos modal-body">
+								<h3 class="mg-md text-lg-center">
+									<strong>Entrega del Producto</strong>
+								</h3>
+								<p class="text-justify">
+									La entrega debe realizarse según lo pactado.<br><br>Para confirmar de recibido, el comprador debe indicar la Clave de entrega proporcionada por la Transacción al vendedor.<br><br>El vendedor la ingresa y la valida. En caso de ser correcta, queda confirmada la entrega del producto.<br>
+								</p>
+								<div class="card fondo-gris">
+									<div class="modal-body">
+										<p class="mg-md text-justify p-634-style">
+											<span class="fa fa-exclamation-circle icon-md"></span>&nbsp; &nbsp;Pero si no es correcta, no entregues el producto, tal vez no sea tu comprador.
+										</p>
+									</div>
+								</div><img src="img/modal-pasos.jpg" class="img-fluid mx-auto d-block img-756-style" alt="modal pasos" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="modal-23475" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog  modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-times close"></span></a>
+							<div class="modal-pasos modal-body">
+								<h3 class="mg-md text-lg-center">
+									<strong>Inspección del Producto</strong><br>
+								</h3>
+								<p class="text-justify">
+									La inspección se realiza para poder liberar el pago.<br><br>El comprador revisa la mercancía de acuerdo con el vendedor.<br><br>En caso de existir algún problema con la mercancía, solicita una revisión del producto en vivo desde el chat para que ambos corroboren la inspección. Todo esto en presencia de la persona que esté entregando el producto.<br><br>En caso de ser necesario, también puedes solicitar un Verificador de mercancía desde el menú de servicios.<br><br>Apóyate con tu asesor Smattcom<br><br>
+								</p><img src="img/modal-pasos.jpg" class="img-fluid mx-auto d-block img-757-style" alt="modal pasos" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="modal-21621" class="modal fade" tabindex="-1" role="dialog">
+					<div class="modal-dialog  modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<a href="#" class="btn btn-d btn-lg btn-style-none" data-dismiss="modal" aria-label="Close"><span class="fa fa-times close"></span></a>
+							<div class="modal-pasos modal-body">
+								<h3 class="mg-md text-lg-center">
+									<strong>Liberación de Pago</strong><br>
+								</h3>
+								<p class="text-justify">
+									Ambos indican el resultado según la negociación durante la entrega:<br><br><strong>Pago total del vendedor:</strong> En caso de la entrega satisfactoria del producto según el acuerdo inicial.<br><br><strong>Algún descuento o bonificación:</strong> En caso de haber existido algún problema con el producto, pero llegaron a un acuerdo.<br><br><strong>Devolución total:</strong> En caso de que el producto no es apto para su recibo según el acuerdo inicial.<br><br>
+								</p>
+								<div class="card fondo-gris">
+									<div class="modal-body">
+										<p class="mg-md text-justify p-637-style">
+											<span class="fa fa-exclamation-circle icon-md"></span>&nbsp; &nbsp;Entrega completamente del producto hasta que el comprador genere la liberación del pago
+										</p>
+									</div>
+								</div>
+								<p class="text-justify">
+									La liberación del pago confirmada por ambos genera la instrucción para distribuir el pago que se encuentra en custodia hacia el vendedor y/o comprador según sea el caso.
+								</p><img src="img/modal-pasos.jpg" class="img-fluid mx-auto d-block img-758-style" alt="modal pasos" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- bloc-443 END -->
 
 <!-- ScrollToTop Button -->
 <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1',this)"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32"><path class="scroll-to-top-btn-icon" d="M30,22.656l-14-13-14,13"/></svg></a>
@@ -462,7 +601,7 @@ body {
 				</h4><a href="#" class="a-btn a-block link-bloc-8-margin-top txtfooter">info@smattcom.com</a>
 				<p class="txtfooter p-footer-margin-top mx-auto d-block">
 					( +52 ) 55 2155 5552&nbsp;<br />( +52 ) 55 2155 5553
-				</p><a href="https://distintivodigital.profeco.gob.mx/index.php"><img src="img/PROFECO_1footer.png" class="img-fluid img-profeco-1foot-style mx-auto d-block" alt="PROFECO distintivo digital" /></a>
+				</p><a href="https://distintivodigital.profeco.gob.mx/index.php"><img src="img/PROFECO_1footer@x1.png" class="img-fluid img-profeco-1foot-style mx-auto d-block" alt="PROFECO distintivo digital" srcset="img/PROFECO_1footer@x2.png 2x, img/PROFECO_1footer@x3.png 3x" /></a>
 			</div>
 			<div class="col-md-4 col-sm-11">
 				<h4 class="mg-md text-sm-left text-center txt-titulos-footer h4-margin-top">
@@ -506,13 +645,13 @@ body {
 							<a href="#" class="btn btn-d btn-8-style descargasmatt btn-lg btn-azul">Descarga la App Smattcom en tu celular</a>
 							<div class="row margin-sides">
 								<div class="col margin-button">
-									<a href="https://play.google.com/store/apps/details?id=sistemagro.smattcom" data-target="_blank" target="_blank"><img src="img/Googleplay.png" class="img-fluid mx-auto d-block img-protected" alt="Google play" /></a>
+									<a href="https://play.google.com/store/apps/details?id=sistemagro.smattcom" data-target="_blank" target="_blank"><img src="img/Googleplay@x1.png" class="img-fluid mx-auto d-block img-protected" alt="Google play" srcset="img/Googleplay@x2.png 2x, img/Googleplay@x3.png 3x" /></a>
 								</div>
 								<div class="col margin-button">
-									<a href="https://apps.apple.com/mx/app/smattcom/id1275834490" data-target="_blank" target="_blank"><img src="img/appstore.png" class="img-fluid mx-auto d-block img-protected" alt="app store" /></a>
+									<a href="https://apps.apple.com/mx/app/smattcom/id1275834490" data-target="_blank" target="_blank"><img src="img/appstore@x1.png" class="img-fluid mx-auto d-block img-protected" alt="app store" srcset="img/appstore@x2.png 2x, img/appstore@x3.png 3x" /></a>
 								</div>
 								<div class="col margin-button">
-									<a href="https://appgallery.huawei.com/app/C104749779?locale=es_US" data-target="_blank" target="_blank"><img src="img/Huawei.png" class="img-fluid mx-auto d-block" alt="App Gallery" /></a>
+									<a href="https://appgallery.huawei.com/app/C104749779?locale=es_US" data-target="_blank" target="_blank"><img src="img/Huawei@x1.png" class="img-fluid mx-auto d-block" alt="App Gallery" srcset="img/Huawei@x2.png 2x, img/Huawei@x3.png 3x" /></a>
 								</div>
 							</div>
 						</div>
@@ -530,11 +669,11 @@ body {
 
 
 <!-- Additional JS -->
-<script src="./js/jquery.min.js?2370"></script>
-<script src="./js/bootstrap.bundle.min.js?4734"></script>
-<script src="./js/blocs.min.js?5127"></script>
-<script src="./js/tilt.jquery.js?4921"></script>
-<script src="./js/tabanything.js?3586"></script><!-- Additional JS END -->
+<script src="./js/jquery.min.js?6236"></script>
+<script src="./js/bootstrap.bundle.min.js?8872"></script>
+<script src="./js/blocs.min.js?4588"></script>
+<script src="./js/tilt.jquery.js?7365"></script>
+<script src="./js/tabanything.js?7111"></script><!-- Additional JS END -->
 
 <script>
 (function() {
