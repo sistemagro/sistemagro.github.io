@@ -4469,7 +4469,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:70px;
 }
 .p-752-style{
-	width:80.37%;
+	width:100%;
 }
 .p-753-style{
 	width:60%;
@@ -5571,6 +5571,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-755-bloc-418-style{
 	width:66.99%;
+	font-family:"Montserrat";
 }
 .link-5177-style{
 	text-decoration:underline;
@@ -5616,7 +5617,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:underline;
 }
 .p-722-style{
-	width:66.6%;
+	width:100%;
 }
 .p-724-style{
 	width:65.74%;
@@ -5640,7 +5641,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:underline;
 }
 .p-770-bloc-418-style{
-	width:58.56%;
+	width:59.62%;
 }
 .img-bloc-418-style{
 	width:612px;
@@ -5655,7 +5656,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-decoration:underline;
 }
 .h3-bloc-427-style{
-	width:29.95%;
+	width:66.89%;
 	margin-bottom:1px;
 }
 .container-div-bloc-427-style{
@@ -5682,6 +5683,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h5-bloc-421-style{
 	width:66.79%;
+}
+.img-873-style{
+	width:261px;
+}
+.img-bloc-424-style{
+	width:144px;
+}
+.marca-roja{
+	color:#FF0000!important;
 }
 
 /* = Colour
@@ -9536,7 +9546,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:93.95%;
 	}
 	.p-828-style{
-		width:100%;
+		width:89.68%;
 	}
 	.h6-comentarios-style{
 		font-family:"Montserrat";
@@ -9710,6 +9720,74 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h2-114-style{
 		font-size:25px;
 		font-family:"Montserrat";
+	}
+	.img-747-style{
+		width:133px;
+		box-shadow:0px 2px 4px rgba(0,0,0,0.42);
+		margin:3px 3px 3px 3px;
+	}
+	.img-bloc-405-style{
+		width:148px;
+	}
+	.img-770-style{
+		width:143px;
+	}
+	.field-style{
+		width:100%;
+	}
+	.img-873-style{
+		width:145px;
+	}
+	.p-939-bloc-433-style{
+		width:100%;
+	}
+	.p-bloc-430-style{
+		width:100%;
+		font-size:13px;
+	}
+	.p-826-bloc-430-style{
+		width:100%;
+		font-size:13px;
+	}
+	.p-722-style{
+		width:93.22%;
+	}
+	.p-724-style{
+		width:87.54%;
+	}
+	.img-bloc-424-style{
+		width:157px;
+	}
+	.p-727-style{
+		width:100%;
+	}
+	.link-bloc-415-style{
+		text-decoration:underline;
+	}
+	.p-755-bloc-418-style{
+		width:91.1%;
+		font-family:"Montserrat";
+	}
+	.p-770-bloc-418-style{
+		width:91.46%;
+	}
+	.link-bloc-418-style{
+		text-decoration:underline;
+	}
+	.link-0-bloc-418-style{
+		text-decoration:underline;
+	}
+	.link-49734-style{
+		text-decoration:underline;
+	}
+	.h3-bloc-427-style{
+		width:72.95%;
+	}
+	.h5-bloc-421-style{
+		width:73.31%;
+	}
+	.link-28710-style{
+		text-decoration:underline;
 	}
 	
 }
