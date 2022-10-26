@@ -5749,6 +5749,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-41781-style{
 	text-decoration:underline;
 }
+.img-753-style{
+	width:147px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -9872,6 +9875,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:100%;
 	}
 	.p-939-style{
+		width:100%;
+	}
+	.p-644-style{
 		width:100%;
 	}
 	
