@@ -5767,12 +5767,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h5-bloc-415-style{
 	width:66.6%;
+	font-size:16px;
 }
 .link-1982-style{
 	text-decoration:underline;
 }
 .nomargin-inside{
 	margin:0px 0px 0px 0px;
+}
+.marcaroja{
+	background-color:transparent;
+	color:#FF0000!important;
+}
+.h3-bloc-421-style{
+	width:66.51%;
 }
 
 /* = Colour
@@ -9921,6 +9929,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:74px;
 	}
 	.img-64-style{
+	}
+	.h5-bloc-415-style{
+		width:100%;
+		font-size:16px;
 	}
 	
 }
