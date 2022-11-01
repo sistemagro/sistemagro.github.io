@@ -5788,6 +5788,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-61795-style{
 	text-decoration:underline;
 }
+.card-167-style{
+	width:100%;
+}
+.p-847-style{
+	font-size:12px;
+	margin:0px 0px 0px 0px;
+	padding:0px 0px 0px 0px;
+}
+.row-bloc-430-style{
+	width:73.75%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -9939,6 +9950,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h5-bloc-415-style{
 		width:100%;
 		font-size:16px;
+	}
+	.card-body-164-style{
+		width:100%;
+	}
+	.p-847-style{
+		font-size:9px;
+		margin:0px 0px 0px 0px;
+	}
+	.nomargin-inside{
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
 	}
 	
 }
