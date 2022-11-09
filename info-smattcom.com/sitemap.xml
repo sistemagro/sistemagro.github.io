@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>info.smattcom.com</loc>
+	<lastmod>2022-11-09</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>info.smattcom.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>info.smattcom.com/asesoria-comercio-exterior.html</loc>
+	<lastmod>2022-11-09</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>info.smattcom.com/img/logo%20slogan%20azul%20blanco.png</image:loc>
+	<image:title>logo slogan azul blanco</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/icono-asesoria.png</image:loc>
+	<image:title>icono asesoria</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/placeholder-img.png</image:loc>
+	<image:title>...</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/placeholder-img.png</image:loc>
+	<image:title>placeholder img</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+</urlset>
