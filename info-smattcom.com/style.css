@@ -196,6 +196,11 @@ button{
 	padding:0;
 }
 
+/* = Icons
+-------------------------------------------------------------- */
+.icon-lg{
+	font-size:60px!important;
+}
 
 
 
@@ -384,7 +389,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding:0px 12px 0px 12px;
 }
 .espacio{
-	margin:0px 0px 0px 0px;
+	margin:0px 0px 10px 0px;
 }
 .img-style{
 	width:85px;
@@ -424,6 +429,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h4-certificación-style{
 	font-family:"Open Sans";
 }
+.titulo-card{
+	font-family:"Montserrat";
+	font-size:20px;
+	margin-bottom:8px;
+}
+.texto-card{
+	font-family:"Open Sans";
+	font-size:14px;
+}
+.img-card{
+	border-radius:5px 5px 5px 5px;
+}
+.icon-card{
+	margin-bottom:18px;
+}
+.icono2-card{
+	width:73px;
+	margin-bottom:15px;
+}
+.link-style{
+	text-decoration:underline;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -446,6 +473,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-true-blue:hover{
 	background:#0453a6!important;
 	color:#FFFFFF!important;
+}
+
+/* Icon colour styles */
+
+.icon-true-blue{
+	color:#0568D0!important;
+	border-color:#0568D0!important;
 }
 
 /* Bloc image backgrounds */
