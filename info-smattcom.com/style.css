@@ -407,10 +407,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .margin-top{
 	margin-top:43px;
 }
-.h5-bloc-2-style{
-	font-family:"Open Sans";
-	width:74.38%;
-}
 .h3-style{
 	font-family:"Open Sans";
 }
@@ -437,6 +433,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .texto-card{
 	font-family:"Open Sans";
 	font-size:14px;
+	margin-top:0px;
 }
 .img-card{
 	border-radius:5px 5px 5px 5px;
@@ -450,6 +447,63 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .link-style{
 	text-decoration:underline;
+}
+.precio{
+	color:#00CF00!important;
+}
+.text-span-style{
+	font-weight:bold;
+}
+.text-span-bloc-6-style{
+	font-weight:bold;
+}
+.link--199-00-mxn--style{
+	font-weight:bold;
+}
+.text-span-0-style{
+	font-weight:bold;
+}
+.text-span-0-bloc-6-style{
+	font-weight:bold;
+}
+.text-span-5918-style{
+	font-weight:bold;
+}
+.text-span-32898-style{
+	font-weight:bold;
+}
+.text-span-39439-style{
+	font-weight:bold;
+}
+.text-span-28342-style{
+	font-weight:bold;
+}
+.text-span-12268-style{
+	font-weight:bold;
+}
+.text-span-13332-style{
+	font-weight:bold;
+}
+.text-span-721-style{
+	font-weight:bold;
+}
+.text-span-1091-style{
+	font-weight:bold;
+}
+.text-span-32588-style{
+	font-weight:bold;
+}
+.text-span-bloc-10-style{
+	font-weight:bold;
+}
+.text-span-0-bloc-10-style{
+	font-weight:bold;
+}
+.text-span-27742-style{
+	font-weight:bold;
+}
+.h3-bloc-3-style{
+	font-family:"Open Sans";
 }
 
 /* = Colour
@@ -622,10 +676,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h3-style{
 		font-size:30px;
-	}
-	.h5-bloc-2-style{
-		font-size:16px;
-		width:100%;
 	}
 	.h5-style{
 		font-size:16px;

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>info.smattcom.com</loc>
-	<lastmod>2022-11-11</lastmod>
+	<lastmod>2022-11-14</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -16,7 +16,7 @@
 </url>
 <url>
 	<loc>info.smattcom.com/asesoria-comercio-exterior.html</loc>
-	<lastmod>2022-11-11</lastmod>
+	<lastmod>2022-11-14</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -64,11 +64,11 @@
 	<image:title>interculturalidad</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/CARD_Introduccionalaexportación.jpeg</image:loc>
+	<image:loc>info.smattcom.com/img/CARD_Introduccionalaexportacion.jpeg</image:loc>
 	<image:title>CARD_Introduccionalaexportación.jpeg</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/Card_Prepárate-para--exportar-a-Latinoamérica.png</image:loc>
+	<image:loc>info.smattcom.com/img/Card_Preparate-para--exportar-a-Latinoamerica.png</image:loc>
 	<image:title>Card_Prepárate para--exportar-a-Latinoamérica</image:title>
 	</image:image>
 	<image:image>
@@ -76,11 +76,11 @@
 	<image:title>CARD_ConsideracionesIncoterms.jpeg</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/CARD_Gestión%20y%20Prevención%20de%20Riesgos.jpeg</image:loc>
+	<image:loc>info.smattcom.com/img/CARD_Gestion%20y%20Prevencion%20de%20Riesgos.jpeg</image:loc>
 	<image:title>CARD_Gestión y Prevención de Riesgos.jpeg</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/Card_Administración%20de%20riesgos.jpeg</image:loc>
+	<image:loc>info.smattcom.com/img/Card_Administracion%20de%20riesgos.jpeg</image:loc>
 	<image:title>Card_Administración de riesgos.jpeg</image:title>
 	</image:image>
 	<image:image>
