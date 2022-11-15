@@ -58,6 +58,19 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Styles */
+
+.bg-center,.bg-l-edge,.bg-r-edge,.bg-t-edge,.bg-b-edge,.bg-tl-edge,.bg-bl-edge,.bg-tr-edge,.bg-br-edge,.bg-repeat{
+	-webkit-background-size: auto!important;
+	-moz-background-size: auto!important;
+	-o-background-size: auto!important;
+	background-size: auto!important;
+}
+.bg-center{
+	-webkit-background-size: auto;
+}
+
+
 /* Dark theme */
 
 .d-bloc{
@@ -135,6 +148,12 @@ a:hover{text-decoration: none; cursor:pointer;}
 .d-bloc .card .btn-wire,.d-bloc .card .btn-wire:hover,.l-bloc .btn-wire,.l-bloc .btn-wire:hover{
 	color:rgba(0,0,0,.7);
 	border-color:rgba(0,0,0,.3);
+}
+/* Dividers */
+
+.b-divider-dashed{
+	border-top:1px dashed rgba(0,0,0,.1);
+	border-bottom:1px dashed rgba(0,0,0,.1);
 }
 
 
@@ -541,6 +560,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bg-portada-langind{
 	background-image:url("img/portada-langind.png");
 }
+.bg-portadamobil{
+	background-image:url("img/portadamobil.png");
+}
 
 /* = Custom Bric Data
 -------------------------------------------------------------- */
@@ -675,7 +697,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-size:20px;
 	}
 	.h3-style{
-		font-size:30px;
+		font-size:28px;
 	}
 	.h5-style{
 		font-size:16px;
@@ -791,6 +813,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h5-33-style{
 		font-size:16px;
+	}
+	.h3-bloc-3-style{
+		font-size:23px;
+	}
+	.h5-bloc-3-style{
+		font-size:18px;
+	}
+	.img-icono-asesor-style{
+		width:58px;
+		margin-top:35px;
+	}
+	.img-bloc-3-style{
+		width:194px;
+		margin-top:28px;
 	}
 	
 }
