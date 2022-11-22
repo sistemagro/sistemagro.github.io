@@ -58,10 +58,6 @@
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>info.smattcom.com/img/logo%20slogan%20azul%20blanco.png</image:loc>
-	<image:title>logo slogan azul blanco</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>info.smattcom.com/img/icono-asesoria.png</image:loc>
 	<image:title>icono asesoria</image:title>
 	</image:image>
