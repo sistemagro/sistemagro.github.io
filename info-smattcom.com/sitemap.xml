@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>info.smattcom.com</loc>
-	<lastmod>2022-11-15</lastmod>
+	<lastmod>2022-11-22</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -16,7 +16,7 @@
 </url>
 <url>
 	<loc>info.smattcom.com/asesoria-comercio-exterior.html</loc>
-	<lastmod>2022-11-15</lastmod>
+	<lastmod>2022-11-22</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -36,10 +36,6 @@
 	<image:title>placeholder img</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/CARD_2.png</image:loc>
-	<image:title>CARD_2</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>info.smattcom.com/img/placeholder-img.png</image:loc>
 	<image:title>...</image:title>
 	</image:image>
@@ -48,92 +44,42 @@
 	<image:title>placeholder img</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/card-estrategiasmex.png</image:loc>
-	<image:title>card estrategiasmex</image:title>
+	<image:loc>info.smattcom.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/tradatos%20libre%20comercio.png</image:loc>
-	<image:title>tradatos libre comercio</image:title>
+	<image:loc>info.smattcom.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>info.smattcom.com/qa-asesoria-comercio-exterior.html</loc>
+	<lastmod>2022-11-22</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>info.smattcom.com/img/logo%20slogan%20azul%20blanco.png</image:loc>
+	<image:title>logo slogan azul blanco</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/internacionalizacionmex.png</image:loc>
-	<image:title>internacionalizaciónmex</image:title>
+	<image:loc>info.smattcom.com/img/icono-asesoria.png</image:loc>
+	<image:title>icono asesoria</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/interculturalidad.png</image:loc>
-	<image:title>interculturalidad</image:title>
+	<image:loc>info.smattcom.com/img/placeholder-image.png</image:loc>
+	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/CARD_Introduccionalaexportacion.jpeg</image:loc>
-	<image:title>CARD_Introduccionalaexportación.jpeg</image:title>
+	<image:loc>info.smattcom.com/img/placeholder-image.png</image:loc>
+	<image:title>placeholder img</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/Card_Preparate-para--exportar-a-Latinoamerica.png</image:loc>
-	<image:title>Card_Prepárate para--exportar-a-Latinoamérica</image:title>
+	<image:loc>info.smattcom.com/img/placeholder-img.png</image:loc>
+	<image:title>...</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>info.smattcom.com/img/CARD_ConsideracionesIncoterms.jpeg</image:loc>
-	<image:title>CARD_ConsideracionesIncoterms.jpeg</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/CARD_Gestion%20y%20Prevencion%20de%20Riesgos.jpeg</image:loc>
-	<image:title>CARD_Gestión y Prevención de Riesgos.jpeg</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/Card_Administracion%20de%20riesgos.jpeg</image:loc>
-	<image:title>Card_Administración de riesgos.jpeg</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/CARD_MASTERCLASS%20%282%29.png</image:loc>
-	<image:title>CARD_MASTERCLASS (2)</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/241044976_623100278655194_5722973603315992920_n.jpeg</image:loc>
-	<image:title>241044976_623100278655194_5722973603315992920_n.jpeg</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/247094766_382069220276694_5001229637711580197_n.jpeg</image:loc>
-	<image:title>247094766_382069220276694_5001229637711580197_n.jpeg</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/icono1.png</image:loc>
-	<image:title>icono1</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/icono6.png</image:loc>
-	<image:title>icono6</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/icono2.png</image:loc>
-	<image:title>icono2</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/icono3.png</image:loc>
-	<image:title>icono3</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/icono4.png</image:loc>
-	<image:title>icono4</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/icono5.png</image:loc>
-	<image:title>icono5</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/certificacion.jpeg</image:loc>
-	<image:title>certificacion.jpeg</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/certificacdo2.jpeg</image:loc>
-	<image:title>certificacdo2.jpeg</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/certificacion3.jpeg</image:loc>
-	<image:title>certificacion3.jpeg</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>info.smattcom.com/img/logonormex.jpeg</image:loc>
-	<image:title>logonormex.jpeg</image:title>
+	<image:loc>info.smattcom.com/img/placeholder-img.png</image:loc>
+	<image:title>placeholder img</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>info.smattcom.com/img/</image:loc>
