@@ -2668,6 +2668,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top:10px;
 	padding-bottom:10px;
 	margin-bottom:0px;
+	width:67.79%;
 	border-radius:0px 0px 0px 0px;
 }
 .container-div-modal-mensaje-style{
@@ -2862,9 +2863,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .txt_sangria{
 	margin-left:50px;
 }
-.btn-gris{
-	background-color:rgba(0,0,0,0.51);
+.btn-verde{
+	background-color:rgba(34,139,34,0.99);
 	margin-top:19px;
+	text-transform:none;
 	border-radius:10px 10px 10px 10px;
 }
 .txt_blanco{
@@ -3016,6 +3018,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .video-modal{
 	margin-top:11px;
+	fill:transparent;
 }
 .close{
 	margin-right:16px;
@@ -5069,7 +5072,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:0px;
 }
 .img-458-style{
-	width:337px;
+	width:290px;
 	margin-top:18px;
 }
 .margin-sides{
@@ -7987,7 +7990,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		font-weight:normal;
 		font-size:15px;
 	}
-	.btn-gris:hover{
+	.btn-verde:hover{
 		background-color:#0367D7;
 	}
 	.bloc-0-bloc-405-style{
@@ -9069,7 +9072,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.menu_mobil{
 		padding:20px 20px 20px 20px;
 	}
-	.btn-gris{
+	.btn-verde{
 		font-size:18px;
 		background-color:rgba(0,0,0,0.53);
 	}
