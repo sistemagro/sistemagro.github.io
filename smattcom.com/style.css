@@ -651,7 +651,11 @@ button{
 	box-shadow:none;
 }
 
+/* Additional Aspect Ratios */
 
+.embed-responsive-4by4::before{
+	padding-top:100%}.embed-responsive-9by16::before{
+	padding-top:106.25%}
 .carousel-nav-icon{
 	fill: none;
 	stroke: #fff;
@@ -5824,6 +5828,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:transparent;
 	stroke:transparent;
 	fill:transparent;
+}
+.container-div-padding-top{
+	padding-top:0px;
+	margin-top:-26px;
 }
 
 /* = Colour
