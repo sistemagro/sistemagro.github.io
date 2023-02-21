@@ -3862,7 +3862,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-iconcarri-style{
 	width:80px;
-	height:95px;
+	height:80px;
 }
 .h4-182-style{
 	font-family:"Montserrat";
@@ -4703,6 +4703,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-bloc-421-style{
 	width:60px;
+	height:60px;
 }
 .p-801-style{
 	width:66.41%;
@@ -6069,15 +6070,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 /* Link colour styles */
 
 .ltc-davys-grey{
-	color:#5E5E5E!important;
-}
-.ltc-davys-grey:hover{
-	color:#4b4b4b!important;
-}
-.ltc-davys-grey-2{
 	color:#5F5F5F!important;
 }
-.ltc-davys-grey-2:hover{
+.ltc-davys-grey:hover{
 	color:#4c4c4c!important;
 }
 .ltc-white{
