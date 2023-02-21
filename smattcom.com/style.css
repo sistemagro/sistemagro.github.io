@@ -744,6 +744,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-style{
 	width:150px;
+	padding-bottom:8px;
+	padding-top:0px;
 }
 .txt-titulo-web{
 	font-family:"Montserrat";
@@ -766,7 +768,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .txt-navbar{
 	font-family:"Archivo-Regular";
 	font-weight:400;
-	color:#000000!important;
+	color:#5F5F5F!important;
 	font-size:16px;
 }
 .tabladeprecios-header{
@@ -818,8 +820,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-left:3px;
 }
 .img-margin-top{
-	margin-top:36px;
+	margin-top:30px;
 	width:216px;
+	padding-bottom:19px;
+	margin-bottom:-1px;
+	padding-top:3px;
 }
 .btn-azul:hover{
 	font-family:"Archivo-Regular";
@@ -2455,7 +2460,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:20px;
 }
 .img-bloc-277-style{
-	height:54px;
+	height:50px;
 	width:54px;
 	border-radius:0px 0px 0px 0px;
 }
@@ -2928,6 +2933,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .btn-factoraje-style{
 	width:65.69%;
+	font-family:"Archivo-Regular";
 }
 .content_10{
 	margin:10px 10px 10px 10px;
@@ -3442,7 +3448,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:40px;
 }
 .img-441-style{
-	width:110px;
+	width:100px;
 	margin-top:52px;
 	height:55px;
 }
@@ -5201,9 +5207,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:bold;
 	color:#0000FF!important;
 }
-.img-avat-style{
-	width:149px;
-}
 .sopporte{
 	color:#1869CA!important;
 }
@@ -5888,12 +5891,18 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-logo-smattc-style{
 	width:225px;
+	margin-bottom:23px;
+	margin-top:19px;
 }
 .img-logo-gris-margin-left{
 	width:195px;
 }
 .img-logo-2023-style{
 	width:225px;
+	padding-top:0px;
+	margin-top:3px;
+	margin-bottom:50px;
+	margin-right:0px;
 }
 .card-body-94-style{
 	height:219px;
@@ -5957,6 +5966,20 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-247-style:hover{
 	font-family:"Archivo-Regular";
 }
+.p-463-style{
+	width:100%;
+}
+.img-630-style{
+	padding-top:0px;
+	margin-top:-6px;
+	margin-bottom:25px;
+}
+.btn-factoraje-style:hover{
+	font-family:"Archivo-Regular";
+}
+.img-descarga-img-style{
+	width:239px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -6017,9 +6040,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .tc-davys-grey{
 	color:#5E5E5E!important;
 }
-.bgc-{
-	background-color:#FF4D00;
-}
 .tc-dark-slate-blue{
 	color:#4C3D6D!important;
 }
@@ -6054,11 +6074,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .ltc-davys-grey:hover{
 	color:#4b4b4b!important;
 }
-.ltc-black{
-	color:#000000!important;
+.ltc-davys-grey-2{
+	color:#5F5F5F!important;
 }
-.ltc-black:hover{
-	color:#000000!important;
+.ltc-davys-grey-2:hover{
+	color:#4c4c4c!important;
 }
 .ltc-white{
 	color:#FFFFFF!important;
@@ -7327,9 +7347,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-bloc-3-style{
 		width:283px;
-	}
-	.img-profeco-style{
-		width:712px;
 	}
 	.img-icon-comentar-style{
 		margin-top:11px;
