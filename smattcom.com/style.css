@@ -2461,7 +2461,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:20px;
 }
 .img-bloc-277-style{
-	height:50px;
 	width:54px;
 	border-radius:0px 0px 0px 0px;
 }
@@ -8624,6 +8623,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-209-margin-left{
 		margin-left:73px;
+		width:227px;
+		border-radius:0px 0px 0px 0px;
 	}
 	.img-icono-gracias-style{
 		width:100px;
@@ -10143,6 +10144,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.container-div-bloc-342-style{
 		width:12.1%;
+	}
+	.container-div-bloc-12-style{
+		width:13.52%;
+	}
+	.container-div-0-bloc-12-style{
+		width:10.68%;
 	}
 	
 }
