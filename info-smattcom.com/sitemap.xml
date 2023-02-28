@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>info.smattcom.com</loc>
-	<lastmod>2022-11-22</lastmod>
+	<lastmod>2023-02-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -16,11 +16,11 @@
 </url>
 <url>
 	<loc>info.smattcom.com/asesoria-comercio-exterior.html</loc>
-	<lastmod>2022-11-22</lastmod>
+	<lastmod>2023-02-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
-	<image:loc>info.smattcom.com/img/logo%20slogan%20azul%20blanco.png</image:loc>
+	<image:loc>info.smattcom.com/img/Logo%202023%20blanco%20c%20slogan.png</image:loc>
 	<image:title>logo slogan azul blanco</image:title>
 	</image:image>
 	<image:image>
@@ -44,6 +44,10 @@
 	<image:title>placeholder img</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>info.smattcom.com/img/tradatos%20libre%20comercio.png</image:loc>
+	<image:title>tradatos libre comercio</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>info.smattcom.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
@@ -54,9 +58,13 @@
 </url>
 <url>
 	<loc>info.smattcom.com/qa-asesoria-comercio-exterior.html</loc>
-	<lastmod>2022-11-22</lastmod>
+	<lastmod>2023-02-28</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>info.smattcom.com/img/Logo%202023%20blanco%20c%20slogan.png</image:loc>
+	<image:title>logo slogan azul blanco</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>info.smattcom.com/img/icono-asesoria.png</image:loc>
 	<image:title>icono asesoria</image:title>
@@ -76,6 +84,22 @@
 	<image:image>
 	<image:loc>info.smattcom.com/img/placeholder-img.png</image:loc>
 	<image:title>placeholder img</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/tradatos%20libre%20comercio.png</image:loc>
+	<image:title>tradatos libre comercio</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/CARD_Gestion%20y%20Prevencion%20de%20Riesgos.jpeg</image:loc>
+	<image:title>CARD_Gestión y Prevención de Riesgos.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/Card_Administracion%20de%20riesgos.jpeg</image:loc>
+	<image:title>Card_Administración de riesgos.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>info.smattcom.com/img/CARD_MASTERCLASS%20%282%29.png</image:loc>
+	<image:title>CARD_MASTERCLASS (2)</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>info.smattcom.com/img/</image:loc>
