@@ -4857,12 +4857,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-700-style{
 	width:65px;
+	padding-bottom:21px;
 }
 .h4-240-style{
 	font-family:"Montserrat";
 }
 .img-bloc-439-style{
 	width:77px;
+	margin-top:34px;
 }
 .img-704-style{
 	width:58px;
@@ -4915,7 +4917,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h5-85-style{
 	width:52.15%;
-	font-family:"Montserrat";
+	font-family:"Archivo-Regular";
+	color:#FFFFFF!important;
 }
 .container-div-bloc-442-style{
 	width:100%;
@@ -4950,7 +4953,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:508px;
 }
 .fila-servicios{
-	background-color:#FF7600;
+	background-color:#2360D8;
 	color:#FEFFFF!important;
 	font-family:"Montserrat";
 	border-top-left-radius:20px;
@@ -6022,6 +6025,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .krona-azul:hover{
 	font-family:"KronaOne-Regular";
 	font-size:16px;
+}
+.h6-padding-top{
+	padding-top:40px;
 }
 
 /* = Colour
