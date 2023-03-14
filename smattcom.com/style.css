@@ -269,12 +269,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset{
-	margin-top:30px;
-}
-
 
 /* = NavBar
 -------------------------------------------------------------- */
@@ -1263,6 +1257,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-logo-smattcom-margin-top{
 	margin-top:144px;
+	height:220px;
+	width:900px;
 }
 .btn-147-style{
 	width:64.5%;
@@ -6155,9 +6151,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
-.bg-descarga-header{
-	background-image:url("https://s3-us-west-1.amazonaws.com/smattcom.com/descarga/descarga-header.png");
-}
 .bg-portada-landin{
 	background-image:url("img/portada-landin.png");
 }
