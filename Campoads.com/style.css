@@ -927,7 +927,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-juntos-footer-style{
 	margin-top:40px;
-	width:400px;
+	width:229px;
+	height:25px;
 }
 .h6-margin-top{
 	margin-top:0px;
@@ -2138,7 +2139,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-align:center;
 }
 .img-234-style{
-	width:123px;
+	width:314px;
 	margin-left:0px;
 	margin-top:13px;
 }
@@ -4110,14 +4111,11 @@ label{
 .bgc-crimson{
 	background-color:#E31133;
 }
-.bgc-true-blue{
-	background-color:#045ECC;
+.bgc-dark-spring-green{
+	background-color:#2B734E;
 }
 .bgc-green-ryb{
 	background-color:#60B345;
-}
-.bgc-true-blue-2{
-	background-color:#045ECC;
 }
 .bgc-outer-space{
 	background-color:#424242;
