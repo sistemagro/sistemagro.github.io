@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>shop.smattcom.com</loc>
-	<lastmod>2022-01-12</lastmod>
+	<lastmod>2023-04-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -22,6 +22,10 @@
 	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>shop.smattcom.com/img/iconcomentario.png</image:loc>
+	<image:title>icon comentario</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>shop.smattcom.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
@@ -32,7 +36,7 @@
 </url>
 <url>
 	<loc>shop.smattcom.com/quiero-ser-distribuidor.html</loc>
-	<lastmod>2022-01-12</lastmod>
+	<lastmod>2023-04-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -62,7 +66,7 @@
 </url>
 <url>
 	<loc>shop.smattcom.com/terminos-y-condiciones.html</loc>
-	<lastmod>2022-01-12</lastmod>
+	<lastmod>2023-04-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -76,7 +80,7 @@
 </url>
 <url>
 	<loc>shop.smattcom.com/avisos-de-privacidad.html</loc>
-	<lastmod>2022-01-12</lastmod>
+	<lastmod>2023-04-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -89,8 +93,8 @@
 	</image:image>
 </url>
 <url>
-	<loc>shop.smattcom.com/codigo-etica.html</loc>
-	<lastmod>2022-01-12</lastmod>
+	<loc>shop.smattcom.com/codigo-de-etica.html</loc>
+	<lastmod>2023-04-05</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
