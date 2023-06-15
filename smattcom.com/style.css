@@ -637,23 +637,18 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
+/* = Classic Dividers
 -------------------------------------------------------------- */
 .divider-h{
-	padding:20px 0;
-	width:100%;
-	display:inline-block;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
+	min-height: 1px;
+	background-color:rgba(0,0,0,.2);
+	margin: 20px 0;
 }
 .divider-half{
 	width: 50%;
-	margin: 0 auto;
 }
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
+.dropdown-menu .divider-h{
+	margin:0;
 }
 
 /* = Forms
@@ -1841,10 +1836,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:124px;
 }
 .img-bloc-25-style{
-	width:900px;
+	width:600px;
 }
 .img-bloc-26-style{
-	width:900px;
+	width:600px;
 }
 .p-23-style{
 	font-size:19px;
@@ -6025,6 +6020,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h6-padding-top{
 	padding-top:40px;
 }
+.img-88-style{
+	width:600px;
+}
+.p-bloc-27-style{
+	width:100%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -6804,6 +6805,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-left:0;
 	border-right:0}.tab-anything.material[data-detached="0"] label.btn{
 	margin-right:-1px}
+/* = Additional CSS
+-------------------------------------------------------------- */
+
+
+
 
 /* = Bloc Padding Multi Breakpoint
 -------------------------------------------------------------- */
@@ -10156,6 +10162,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.container-div-0-bloc-12-style{
 		width:10.68%;
+	}
+	.contenedor-iframe{
+		justify-content:space-around;
+		align-items:center;
+		flex-wrap:wrap;
+		align-content:space-around;
+	}
+	.img-responsive{
+		background-size:100% auto;
 	}
 	
 }
