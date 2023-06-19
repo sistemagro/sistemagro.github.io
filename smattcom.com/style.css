@@ -1835,9 +1835,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:207px;
 	margin-top:124px;
 }
-.img-bloc-25-style{
-	width:700px;
-}
 .img-bloc-26-style{
 	width:600px;
 }
@@ -6027,7 +6024,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:100%;
 }
 .img-91-style{
-	width:700px;
+	width:800px;
+	height:924px;
+}
+.img-89-style{
+	width:800px;
+	height:538px;
+}
+.img-bloc-35-style{
+	width:400px;
 }
 
 /* = Colour
@@ -7843,6 +7848,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-117-style{
 		width:200px;
 	}
+	.img-91-style{
+		height:824px;
+	}
 	
 }
 
@@ -8454,6 +8462,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-96-style{
 		width:150px;
+	}
+	.img-89-style{
+		height:438px;
+	}
+	.img-91-style{
+		height:724px;
 	}
 	.sidebar-nav{
 		width:230px!important;
@@ -10174,6 +10188,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-responsive{
 		background-size:100% auto;
+	}
+	.img-88-style{
+		width:181px;
+	}
+	.img-bloc-26-style{
+		height:424px;
 	}
 	
 }
