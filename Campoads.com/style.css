@@ -362,23 +362,18 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
+/* = Classic Dividers
 -------------------------------------------------------------- */
 .divider-h{
-	padding:20px 0;
-	width:100%;
-	display:inline-block;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
+	min-height: 1px;
+	background-color:rgba(0,0,0,.2);
+	margin: 20px 0;
 }
 .divider-half{
 	width: 50%;
-	margin: 0 auto;
 }
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
+.dropdown-menu .divider-h{
+	margin:0;
 }
 
 /* = Forms
@@ -927,8 +922,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-juntos-footer-style{
 	margin-top:40px;
-	width:229px;
-	height:25px;
+	width:260px;
+	height:50px;
 }
 .h6-margin-top{
 	margin-top:0px;
@@ -4247,6 +4242,9 @@ label{
 
 /* Bloc image backgrounds */
 
+.bg-Foother-202{
+	background-image:url("img/Foother%202.png");
+}
 
 
 
