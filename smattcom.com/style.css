@@ -1776,18 +1776,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .divider-39435-margin-top{
 	margin-top:30px;
 }
-.h1-46-margin-top{
-	margin-top:-1px;
-}
 .img-grafica-chile-style{
-	width:900px;
+	width:400px;
+	height:271px;
 }
 .img-74-style{
-	width:900px;
-}
-.img-75-grafica-chile-style{
-	width:900px;
-	margin-top:30px;
+	width:400px;
+	margin-top:45px;
+	padding-bottom:53px;
 }
 .row-185-margin-top{
 	margin-top:99px;
@@ -2243,7 +2239,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:-1px;
 }
 .p-15-margin-bottom{
-	margin-bottom:50px;
+	margin-bottom:42px;
 	margin-top:25px;
 	font-family:"Montserrat";
 	line-height:26px;
@@ -2262,7 +2258,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-18-margin-bottom{
 	margin-bottom:0px;
-	margin-top:50px;
+	margin-top:8px;
 	font-family:"Montserrat";
 }
 .container-div-bloc-12-margin-top{
@@ -3597,6 +3593,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-bloc-28-style{
 	font-family:"Montserrat";
+	margin-top:35px;
+	padding-left:0px;
 }
 .p-22-margin-top{
 	font-size:19px;
@@ -5393,6 +5391,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h5-bloc-28-style{
 	font-family:"Montserrat";
+	margin-top:78px;
+	padding-top:0px;
 }
 .h4-12-style{
 	font-family:"Montserrat";
@@ -6028,11 +6028,47 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:924px;
 }
 .img-89-style{
-	width:700px;
+	width:850px;
 	height:538px;
 }
 .img-bloc-35-style{
 	width:400px;
+}
+.bloc-bloc-61-padding-right{
+	padding-right:0px;
+	padding-left:57px;
+}
+.bloc-margin-bottom{
+	margin-bottom:-33px;
+}
+.bloc-bloc-45-margin-bottom{
+	margin-bottom:-23px;
+	padding-bottom:4px;
+}
+.img-163-bloc-49-style{
+	width:850px;
+}
+.img-160-style{
+	width:850px;
+}
+.titulo-intermedio{
+	font-family:"Montserrat";
+	font-size:23px;
+	text-align:center;
+	font-weight:800;
+}
+.text-span-bloc-61-style{
+	font-weight:bold;
+}
+.p-bloc-46-margin-top{
+	margin-top:21px;
+}
+.h1-bloc-61-margin-bottom{
+	margin-bottom:18px;
+	padding-top:1px;
+	margin-top:15px;
+	width:88.9%;
+	font-size:22px;
 }
 
 /* = Colour
