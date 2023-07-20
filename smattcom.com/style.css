@@ -6045,9 +6045,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-bottom:-23px;
 	padding-bottom:4px;
 }
-.img-163-bloc-49-style{
-	width:850px;
-}
 .img-160-style{
 	width:850px;
 }
@@ -6069,6 +6066,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:15px;
 	width:88.9%;
 	font-size:22px;
+}
+.img-163-style{
+	width:850px;
 }
 
 /* = Colour
@@ -8515,6 +8515,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-88-style{
 		width:306px;
+	}
+	.img-74-style{
+		width:337px;
+	}
+	.img-grafica-chile-style{
+		width:337px;
 	}
 	.sidebar-nav{
 		width:230px!important;
