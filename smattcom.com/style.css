@@ -6059,6 +6059,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .p-bloc-46-margin-top{
 	margin-top:21px;
+	padding-top:0px;
 }
 .h1-bloc-61-margin-bottom{
 	margin-bottom:18px;
@@ -6069,6 +6070,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-163-style{
 	width:850px;
+}
+.row-padding-top{
+	padding-top:0px;
+}
+.p-bloc-62-margin-top{
+	margin-top:30px;
 }
 
 /* = Colour
@@ -8521,6 +8528,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-grafica-chile-style{
 		width:337px;
+	}
+	.img-163-style{
+		width:537px;
 	}
 	.sidebar-nav{
 		width:230px!important;
