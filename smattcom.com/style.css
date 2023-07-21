@@ -8956,6 +8956,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-bloc-40-style{
 		width:198px;
+		padding-top:0px;
+		padding-bottom:31px;
 	}
 	.img-113-style{
 		width:192px;
@@ -9134,6 +9136,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-header-aguaca-style{
 		width:177px;
+		padding-bottom:28px;
 	}
 	.p-bloc-79-margin-top{
 		margin-top:5px;
@@ -10317,6 +10320,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.btn-tomate:hover{
 		font-size:14px;
+	}
+	.bloc-bloc-2-margin-top{
+		padding-bottom:0px;
+	}
+	.bloc-padding-top{
+		padding-top:0px;
+	}
+	.img-pepino-solo-style{
+		padding-bottom:28px;
 	}
 	
 }
