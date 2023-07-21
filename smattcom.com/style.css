@@ -8605,6 +8605,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.bloc-0-margin-top{
 		margin-top:0px;
+		padding-top:0px;
 	}
 	.h1-margin-top{
 		margin-top:40px;
@@ -8970,6 +8971,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.p-margin-top{
 		margin-bottom:0px;
+		padding-bottom:0px;
 	}
 	.img-45-style{
 		width:100%;
@@ -10294,15 +10296,27 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-89-style{
 		width:290px;
-		height:218px;
+		height:208px;
 	}
 	.img-74-style{
-		width:231px;
+		width:211px;
 		padding-bottom:28px;
 	}
 	.img-grafica-chile-style{
 		width:211px;
-		height:201px;
+		height:180px;
+	}
+	.img-padding-top{
+		padding-top:0px;
+	}
+	.bloc-bloc-38-padding-bottom{
+		padding-bottom:0px;
+		padding-top:0px;
+	}
+	.krona-azul:hover{
+	}
+	.btn-tomate:hover{
+		font-size:14px;
 	}
 	
 }
