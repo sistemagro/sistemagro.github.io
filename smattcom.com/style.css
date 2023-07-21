@@ -6071,12 +6071,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-163-style{
 	width:850px;
+	margin-top:14px;
+	padding-top:23px;
+	padding-bottom:25px;
+	margin-bottom:9px;
 }
 .row-padding-top{
 	padding-top:0px;
+	margin-top:3px;
+	padding-bottom:0px;
 }
 .p-bloc-62-margin-top{
 	margin-top:30px;
+}
+.bloc-padding-bottom{
+	padding-bottom:0px;
 }
 
 /* = Colour
@@ -7895,6 +7904,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-91-style{
 		height:824px;
 	}
+	.img-163-style{
+		margin-bottom:8px;
+		padding-bottom:15px;
+	}
+	.p-margin-top{
+		padding-bottom:0px;
+	}
 	
 }
 
@@ -8526,12 +8542,22 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-74-style{
 		width:337px;
+		margin-bottom:0px;
+		padding-bottom:37px;
 	}
 	.img-grafica-chile-style{
 		width:337px;
 	}
 	.img-163-style{
 		width:537px;
+		padding-bottom:32px;
+		margin-bottom:3px;
+	}
+	.h2-margin-top{
+		margin-top:-5px;
+	}
+	.p-bloc-46-margin-top{
+		margin-bottom:-19px;
 	}
 	.sidebar-nav{
 		width:230px!important;
@@ -10267,8 +10293,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:180px;
 	}
 	.img-89-style{
-		width:270px;
-		height:208px;
+		width:290px;
+		height:218px;
+	}
+	.img-74-style{
+		width:231px;
+		padding-bottom:28px;
+	}
+	.img-grafica-chile-style{
+		width:211px;
+		height:201px;
 	}
 	
 }
