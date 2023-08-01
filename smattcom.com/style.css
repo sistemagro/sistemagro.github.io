@@ -1928,14 +1928,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:31px;
 }
 .img-bloc-14-style{
-	width:900px;
+	width:400px;
 }
 .img-56-style{
-	width:900px;
+	width:400px;
 }
 .img-bloc-16-style{
-	width:900px;
 	margin-top:35px;
+	width:400px;
 }
 .img-bloc-29-style{
 	width:900px;
@@ -6087,6 +6087,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-padding-bottom{
 	padding-bottom:0px;
 }
+.img-47-style{
+	width:400px;
+}
+.img-responsive{
+	background-size:auto auto;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -6097,9 +6103,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#EAEAEA;
 }
 .bgc-white{
-	background-color:#FFFFFF;
-}
-.bgc-white-2{
 	background-color:#FFFFFF;
 }
 .bgc-blue{
