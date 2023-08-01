@@ -1752,13 +1752,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:50px;
 }
 .img-grafica-limon-style{
-	width:900px;
+	width:400px;
 }
 .img-64-style{
-	width:900px;
+	width:400px;
 }
 .img-63-style{
-	width:900px;
+	width:400px;
 }
 .p-95-style{
 	font-size:20px;
@@ -1938,13 +1938,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:400px;
 }
 .img-bloc-29-style{
-	width:900px;
+	width:400px;
 }
 .img-bloc-30-style{
-	width:900px;
+	width:400px;
 }
 .img-bloc-31-style{
-	width:900px;
+	width:400px;
 }
 .img-grafica-cafe-style{
 	width:900px;
@@ -5395,7 +5395,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	padding-top:0px;
 }
 .h4-12-style{
-	font-family:"Montserrat";
+	font-family:"Helvetica";
 }
 .h3- ya-somos--style{
 	font-family:"Montserrat";
@@ -6092,6 +6092,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-responsive{
 	background-size:auto auto;
+}
+.img-bloc-47-style{
+	width:400px;
 }
 
 /* = Colour
