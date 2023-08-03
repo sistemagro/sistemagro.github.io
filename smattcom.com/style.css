@@ -1439,7 +1439,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:50px;
 }
 .row-bloc-127-margin-bottom{
-	margin-bottom:50px;
+	margin-bottom:-1px;
 	margin-top:0px;
 }
 .img-170-style{
@@ -1878,6 +1878,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-69-margin-top{
 	margin-top:0px;
+	width:400px;
 }
 .img-grafica-fresa-style{
 	width:900px;
@@ -6061,6 +6062,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .p-bloc-46-margin-top{
 	margin-top:21px;
 	padding-top:0px;
+	margin-bottom:33px;
 }
 .h1-bloc-61-margin-bottom{
 	margin-bottom:18px;
@@ -6086,6 +6088,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bloc-padding-bottom{
 	padding-bottom:0px;
+	margin-top:0px;
 }
 .img-47-style{
 	width:400px;
@@ -10336,6 +10339,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.img-pepino-solo-style{
 		padding-bottom:28px;
+	}
+	.p-bloc-46-margin-top{
+		padding-bottom:53px;
+	}
+	.btn-bloc-128-margin-top{
+		margin-top:-10px;
+	}
+	.p-bloc-30-style{
+		margin-bottom:3px;
 	}
 	
 }
