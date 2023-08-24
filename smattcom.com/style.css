@@ -515,10 +515,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 	margin-top:10px;
 	margin-bottom:20px;
 }
-.mg-lg{
-	margin-top:10px;
-	margin-bottom:40px;
-}
 img.mg-sm,img.mg-md,img.mg-lg{
 	margin-top: 0;
 }
@@ -1857,9 +1853,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .divider-42878-margin-top{
 	margin-top:30px;
-}
-.h1-17-margin-top{
-	margin-top:0px;
 }
 .img-tomate-head-style{
 	width:262px;
@@ -6101,6 +6094,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-size:auto auto;
 }
 .img-bloc-47-style{
+	width:400px;
+}
+.img-bloc-36-style{
+	width:400px;
+}
+.img-167-bloc-46-style{
+	width:400px;
+}
+.img-bloc-94-style{
 	width:400px;
 }
 
