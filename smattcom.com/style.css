@@ -515,6 +515,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	margin-top:10px;
 	margin-bottom:20px;
 }
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
+}
 img.mg-sm,img.mg-md,img.mg-lg{
 	margin-top: 0;
 }
@@ -1881,7 +1885,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:900px;
 }
 .img-grafica-fressa-style{
-	width:900px;
+	width:400px;
 }
 .p-42-margin-top{
 	margin-top:20px;
