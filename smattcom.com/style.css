@@ -619,11 +619,6 @@ button{
 	-webkit-touch-callout: none;
 }
 
-/* = Text & Icon Styles
--------------------------------------------------------------- */
-.sm-shadow{
-	text-shadow:0 1px 2px rgba(0,0,0,.3);
-}
 
 
 /* = Cards
@@ -1441,6 +1436,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-mapa-papaya-margin-top{
 	margin-top:50px;
+	width:400px;
 }
 .row-bloc-127-margin-bottom{
 	margin-bottom:-1px;
@@ -1575,7 +1571,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:400px;
 }
 .img-41939-style{
-	width:900px;
+	width:400px;
 }
 .p-158-style{
 	width:100%;
@@ -1715,7 +1711,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	margin-top:154px;
 }
 .img-bloc-123-style{
-	width:900px;
+	width:400px;
 }
 .p-75-style{
 	font-size:20px;
@@ -1925,9 +1921,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-bloc-250-margin-top{
 	margin-top:30px;
-}
-.h1-bloc-251-margin-top{
-	margin-top:31px;
 }
 .img-bloc-14-style{
 	width:400px;
@@ -5366,10 +5359,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h5---style{
 	font-family:"Montserrat";
 }
-.h3-bloc-28-style{
-	font-family:"Montserrat";
-	width:74.55%;
-}
 .h4-bloc-28-style{
 	font-family:"Montserrat";
 }
@@ -5386,9 +5375,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Montserrat";
 }
 .h4-9-style{
-	font-family:"Montserrat";
-}
-.h3-6-style{
 	font-family:"Montserrat";
 }
 .h5-bloc-28-style{
@@ -6121,6 +6107,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-214-style{
 	width:800px;
 }
+.img-bloc-67-style{
+	width:510px;
+}
+.img-bloc-124-style{
+	width:400px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -6220,10 +6212,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .icon-light-slate-gray{
 	color:#798796!important;
 	border-color:#798796!important;
-}
-.icon-electric-green{
-	color:#00DC00!important;
-	border-color:#00DC00!important;
 }
 .icon-true-blue{
 	color:#0667D0!important;
@@ -10147,9 +10135,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.h1-126-style{
 		font-size:20px;
 		font-family:"Montserrat";
-	}
-	.h3-bloc-28-style{
-		width:90.04%;
 	}
 	.h4-406-style{
 		font-size:20px;
