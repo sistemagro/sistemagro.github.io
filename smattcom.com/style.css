@@ -3603,6 +3603,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-bloc-126-margin-top{
 	font-size:24px;
+	width:100%;
 }
 .h3-bloc-127-margin-top{
 	font-size:24px;
@@ -6112,6 +6113,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .img-bloc-124-style{
 	width:400px;
+}
+.p-bloc-136-style{
+	width:100%;
 }
 
 /* = Colour
