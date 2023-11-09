@@ -17,7 +17,7 @@
 	$email_body = "You have received a new message. \n\n".
 				  "Name_1076_30115: $name_1076_30115 \nEmail_1076_30115: $email_1076_30115 \nEmail_1076_30115: $email_1076_30115 \nEmail_1076_30115: $email_1076_30115 \nMessage_1076_30115: $message_1076_30115 \n";
 	$headers = "MIME-Version: 1.0\r\nContent-type: text/plain; charset=UTF-8\r\n";	
-	$headers .= "From: contact@yoursite.com\n";
+	$headers .= "From: contact@yoursite.com\r\n";
 	$headers .= "Reply-To: $email_1076_30115";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
