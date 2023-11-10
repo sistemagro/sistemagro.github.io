@@ -890,6 +890,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .footer{
 	margin-bottom:0px;
 	padding-bottom:0px;
+	font-family:"Montserrat";
+	font-size:14px;
+	color:#818F9D!important;
 }
 .color-footer{
 	background-color:#F0F3F7;
@@ -986,7 +989,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Archivo-Regular";
 }
 .row-style{
-	width:100%;
+	width:80.95%;
 	margin-top:50px;
 }
 .p-68-margin-top{
@@ -6105,9 +6108,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-bloc-53-style{
 	width:350px;
 }
-.img-214-style{
-	width:800px;
-}
 .img-bloc-67-style{
 	width:510px;
 }
@@ -6119,6 +6119,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h3-limón-agrio-style{
 	width:65.01%;
+}
+.h6-43-style{
+	font-size:15px;
+	width:100%;
+	letter-spacing:-1px;
+}
+.h1-bloc-271-style{
+	font-size:30px;
+}
+.h3-bloc-271-style{
+	font-size:20px;
 }
 
 /* = Colour
@@ -7798,9 +7809,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-213-style{
 		width:200px;
 	}
-	.img-214-style{
-		width:200px;
-	}
 	.img-205-style{
 		width:52px;
 	}
@@ -8445,9 +8453,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:150px;
 	}
 	.img-213-style{
-		width:150px;
-	}
-	.img-214-style{
 		width:150px;
 	}
 	.img-190-style{
