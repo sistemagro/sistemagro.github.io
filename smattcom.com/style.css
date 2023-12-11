@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	pagina web smattcom_V08
+	Copia de pagina web smattcom_V08
 	About: A shiny new Blocs website.
 	Author: josue arzate garcia
 	Version: 1.0
@@ -828,6 +828,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-style:solid;
 	border-color:#0069D7!important;
 	background-color:transparent;
+	fill:transparent;
 }
 .btn-outline:hover{
 	font-family:"Montserrat";
@@ -893,6 +894,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Montserrat";
 	font-size:14px;
 	color:#818F9D!important;
+	border-color:transparent!important;
 }
 .color-footer{
 	background-color:#F0F3F7;
@@ -989,7 +991,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Archivo-Regular";
 }
 .row-style{
-	width:80.95%;
+	width:100%;
 	margin-top:50px;
 }
 .p-68-margin-top{
@@ -2441,6 +2443,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-49004-margin-top{
 	margin-top:20px;
+	width:100%;
 }
 .img-bloc-277-style{
 	width:54px;
@@ -3200,9 +3203,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-style:solid;
 }
 .btn-button-style{
-	width:100%;
+	width:81.9%;
 	background-color:#0168D7;
 	margin-top:18px;
+	flex-wrap:nowrap;
 }
 .vermas-tb{
 	margin-top:32px;
@@ -4540,7 +4544,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:66.7%;
 }
 .p-bloc-416-style{
-	width:66.79%;
+	width:88.86%;
 }
 .p-763-style{
 	width:66.89%;
@@ -5441,6 +5445,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-saffron{
 	background-color:#707787;
+	text-align:center;
 }
 .img-896-style{
 	width:290px;
@@ -6131,6 +6136,211 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .h3-bloc-271-style{
 	font-size:20px;
 }
+.btn-transaccion{
+	text-align:left;
+}
+.p-bloc-511-style{
+	width:100%;
+}
+.p-1062-style{
+	width:100%;
+}
+.link-bloc-511-style{
+	text-decoration:underline;
+}
+.link-0-bloc-511-style{
+	text-decoration:underline;
+}
+.link-23901-style{
+	text-decoration:underline;
+}
+.link-42751-style{
+	text-decoration:underline;
+}
+.bloc-bloc-511-style{
+	width:100%;
+}
+.btn-447-style{
+	width:25.79%;
+}
+.btn-transaccion-style{
+	width:100%;
+}
+.img-bloc-511-style{
+	height:250px;
+	width:950px;
+}
+.img-1376-style{
+	height:525px;
+}
+.img-1377-style{
+	height:575px;
+}
+.img-1375-style{
+	height:525px;
+}
+.row-bloc-511-style{
+	width:100%;
+}
+.row-1719-style{
+	width:30.1%;
+}
+.divider-background-color{
+	background-color:transparent;
+}
+.divider-bloc-511-background-color{
+	background-color:transparent;
+}
+.divider-0-background-color{
+	background-color:transparent;
+}
+.link-31495-style{
+	text-decoration:underline;
+}
+.h4-¿qué-es--style{
+	width:73.33%;
+}
+.h3-309-style{
+	width:86.97%;
+}
+.h3-bloc-511-style{
+	width:94.1%;
+	font-size:20px;
+}
+.container-div-bloc-511-style{
+	width:100%;
+}
+.btn-siguiente{
+	font-weight:bold;
+	font-family:"Montserrat";
+	font-size:14px;
+	color:transparent!important;
+	background-color:transparent;
+}
+.btn-460-style{
+	width:100%;
+	border-color:#0069D7!important;
+	border-style:solid;
+	text-align:left;
+	font-weight:bold;
+	color:#3348BF!important;
+	text-transform:none;
+	background-color:#FFFFFF;
+	caret-color:transparent;
+	fill:transparent;
+}
+.p-1076-style{
+	width:86.67%;
+}
+.siguiente{
+	border-style:solid;
+	background-color:#FFFFFF;
+}
+.divider-0-bloc-511-background-color{
+	background-color:transparent;
+}
+.divider-30162-background-color{
+	background-color:transparent;
+}
+.divider-31936-background-color{
+	background-color:transparent;
+	margin-left:auto;
+	margin-right:auto;
+}
+.p-1101-style-1{
+	font-size:19px;
+	color:#009800!important;
+	font-weight:bold;
+	width:100%;
+}
+.p-1101-style{
+	color:#FF4138!important;
+	font-weight:bold;
+	font-size:19px;
+}
+.container-div-0-bloc-511-style{
+	height:190px;
+}
+.divider-6220-background-color{
+	background-color:transparent;
+}
+.p-1133-style{
+	width:100%;
+}
+.text-span-bloc-511-style{
+	text-decoration:underline;
+}
+.divider-30743-background-color{
+	background-color:transparent;
+}
+.text-span-0-style{
+	text-decoration:underline;
+}
+.table-style{
+	text-align:center;
+	align-items:center;
+	justify-content:center;
+}
+.container-div-15127-style{
+	height:112px;
+}
+.img-1402-style{
+	width:750px;
+}
+.img-6-tab-style{
+	width:850px;
+}
+.divider-32914-background-color{
+	background-color:transparent;
+}
+.divider-19392-background-color{
+	background-color:transparent;
+}
+.divider-48860-background-color{
+	background-color:transparent;
+}
+.divider-8136-background-color{
+	background-color:transparent;
+}
+.divider-25398-background-color{
+	background-color:transparent;
+}
+.divider-19203-background-color{
+	background-color:transparent;
+}
+.divider-30413-background-color{
+	background-color:transparent;
+}
+.divider-47377-background-color{
+	background-color:transparent;
+}
+.divider-34047-background-color{
+	background-color:transparent;
+}
+.divider-29299-background-color{
+	background-color:transparent;
+}
+.img-icon-aler-style{
+	width:100px;
+}
+.img-1398-style{
+	width:100px;
+}
+.img-1399-style{
+	width:100px;
+}
+.img-1406-style{
+	width:100px;
+}
+.img-1407-style{
+	width:80px;
+}
+.img-1408-style{
+	width:80px;
+}
+.h3-317-style{
+	font-size:20px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -6246,6 +6456,14 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .icon-white{
 	color:#FFFFFF!important;
 	border-color:#FFFFFF!important;
+}
+.icon-ao-english{
+	color:#007D00!important;
+	border-color:#007D00!important;
+}
+.icon-deep-carmine-pink{
+	color:#FF282C!important;
+	border-color:#FF282C!important;
 }
 
 /* Bloc image backgrounds */
@@ -10364,6 +10582,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.p-bloc-30-style{
 		margin-bottom:3px;
+	}
+	.img-1377-style{
+		height:590px;
+	}
+	.img-1376-style{
+		height:590px;
+	}
+	.container-div-0-bloc-511-style{
+		height:109px;
+	}
+	.img-bloc-511-style{
+		height:80px;
+	}
+	.divider-19392-background-color{
+		background-color:transparent;
+	}
+	.h3-bloc-511-style{
+		width:100%;
 	}
 	
 }
