@@ -6273,9 +6273,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .divider-30743-background-color{
 	background-color:transparent;
 }
-.text-span-0-style{
-	text-decoration:underline;
-}
 .table-style{
 	text-align:center;
 	align-items:center;
@@ -6343,6 +6340,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .divider-45426-background-color{
 	background-color:transparent;
+}
+.txt-verde{
+	color:#005635!important;
+}
+.text-span-0-bloc-511-style{
+	font-weight:bold;
+}
+.text-span-0-style{
+	font-weight:bold;
 }
 
 /* = Colour
