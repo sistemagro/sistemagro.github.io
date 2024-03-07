@@ -2245,10 +2245,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	line-height:26px;
 	font-size:19px;
 }
-.btn-bloc-15-margin-top{
-	margin-top:25px;
-	width:96.46%;
-}
 .btn-bloc-40-margin-top{
 	margin-top:25px;
 	width:100%;
@@ -2872,7 +2868,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .azul_txt-{
 	color:#0667D0!important;
 	margin-top:23px;
-	font-family:"KronaOne-Regular";
+	font-family:"Archivo-Regular";
 }
 .col_foto{
 	margin:0px 0px 0px 0px;
@@ -7609,9 +7605,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.titu{
 	}
-	.btn-bloc-15-margin-top{
-		width:100%;
-	}
 	.img-header-aguaca-style{
 		width:239px;
 	}
@@ -8544,9 +8537,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.img-30-style{
 		width:150px;
 	}
-	.btn-bloc-15-margin-top{
-		width:100%;
-	}
 	.img-58-style{
 		width:150px;
 	}
@@ -9386,9 +9376,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.titulo-header-productos{
 		font-size:30px;
-	}
-	.btn-bloc-15-margin-top{
-		width:100%;
 	}
 	.img-header-aguaca-style{
 		width:177px;
