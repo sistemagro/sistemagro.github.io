@@ -6343,6 +6343,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Bloc image backgrounds */
 
+.bg-header-20blog-20-20prueba{
+	background-image:url("img/header%20blog%20%20prueba.png");
+}
 .bg-portada-landin{
 	background-image:url("img/portada-landin.png");
 }
