@@ -2966,6 +2966,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	background-color:#0168D7;
 	margin-top:18px;
 	flex-wrap:nowrap;
+	text-transform:none;
 }
 .vermas-tb{
 	margin-top:32px;
@@ -6191,6 +6192,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .txtfooter:active{
 	color:#158AFF!important;
 	font-family:"Archivo-Regular";
+}
+.p-1018-style{
+	width:100%;
 }
 
 /* = Colour
