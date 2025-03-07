@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	pagina web smattcom_V10
+	pagina web smattcom_V11
 	About: A shiny new Blocs website.
 	Author: josue arzate garcia
 	Version: 1.0
@@ -2787,10 +2787,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .link-0-conoce-más-style{
 	text-decoration:underline;
 	font-weight:bold;
-}
-.link-bloc-63-style{
-	font-weight:bold;
-	text-decoration:underline;
 }
 .link-0-bloc-63-style{
 	text-decoration:underline;
@@ -6202,11 +6198,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
-.bgc-anti-flash-white{
-	background-color:#F0F3F7;
-}
 .bgc-platinum{
 	background-color:#EAEAEA;
+}
+.bgc-anti-flash-white{
+	background-color:#F0F3F7;
 }
 .bgc-blue{
 	background-color:#0000FF;
@@ -6253,11 +6249,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Text colour styles */
 
-.tc-light-slate-gray{
-	color:#798796!important;
-}
 .tc-dark-gray{
 	color:#A3A1A0!important;
+}
+.tc-light-slate-gray{
+	color:#798796!important;
 }
 .tc-white{
 	color:#FFFFFF!important;
@@ -6300,13 +6296,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Icon colour styles */
 
-.icon-light-slate-gray{
-	color:#798796!important;
-	border-color:#798796!important;
-}
 .icon-dark-gray{
 	color:#A3A1A0!important;
 	border-color:#A3A1A0!important;
+}
+.icon-light-slate-gray{
+	color:#798796!important;
+	border-color:#798796!important;
 }
 .icon-cerulean-blue{
 	color:#3449C0!important;
